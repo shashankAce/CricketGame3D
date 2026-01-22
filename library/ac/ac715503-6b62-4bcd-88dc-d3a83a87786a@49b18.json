@@ -1,0 +1,97 @@
+{
+  "__type__": "cc.Mesh",
+  "_name": "",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": ".bin",
+  "_struct": {
+    "primitives": [
+      {
+        "primitiveMode": 7,
+        "jointMapIndex": 0,
+        "vertexBundelIndices": [
+          0
+        ],
+        "indexView": {
+          "offset": 577840,
+          "length": 168216,
+          "count": 42054,
+          "stride": 4
+        }
+      }
+    ],
+    "vertexBundles": [
+      {
+        "view": {
+          "offset": 0,
+          "length": 577840,
+          "count": 7223,
+          "stride": 80
+        },
+        "attributes": [
+          {
+            "name": "a_position",
+            "format": 32,
+            "isNormalized": false
+          },
+          {
+            "name": "a_normal",
+            "format": 32,
+            "isNormalized": false
+          },
+          {
+            "name": "a_texCoord",
+            "format": 21,
+            "isNormalized": false
+          },
+          {
+            "name": "a_tangent",
+            "format": 44,
+            "isNormalized": false
+          },
+          {
+            "name": "a_joints",
+            "format": 42,
+            "isNormalized": false
+          },
+          {
+            "name": "a_weights",
+            "format": 44,
+            "isNormalized": false
+          },
+          {
+            "name": "a_texCoord1",
+            "format": 21,
+            "isNormalized": false
+          }
+        ]
+      }
+    ],
+    "minPosition": {
+      "__type__": "cc.Vec3",
+      "x": -0.07418251782655716,
+      "y": 1.1531659364700317,
+      "z": -0.07288352400064468
+    },
+    "maxPosition": {
+      "__type__": "cc.Vec3",
+      "x": 0.0741831585764885,
+      "y": 1.4192055463790894,
+      "z": 0.1132279708981514
+    },
+    "jointMaps": [
+      [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        12,
+        38
+      ]
+    ]
+  },
+  "_hash": 2448302054,
+  "_allowDataAccess": true
+}

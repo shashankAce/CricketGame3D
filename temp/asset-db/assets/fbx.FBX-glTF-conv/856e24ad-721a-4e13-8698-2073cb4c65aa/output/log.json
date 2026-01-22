@@ -1,0 +1,550 @@
+[
+  {
+    "level": 0,
+    "message": "Frame rate: 30"
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:Spine",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:Spine1",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:Spine2",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:Neck",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:Head",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:HeadTop_End",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightShoulder",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightArm",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightForeArm",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHand",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandThumb1",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandThumb2",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandThumb3",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandThumb4",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandIndex1",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandIndex2",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandIndex3",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandIndex4",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandMiddle1",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandMiddle2",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandMiddle3",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandMiddle4",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandRing1",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandRing2",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandRing3",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandRing4",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandPinky1",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandPinky2",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandPinky3",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightHandPinky4",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftShoulder",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftArm",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftForeArm",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHand",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandThumb1",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandThumb2",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandThumb3",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandThumb4",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandIndex1",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandIndex2",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandIndex3",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandIndex4",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandMiddle1",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandMiddle2",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandMiddle3",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandMiddle4",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandRing1",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandRing2",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandRing3",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandRing4",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandPinky1",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandPinky2",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandPinky3",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftHandPinky4",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightUpLeg",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightLeg",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightFoot",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightToeBase",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:RightToe_End",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftUpLeg",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftLeg",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftFoot",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftToeBase",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 2,
+    "message": {
+      "code": "unsupported_inherit_type",
+      "node": "mixamorig:LeftToe_End",
+      "type": "Rrs"
+    }
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 3.333333]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 3.333333]"
+  },
+  {
+    "level": 0,
+    "message": "Frame rate: 30"
+  },
+  {
+    "level": 0,
+    "message": "Take Take 001: 3.3333333333333335s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 0.033333]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 3.333333]"
+  },
+  {
+    "level": 0,
+    "message": "Frame rate: 30"
+  },
+  {
+    "level": 0,
+    "message": "Take mixamo.com: 0.03333333333333333s"
+  }
+]

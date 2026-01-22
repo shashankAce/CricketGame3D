@@ -1,0 +1,46 @@
+{
+  "__type__": "cc.Material",
+  "_name": "grip",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "USE_ALBEDO_MAP": true,
+      "USE_PBR_MAP": true
+    }
+  ],
+  "_states": [
+    {
+      "rasterizerState": {
+        "cullMode": 0
+      },
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      },
+      "depthStencilState": {}
+    }
+  ],
+  "_props": [
+    {
+      "mainTexture": {
+        "__uuid__": "18841602-b19f-4848-8718-c00de89f90b4@0089c",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "pbrMap": {
+        "__uuid__": "18841602-b19f-4848-8718-c00de89f90b4@9b633",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "metallic": 0,
+      "roughness": 1,
+      "occlusion": 0
+    }
+  ]
+}

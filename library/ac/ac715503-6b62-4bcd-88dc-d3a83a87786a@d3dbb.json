@@ -1,0 +1,46 @@
+{
+  "__type__": "cc.Material",
+  "_name": "AvatarHead",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "HAS_SECOND_UV": true,
+      "USE_ALBEDO_MAP": true,
+      "USE_NORMAL_MAP": true
+    }
+  ],
+  "_states": [
+    {
+      "rasterizerState": {
+        "cullMode": 0
+      },
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      },
+      "depthStencilState": {}
+    }
+  ],
+  "_props": [
+    {
+      "mainTexture": {
+        "__uuid__": "ac715503-6b62-4bcd-88dc-d3a83a87786a@0089c",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "metallic": 0,
+      "normalMap": {
+        "__uuid__": "ac715503-6b62-4bcd-88dc-d3a83a87786a@9b633",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "occlusion": 0
+    }
+  ]
+}

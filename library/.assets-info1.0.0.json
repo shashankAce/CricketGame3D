@@ -1,0 +1,647 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/glb.meta": {
+      "time": 1768993966679.2742
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/glb": {
+      "time": 1768996029572.7852,
+      "uuid": "e5c39018-962c-4e3d-b6df-89f20626313f"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/glb/m.s_dhoni_3d_model.glb.meta": {
+      "time": 1768993972832.189
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/glb/m.s_dhoni_3d_model.glb": {
+      "time": 1768993972616.806,
+      "uuid": "ac715503-6b62-4bcd-88dc-d3a83a87786a"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/clips.meta": {
+      "time": 1768994066640.9426
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/clips": {
+      "time": 1768995330551.3828,
+      "uuid": "f0baf2ed-6eb0-46d4-9067-628e025b5442"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/animation.meta": {
+      "time": 1768994073627.7886
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/animation": {
+      "time": 1768994073625.4194,
+      "uuid": "ba6090a8-6490-470f-8c84-8374e798c734"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/glb/mrf_cricket_bat_3d_model.glb.meta": {
+      "time": 1768995028745.7954
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/glb/mrf_cricket_bat_3d_model.glb": {
+      "time": 1768995028719.2063,
+      "uuid": "18841602-b19f-4848-8718-c00de89f90b4"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/clips/Animation Graph.animgraph.meta": {
+      "time": 1768995321591.427
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/clips/Animation Graph.animgraph": {
+      "time": 1769090783677.811,
+      "uuid": "64494fc6-139a-45f4-8bfd-603803b05a39"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/clips/animation.anim.meta": {
+      "time": 1768995330553.861
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/clips/animation.anim": {
+      "time": 1768995330550.4536,
+      "uuid": "fc4376bd-bf6b-487f-96ee-2e92389740e8"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/glb/X Bot.fbx.meta": {
+      "time": 1768996029894.5142
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/glb/X Bot.fbx": {
+      "time": 1768996029571.7246,
+      "uuid": "856e24ad-721a-4e13-8698-2073cb4c65aa"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/scene.scene.meta": {
+      "time": 1769002390698.106
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/scene.scene": {
+      "time": 1769108013193.318,
+      "uuid": "641972d4-cea4-42e2-833d-d8214a805343"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script.meta": {
+      "time": 1769007589934.0354
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script": {
+      "time": 1769107988299.628,
+      "uuid": "1302e00e-7f26-45ee-b897-27b940e26360"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/Batsman.ts.meta": {
+      "time": 1769007602944.2893
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/Batsman.ts": {
+      "time": 1769070235850.4507,
+      "uuid": "722d9fcd-c4bc-4149-8617-4e752bce6f9b"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay.meta": {
+      "time": 1769010987463.182
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay": {
+      "time": 1769070399247.8005,
+      "uuid": "e0f50477-c5cd-4bca-b8a7-61024757bbad"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/BattingLogic.ts.meta": {
+      "time": 1769010999277.1882
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/BattingLogic.ts": {
+      "time": 1769069910953.1123,
+      "uuid": "62f417c0-1cb7-41b5-8a5f-d0b969a2a1ab"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/HitResult.ts.meta": {
+      "time": 1769011008915.9001
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/HitResult.ts": {
+      "time": 1769012689943.8208,
+      "uuid": "fa8ef8d4-abf3-45a4-ae17-a5de707338be"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/Intent.ts.meta": {
+      "time": 1769011019809.4204
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/Intent.ts": {
+      "time": 1769011791688.9656,
+      "uuid": "05a273e8-b0b0-46c0-8f19-325f02f46bb7"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay_logic.js.meta": {
+      "time": 1769011488549.2544
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay_logic.js": {
+      "time": 1769011255828.7349,
+      "uuid": "8c6ca109-1cbb-462e-9332-3e12390df364"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/BallBehaviour.ts.meta": {
+      "time": 1769011513751.1846
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/BallBehaviour.ts": {
+      "time": 1769011610198.3098,
+      "uuid": "2476e7f8-e3d9-4ff0-bf0e-39caadfd07b4"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/SwingPlane.ts.meta": {
+      "time": 1769011737252.3882
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/SwingPlane.ts": {
+      "time": 1769011749312.8694,
+      "uuid": "ec1e965e-84d6-434f-b7f2-0d58923f6ecd"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/SwingPlanesConfig.ts.meta": {
+      "time": 1769011807993.4905
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/SwingPlanesConfig.ts": {
+      "time": 1769011815294.7825,
+      "uuid": "f0175075-e796-4d9f-b390-cacc0e6c5617"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/AnimationPhase.ts.meta": {
+      "time": 1769012012288.221
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/ProceduralBatController.ts.meta": {
+      "time": 1769012012288.486
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/AnimationPhase.ts": {
+      "time": 1769012516503.5269,
+      "uuid": "cfebf851-0c14-4017-900e-ba5043b9af16"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/ProceduralBatController.ts": {
+      "time": 1769087688029.3352,
+      "uuid": "a076ef14-0ae8-4848-a9e6-8748d76e3832"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/Difficulty.ts.meta": {
+      "time": 1769070399248.441
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/gameplay/Difficulty.ts": {
+      "time": 1769069617601.4995,
+      "uuid": "e433d835-1c4c-4b73-99cd-211dbfc7f324"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/pose.meta": {
+      "time": 1769089638202.8247
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/pose/BattingIdleConfig.ts.meta": {
+      "time": 1769089638203.129
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/pose/BattingIdleController.ts.meta": {
+      "time": 1769089638203.2817
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/pose/DefaultBattingIdle.ts.meta": {
+      "time": 1769089638203.4316
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/pose": {
+      "time": 1769089638202.2766,
+      "uuid": "b812eb03-5ab5-4f35-a57a-b8fdef711c66"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/pose/BattingIdleConfig.ts": {
+      "time": 1769091295528.6306,
+      "uuid": "d3752c1c-0bcb-49fa-892c-6a5b273ad139"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/pose/BattingIdleController.ts": {
+      "time": 1769092698003.1152,
+      "uuid": "5e4602e1-6057-4b42-8508-c182e2730406"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/pose/DefaultBattingIdle.ts": {
+      "time": 1769092899821.4849,
+      "uuid": "2ddcc928-e170-4ce0-a7d3-5217d2d8fd18"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/TwoBoneIK.ts.meta": {
+      "time": 1769094014084.6812
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/TwoBoneIK.ts": {
+      "time": 1769108609532.7227,
+      "uuid": "04c09582-d349-4ef4-ae4c-02720bff22db"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/prefab.meta": {
+      "time": 1769105440910.0059
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/prefab": {
+      "time": 1769105443391.8691,
+      "uuid": "9095c9bc-6517-4470-9547-26c4af87963c"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/prefab/X Bot.prefab.meta": {
+      "time": 1769105443395.1382
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/prefab/X Bot.prefab": {
+      "time": 1769105443393.225,
+      "uuid": "0b0007d8-4e99-4c1c-94a3-3b646b0b4464"
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/twoboneikold.ts.meta": {
+      "time": 1769107988300.333
+    },
+    "/Users/schaurasiya/Documents/workspace/NewProject/assets/script/twoboneikold.ts": {
+      "time": 1769107757250.0977,
+      "uuid": "e5f5b523-7e8a-4c77-bbbe-ee437b2c70cf"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/animation": {
+      "time": 1768994073625.4194,
+      "uuid": "ba6090a8-6490-470f-8c84-8374e798c734"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/clips": {
+      "time": 1768995330551.3828,
+      "uuid": "f0baf2ed-6eb0-46d4-9067-628e025b5442"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/glb": {
+      "time": 1768996029572.7852,
+      "uuid": "e5c39018-962c-4e3d-b6df-89f20626313f"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/prefab": {
+      "time": 1769105443391.8691,
+      "uuid": "9095c9bc-6517-4470-9547-26c4af87963c"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script": {
+      "time": 1769107988299.628,
+      "uuid": "1302e00e-7f26-45ee-b897-27b940e26360"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay": {
+      "time": 1769070399247.8005,
+      "uuid": "e0f50477-c5cd-4bca-b8a7-61024757bbad"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/pose": {
+      "time": 1769089638202.2766,
+      "uuid": "b812eb03-5ab5-4f35-a57a-b8fdef711c66"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/Batsman.ts": {
+      "time": 1769070235850.4507,
+      "uuid": "722d9fcd-c4bc-4149-8617-4e752bce6f9b"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/TwoBoneIK.ts": {
+      "time": 1769108609532.7227,
+      "uuid": "04c09582-d349-4ef4-ae4c-02720bff22db"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/twoboneikold.ts": {
+      "time": 1769107757250.0977,
+      "uuid": "e5f5b523-7e8a-4c77-bbbe-ee437b2c70cf"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/AnimationPhase.ts": {
+      "time": 1769012516503.5269,
+      "uuid": "cfebf851-0c14-4017-900e-ba5043b9af16"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/BallBehaviour.ts": {
+      "time": 1769011610198.3098,
+      "uuid": "2476e7f8-e3d9-4ff0-bf0e-39caadfd07b4"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/BattingLogic.ts": {
+      "time": 1769069910953.1123,
+      "uuid": "62f417c0-1cb7-41b5-8a5f-d0b969a2a1ab"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/Difficulty.ts": {
+      "time": 1769069617601.4995,
+      "uuid": "e433d835-1c4c-4b73-99cd-211dbfc7f324"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/HitResult.ts": {
+      "time": 1769012689943.8208,
+      "uuid": "fa8ef8d4-abf3-45a4-ae17-a5de707338be"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/Intent.ts": {
+      "time": 1769011791688.9656,
+      "uuid": "05a273e8-b0b0-46c0-8f19-325f02f46bb7"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/ProceduralBatController.ts": {
+      "time": 1769087688029.3352,
+      "uuid": "a076ef14-0ae8-4848-a9e6-8748d76e3832"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/SwingPlane.ts": {
+      "time": 1769011749312.8694,
+      "uuid": "ec1e965e-84d6-434f-b7f2-0d58923f6ecd"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/SwingPlanesConfig.ts": {
+      "time": 1769011815294.7825,
+      "uuid": "f0175075-e796-4d9f-b390-cacc0e6c5617"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/pose/BattingIdleConfig.ts": {
+      "time": 1769091295528.6306,
+      "uuid": "d3752c1c-0bcb-49fa-892c-6a5b273ad139"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/pose/BattingIdleController.ts": {
+      "time": 1769092698003.1152,
+      "uuid": "5e4602e1-6057-4b42-8508-c182e2730406"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/pose/DefaultBattingIdle.ts": {
+      "time": 1769092899821.4849,
+      "uuid": "2ddcc928-e170-4ce0-a7d3-5217d2d8fd18"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/animation.meta": {
+      "time": 1768994073627.7886
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/clips.meta": {
+      "time": 1768994066640.9426
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/glb.meta": {
+      "time": 1768993966679.2742
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/prefab.meta": {
+      "time": 1769105440910.0059
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script.meta": {
+      "time": 1769007589934.0354
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay.meta": {
+      "time": 1769010987463.182
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/pose.meta": {
+      "time": 1769089638202.8247
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/Batsman.ts.meta": {
+      "time": 1769007602944.2893
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/TwoBoneIK.ts.meta": {
+      "time": 1769094014084.6812
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/twoboneikold.ts.meta": {
+      "time": 1769107988300.333
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/AnimationPhase.ts.meta": {
+      "time": 1769012012288.221
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/BallBehaviour.ts.meta": {
+      "time": 1769011513751.1846
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/BattingLogic.ts.meta": {
+      "time": 1769010999277.1882
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/Difficulty.ts.meta": {
+      "time": 1769070399248.441
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/HitResult.ts.meta": {
+      "time": 1769011008915.9001
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/Intent.ts.meta": {
+      "time": 1769011019809.4204
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/ProceduralBatController.ts.meta": {
+      "time": 1769012012288.486
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/SwingPlane.ts.meta": {
+      "time": 1769011737252.3882
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay/SwingPlanesConfig.ts.meta": {
+      "time": 1769011807993.4905
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/pose/BattingIdleConfig.ts.meta": {
+      "time": 1769089638203.129
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/pose/BattingIdleController.ts.meta": {
+      "time": 1769089638203.2817
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/pose/DefaultBattingIdle.ts.meta": {
+      "time": 1769089638203.4316
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/scene.scene": {
+      "time": 1769108872533.2688,
+      "uuid": "641972d4-cea4-42e2-833d-d8214a805343"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/clips/Animation Graph.animgraph": {
+      "time": 1769090783677.811,
+      "uuid": "64494fc6-139a-45f4-8bfd-603803b05a39"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/clips/animation.anim": {
+      "time": 1768995330550.4536,
+      "uuid": "fc4376bd-bf6b-487f-96ee-2e92389740e8"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/glb/X Bot.fbx": {
+      "time": 1768996029571.7246,
+      "uuid": "856e24ad-721a-4e13-8698-2073cb4c65aa"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/glb/m.s_dhoni_3d_model.glb": {
+      "time": 1768993972616.806,
+      "uuid": "ac715503-6b62-4bcd-88dc-d3a83a87786a"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/glb/mrf_cricket_bat_3d_model.glb": {
+      "time": 1768995028719.2063,
+      "uuid": "18841602-b19f-4848-8718-c00de89f90b4"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/prefab/X Bot.prefab": {
+      "time": 1769105443393.225,
+      "uuid": "0b0007d8-4e99-4c1c-94a3-3b646b0b4464"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay_logic.js": {
+      "time": 1769011255828.7349,
+      "uuid": "8c6ca109-1cbb-462e-9332-3e12390df364"
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/clips/Animation Graph.animgraph.meta": {
+      "time": 1768995321591.427
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/scene.scene.meta": {
+      "time": 1769002390698.106
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/clips/animation.anim.meta": {
+      "time": 1768995330553.861
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/script/gameplay_logic.js.meta": {
+      "time": 1769011488549.2544
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/prefab/X Bot.prefab.meta": {
+      "time": 1769105443395.1382
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/glb/X Bot.fbx.meta": {
+      "time": 1768996029894.5142
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/glb/mrf_cricket_bat_3d_model.glb.meta": {
+      "time": 1768995028745.7954
+    },
+    "/Users/schaurasiya/Documents/workspace/CricketGame3D/assets/glb/m.s_dhoni_3d_model.glb.meta": {
+      "time": 1768993972832.189
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/animation": {
+      "time": 1768994073625.4194,
+      "uuid": "ba6090a8-6490-470f-8c84-8374e798c734"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips": {
+      "time": 1768995330551.3828,
+      "uuid": "f0baf2ed-6eb0-46d4-9067-628e025b5442"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb": {
+      "time": 1768996029572.7852,
+      "uuid": "e5c39018-962c-4e3d-b6df-89f20626313f"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/prefab": {
+      "time": 1769105443391.8691,
+      "uuid": "9095c9bc-6517-4470-9547-26c4af87963c"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script": {
+      "time": 1769107988299.628,
+      "uuid": "1302e00e-7f26-45ee-b897-27b940e26360"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay": {
+      "time": 1769070399247.8005,
+      "uuid": "e0f50477-c5cd-4bca-b8a7-61024757bbad"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose": {
+      "time": 1769089638202.2766,
+      "uuid": "b812eb03-5ab5-4f35-a57a-b8fdef711c66"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/Batsman.ts": {
+      "time": 1769070235850.4507,
+      "uuid": "722d9fcd-c4bc-4149-8617-4e752bce6f9b"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/TwoBoneIK.ts": {
+      "time": 1769108609532.7227,
+      "uuid": "04c09582-d349-4ef4-ae4c-02720bff22db"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/twoboneikold.ts": {
+      "time": 1769107757250.0977,
+      "uuid": "e5f5b523-7e8a-4c77-bbbe-ee437b2c70cf"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/AnimationPhase.ts": {
+      "time": 1769012516503.5269,
+      "uuid": "cfebf851-0c14-4017-900e-ba5043b9af16"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/BallBehaviour.ts": {
+      "time": 1769011610198.3098,
+      "uuid": "2476e7f8-e3d9-4ff0-bf0e-39caadfd07b4"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/BattingLogic.ts": {
+      "time": 1769069910953.1123,
+      "uuid": "62f417c0-1cb7-41b5-8a5f-d0b969a2a1ab"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/Difficulty.ts": {
+      "time": 1769069617601.4998,
+      "uuid": "e433d835-1c4c-4b73-99cd-211dbfc7f324"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/HitResult.ts": {
+      "time": 1769012689943.8208,
+      "uuid": "fa8ef8d4-abf3-45a4-ae17-a5de707338be"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/Intent.ts": {
+      "time": 1769011791688.9653,
+      "uuid": "05a273e8-b0b0-46c0-8f19-325f02f46bb7"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/ProceduralBatController.ts": {
+      "time": 1769087688029.3352,
+      "uuid": "a076ef14-0ae8-4848-a9e6-8748d76e3832"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/SwingPlane.ts": {
+      "time": 1769011749312.8694,
+      "uuid": "ec1e965e-84d6-434f-b7f2-0d58923f6ecd"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/SwingPlanesConfig.ts": {
+      "time": 1769011815294.7825,
+      "uuid": "f0175075-e796-4d9f-b390-cacc0e6c5617"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/BattingIdleConfig.ts": {
+      "time": 1769091295528.6306,
+      "uuid": "d3752c1c-0bcb-49fa-892c-6a5b273ad139"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/BattingIdleController.ts": {
+      "time": 1769092698003.1152,
+      "uuid": "5e4602e1-6057-4b42-8508-c182e2730406"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/DefaultBattingIdle.ts": {
+      "time": 1769092899821.4849,
+      "uuid": "2ddcc928-e170-4ce0-a7d3-5217d2d8fd18"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/animation.meta": {
+      "time": 1768994073627.7886
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips.meta": {
+      "time": 1768994066640.9426
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb.meta": {
+      "time": 1768993966679.2742
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/prefab.meta": {
+      "time": 1769105440910.0059
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script.meta": {
+      "time": 1769007589934.0354
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay.meta": {
+      "time": 1769010987463.182
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose.meta": {
+      "time": 1769089638202.825
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/Batsman.ts.meta": {
+      "time": 1769007602944.2893
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/TwoBoneIK.ts.meta": {
+      "time": 1769094014084.6812
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/twoboneikold.ts.meta": {
+      "time": 1769107988300.333
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/AnimationPhase.ts.meta": {
+      "time": 1769012012288.221
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/BallBehaviour.ts.meta": {
+      "time": 1769011513751.1846
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/BattingLogic.ts.meta": {
+      "time": 1769010999277.1882
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/Difficulty.ts.meta": {
+      "time": 1769070399248.4407
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/HitResult.ts.meta": {
+      "time": 1769011008915.9001
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/Intent.ts.meta": {
+      "time": 1769011019809.4204
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/ProceduralBatController.ts.meta": {
+      "time": 1769012012288.486
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/SwingPlane.ts.meta": {
+      "time": 1769011737252.3882
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/SwingPlanesConfig.ts.meta": {
+      "time": 1769011807993.4905
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/BattingIdleConfig.ts.meta": {
+      "time": 1769089638203.129
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/BattingIdleController.ts.meta": {
+      "time": 1769089638203.282
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/DefaultBattingIdle.ts.meta": {
+      "time": 1769089638203.4316
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/scene.scene": {
+      "time": 1769108974860.4412,
+      "uuid": "641972d4-cea4-42e2-833d-d8214a805343"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/Animation Graph.animgraph": {
+      "time": 1769090783677.811,
+      "uuid": "64494fc6-139a-45f4-8bfd-603803b05a39"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/animation.anim": {
+      "time": 1768995330550.4536,
+      "uuid": "fc4376bd-bf6b-487f-96ee-2e92389740e8"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/X Bot.fbx": {
+      "time": 1768996029571.7246,
+      "uuid": "856e24ad-721a-4e13-8698-2073cb4c65aa"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/m.s_dhoni_3d_model.glb": {
+      "time": 1768993972616.806,
+      "uuid": "ac715503-6b62-4bcd-88dc-d3a83a87786a"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/mrf_cricket_bat_3d_model.glb": {
+      "time": 1768995028719.2065,
+      "uuid": "18841602-b19f-4848-8718-c00de89f90b4"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/prefab/X Bot.prefab": {
+      "time": 1769105443393.225,
+      "uuid": "0b0007d8-4e99-4c1c-94a3-3b646b0b4464"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay_logic.js": {
+      "time": 1769011255828.7349,
+      "uuid": "8c6ca109-1cbb-462e-9332-3e12390df364"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/scene.scene.meta": {
+      "time": 1769002390698.106
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/Animation Graph.animgraph.meta": {
+      "time": 1768995321591.427
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/animation.anim.meta": {
+      "time": 1768995330553.861
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay_logic.js.meta": {
+      "time": 1769011488549.2544
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/prefab/X Bot.prefab.meta": {
+      "time": 1769105443395.1382
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/X Bot.fbx.meta": {
+      "time": 1768996029894.5142
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/mrf_cricket_bat_3d_model.glb.meta": {
+      "time": 1768995028745.7954
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/m.s_dhoni_3d_model.glb.meta": {
+      "time": 1768993972832.189
+    }
+  },
+  "missing": {
+    "e815be0b-d0b8-4104-8001-55dc27f2f56b": {
+      "path": "/Users/schaurasiya/Documents/workspace/NewProject/assets/glb/cricket_set.glb",
+      "time": 1768993972612.626,
+      "removeTime": 1768994358204
+    },
+    "6f44c8a3-93d1-4a44-801e-10232b6da0fe": {
+      "path": "/Users/schaurasiya/Documents/workspace/NewProject/assets/glb/cricket_bat.glb",
+      "time": 1768994412905.1882,
+      "removeTime": 1768995099762
+    }
+  }
+}
