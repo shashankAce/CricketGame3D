@@ -4,6 +4,8 @@
         "cpu": "Apple M4 Pro",
         "version": "Darwin Kernel Version 24.6.0: Wed Nov  5 21:30:44 PST 2025; root:xnu-11417.140.69.705.2~1/RELEASE_ARM64_T6041"
     },
-    "sceneListMap": {},
+    "sceneListMap": {
+        "641972d4-cea4-42e2-833d-d8214a805343": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/scene.scene"
+    },
     "deviceMd5": "add3bf9ef9f99f1d746e6108a307bf33"
 }
