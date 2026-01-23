@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 2623.297709,
+      "mTimestamp": 18171.9077,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -229,7 +229,7 @@
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/particle",
+          "value": "cce:/internal/x/cc-fu/sorting-2d",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
@@ -238,12 +238,12 @@
             },
             "end": {
               "line": 17,
-              "column": 46
+              "column": 48
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/particle-2d",
+          "value": "cce:/internal/x/cc-fu/particle",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
@@ -252,12 +252,12 @@
             },
             "end": {
               "line": 18,
-              "column": 49
+              "column": 46
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/physics-framework",
+          "value": "cce:/internal/x/cc-fu/particle-2d",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
@@ -266,12 +266,12 @@
             },
             "end": {
               "line": 19,
-              "column": 55
+              "column": 49
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/physics-cannon",
+          "value": "cce:/internal/x/cc-fu/physics-framework",
           "resolved": "__unresolved_19",
           "loc": {
             "start": {
@@ -280,12 +280,12 @@
             },
             "end": {
               "line": 20,
-              "column": 52
+              "column": 55
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/physics-physx",
+          "value": "cce:/internal/x/cc-fu/physics-cannon",
           "resolved": "__unresolved_20",
           "loc": {
             "start": {
@@ -294,12 +294,12 @@
             },
             "end": {
               "line": 21,
-              "column": 51
+              "column": 52
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/physics-ammo",
+          "value": "cce:/internal/x/cc-fu/physics-physx",
           "resolved": "__unresolved_21",
           "loc": {
             "start": {
@@ -308,12 +308,12 @@
             },
             "end": {
               "line": 22,
-              "column": 50
+              "column": 51
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/physics-builtin",
+          "value": "cce:/internal/x/cc-fu/physics-ammo",
           "resolved": "__unresolved_22",
           "loc": {
             "start": {
@@ -322,12 +322,12 @@
             },
             "end": {
               "line": 23,
-              "column": 53
+              "column": 50
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+          "value": "cce:/internal/x/cc-fu/physics-builtin",
           "resolved": "__unresolved_23",
           "loc": {
             "start": {
@@ -336,12 +336,12 @@
             },
             "end": {
               "line": 24,
-              "column": 58
+              "column": 53
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/physics-2d-box2d-jsb",
+          "value": "cce:/internal/x/cc-fu/physics-2d-framework",
           "resolved": "__unresolved_24",
           "loc": {
             "start": {
@@ -355,7 +355,7 @@
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d-jsb",
           "resolved": "__unresolved_25",
           "loc": {
             "start": {
@@ -364,12 +364,12 @@
             },
             "end": {
               "line": 26,
-              "column": 54
+              "column": 58
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/physics-2d-builtin",
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
           "resolved": "__unresolved_26",
           "loc": {
             "start": {
@@ -378,12 +378,12 @@
             },
             "end": {
               "line": 27,
-              "column": 56
+              "column": 54
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/physics-2d-box2d-wasm",
+          "value": "cce:/internal/x/cc-fu/physics-2d-builtin",
           "resolved": "__unresolved_27",
           "loc": {
             "start": {
@@ -392,12 +392,12 @@
             },
             "end": {
               "line": 28,
-              "column": 59
+              "column": 56
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/intersection-2d",
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d-wasm",
           "resolved": "__unresolved_28",
           "loc": {
             "start": {
@@ -406,12 +406,12 @@
             },
             "end": {
               "line": 29,
-              "column": 53
+              "column": 59
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/primitive",
+          "value": "cce:/internal/x/cc-fu/intersection-2d",
           "resolved": "__unresolved_29",
           "loc": {
             "start": {
@@ -420,12 +420,12 @@
             },
             "end": {
               "line": 30,
-              "column": 47
+              "column": 53
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/profiler",
+          "value": "cce:/internal/x/cc-fu/primitive",
           "resolved": "__unresolved_30",
           "loc": {
             "start": {
@@ -434,12 +434,12 @@
             },
             "end": {
               "line": 31,
-              "column": 46
+              "column": 47
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/geometry-renderer",
+          "value": "cce:/internal/x/cc-fu/profiler",
           "resolved": "__unresolved_31",
           "loc": {
             "start": {
@@ -448,12 +448,12 @@
             },
             "end": {
               "line": 32,
-              "column": 55
+              "column": 46
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/audio",
+          "value": "cce:/internal/x/cc-fu/geometry-renderer",
           "resolved": "__unresolved_32",
           "loc": {
             "start": {
@@ -462,12 +462,12 @@
             },
             "end": {
               "line": 33,
-              "column": 43
+              "column": 55
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/video",
+          "value": "cce:/internal/x/cc-fu/audio",
           "resolved": "__unresolved_33",
           "loc": {
             "start": {
@@ -481,7 +481,7 @@
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/xr",
+          "value": "cce:/internal/x/cc-fu/video",
           "resolved": "__unresolved_34",
           "loc": {
             "start": {
@@ -490,12 +490,12 @@
             },
             "end": {
               "line": 35,
-              "column": 40
+              "column": 43
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/light-probe",
+          "value": "cce:/internal/x/cc-fu/xr",
           "resolved": "__unresolved_35",
           "loc": {
             "start": {
@@ -504,12 +504,12 @@
             },
             "end": {
               "line": 36,
-              "column": 49
+              "column": 40
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/terrain",
+          "value": "cce:/internal/x/cc-fu/light-probe",
           "resolved": "__unresolved_36",
           "loc": {
             "start": {
@@ -518,12 +518,12 @@
             },
             "end": {
               "line": 37,
-              "column": 45
+              "column": 49
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/webview",
+          "value": "cce:/internal/x/cc-fu/terrain",
           "resolved": "__unresolved_37",
           "loc": {
             "start": {
@@ -537,7 +537,7 @@
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/tween",
+          "value": "cce:/internal/x/cc-fu/webview",
           "resolved": "__unresolved_38",
           "loc": {
             "start": {
@@ -546,12 +546,12 @@
             },
             "end": {
               "line": 39,
-              "column": 43
+              "column": 45
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/tiled-map",
+          "value": "cce:/internal/x/cc-fu/tween",
           "resolved": "__unresolved_39",
           "loc": {
             "start": {
@@ -560,12 +560,12 @@
             },
             "end": {
               "line": 40,
-              "column": 47
+              "column": 43
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/vendor-google",
+          "value": "cce:/internal/x/cc-fu/tiled-map",
           "resolved": "__unresolved_40",
           "loc": {
             "start": {
@@ -574,12 +574,12 @@
             },
             "end": {
               "line": 41,
-              "column": 51
+              "column": 47
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/spine",
+          "value": "cce:/internal/x/cc-fu/vendor-google",
           "resolved": "__unresolved_41",
           "loc": {
             "start": {
@@ -588,12 +588,12 @@
             },
             "end": {
               "line": 42,
-              "column": 43
+              "column": 51
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/dragon-bones",
+          "value": "cce:/internal/x/cc-fu/spine",
           "resolved": "__unresolved_42",
           "loc": {
             "start": {
@@ -602,12 +602,12 @@
             },
             "end": {
               "line": 43,
-              "column": 50
+              "column": 43
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/custom-pipeline",
+          "value": "cce:/internal/x/cc-fu/dragon-bones",
           "resolved": "__unresolved_43",
           "loc": {
             "start": {
@@ -616,12 +616,12 @@
             },
             "end": {
               "line": 44,
-              "column": 53
+              "column": 50
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/custom-pipeline-post-process",
+          "value": "cce:/internal/x/cc-fu/custom-pipeline",
           "resolved": "__unresolved_44",
           "loc": {
             "start": {
@@ -630,12 +630,12 @@
             },
             "end": {
               "line": 45,
-              "column": 66
+              "column": 53
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/legacy-pipeline",
+          "value": "cce:/internal/x/cc-fu/custom-pipeline-post-process",
           "resolved": "__unresolved_45",
           "loc": {
             "start": {
@@ -644,6 +644,20 @@
             },
             "end": {
               "line": 46,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/legacy-pipeline",
+          "resolved": "__unresolved_46",
+          "loc": {
+            "start": {
+              "line": 47,
+              "column": 14
+            },
+            "end": {
+              "line": 47,
               "column": 53
             }
           }
@@ -760,6 +774,13 @@
           "resolved": {
             "type": "external",
             "specifierOrURL": "cce:/internal/x/cc-fu/affine-transform"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/sorting-2d"
           },
           "messages": []
         },
@@ -976,11 +997,11 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 66977534.780667,
+      "mTimestamp": 3427032.216,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
-          "value": "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts",
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts",
           "resolved": "__unresolved_0",
           "loc": {
             "start": {
@@ -989,371 +1010,399 @@
             },
             "end": {
               "line": 5,
-              "column": 190
+              "column": 174
             }
           }
         },
         {
-          "value": "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts",
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
               "line": 5,
-              "column": 206
+              "column": 190
             },
             "end": {
               "line": 5,
-              "column": 366
+              "column": 334
             }
           }
         },
         {
-          "value": "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts",
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 5,
-              "column": 382
+              "column": 350
             },
             "end": {
               "line": 5,
-              "column": 546
+              "column": 498
             }
           }
         },
         {
-          "value": "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts",
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
               "line": 5,
-              "column": 562
+              "column": 514
             },
             "end": {
               "line": 5,
-              "column": 723
+              "column": 659
             }
           }
         },
         {
-          "value": "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts",
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
               "line": 5,
-              "column": 739
+              "column": 675
             },
             "end": {
               "line": 5,
-              "column": 894
+              "column": 814
             }
           }
         },
         {
-          "value": "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
               "line": 5,
-              "column": 910
+              "column": 830
             },
             "end": {
               "line": 5,
-              "column": 1058
+              "column": 962
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/BatShotProfile.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/BatShotProfile.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1074
+              "column": 978
             },
             "end": {
               "line": 5,
-              "column": 1176
+              "column": 1045
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/Batsman.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/Batsman.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1192
+              "column": 1061
             },
             "end": {
               "line": 5,
-              "column": 1287
+              "column": 1121
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/TwoBoneIK.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/TwoBoneIK.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1303
+              "column": 1137
             },
             "end": {
               "line": 5,
-              "column": 1400
+              "column": 1199
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/BatRigCapture.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/TwoBoneIK1.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1416
+              "column": 1215
             },
             "end": {
               "line": 5,
-              "column": 1529
+              "column": 1278
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/BatSwingData.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/captureData/BatRigCapture.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1545
+              "column": 1294
             },
             "end": {
               "line": 5,
-              "column": 1657
+              "column": 1372
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/PoseCapture.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/captureData/BatSwingData.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1673
+              "column": 1388
             },
             "end": {
               "line": 5,
-              "column": 1784
+              "column": 1465
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/AnimationPhase.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/captureData/PoseCapture.ts",
           "resolved": "__unresolved_12",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1800
+              "column": 1481
             },
             "end": {
               "line": 5,
-              "column": 1911
+              "column": 1557
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/BallBehaviour.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/AnimationPhase.ts",
           "resolved": "__unresolved_13",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1927
+              "column": 1573
             },
             "end": {
               "line": 5,
-              "column": 2037
+              "column": 1649
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/BattingLogic.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/BallBehaviour.ts",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2053
+              "column": 1665
             },
             "end": {
               "line": 5,
-              "column": 2162
+              "column": 1740
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/Difficulty.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/BattingLogic.ts",
           "resolved": "__unresolved_15",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2178
+              "column": 1756
             },
             "end": {
               "line": 5,
-              "column": 2285
+              "column": 1830
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/HitResult.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/Difficulty.ts",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2301
+              "column": 1846
             },
             "end": {
               "line": 5,
-              "column": 2407
+              "column": 1918
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/Intent.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/HitResult.ts",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2423
+              "column": 1934
             },
             "end": {
               "line": 5,
-              "column": 2526
+              "column": 2005
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/ProceduralBatController.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/Intent.ts",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2542
+              "column": 2021
             },
             "end": {
               "line": 5,
-              "column": 2662
+              "column": 2089
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/SwingPlane.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/ProceduralBatController.ts",
           "resolved": "__unresolved_19",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2678
+              "column": 2105
             },
             "end": {
               "line": 5,
-              "column": 2785
+              "column": 2190
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/SwingPlanesConfig.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/SwingPlane.ts",
           "resolved": "__unresolved_20",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2801
+              "column": 2206
             },
             "end": {
               "line": 5,
-              "column": 2915
+              "column": 2278
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay_logic.js",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/SwingPlanesConfig.ts",
           "resolved": "__unresolved_21",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2931
+              "column": 2294
             },
             "end": {
               "line": 5,
-              "column": 3033
+              "column": 2373
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/BattingIdleConfig.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/old/IKUnsed.ts",
           "resolved": "__unresolved_22",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3049
+              "column": 2389
             },
             "end": {
               "line": 5,
-              "column": 3159
+              "column": 2453
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/BattingIdleController.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/old/TwoBoneIKNoCorrect.ts",
           "resolved": "__unresolved_23",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3175
+              "column": 2469
             },
             "end": {
               "line": 5,
-              "column": 3289
+              "column": 2544
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/DefaultBattingIdle.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/old/gameplay_logic.js",
           "resolved": "__unresolved_24",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3305
+              "column": 2560
             },
             "end": {
               "line": 5,
-              "column": 3416
+              "column": 2631
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/PoseConfig.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/BattingIdleConfig.ts",
           "resolved": "__unresolved_25",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3432
+              "column": 2647
             },
             "end": {
               "line": 5,
-              "column": 3535
+              "column": 2722
             }
           }
         },
         {
-          "value": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/twoboneikold.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/BattingIdleController.ts",
           "resolved": "__unresolved_26",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3551
+              "column": 2738
             },
             "end": {
               "line": 5,
-              "column": 3651
+              "column": 2817
+            }
+          }
+        },
+        {
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/DefaultBattingIdle.ts",
+          "resolved": "__unresolved_27",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2833
+            },
+            "end": {
+              "line": 5,
+              "column": 2909
+            }
+          }
+        },
+        {
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/PoseConfig.ts",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2925
+            },
+            "end": {
+              "line": 5,
+              "column": 2993
             }
           }
         }
@@ -1363,189 +1412,203 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts"
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts"
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/BatShotProfile.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/BatShotProfile.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/Batsman.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/Batsman.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/TwoBoneIK.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/TwoBoneIK.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/BatRigCapture.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/TwoBoneIK1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/BatSwingData.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/captureData/BatRigCapture.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/PoseCapture.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/captureData/BatSwingData.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/AnimationPhase.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/captureData/PoseCapture.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/BallBehaviour.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/AnimationPhase.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/BattingLogic.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/BallBehaviour.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/Difficulty.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/BattingLogic.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/HitResult.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/Difficulty.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/Intent.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/HitResult.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/ProceduralBatController.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/Intent.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/SwingPlane.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/ProceduralBatController.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/SwingPlanesConfig.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/SwingPlane.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay_logic.mjs?cjs=&original=.js"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/SwingPlanesConfig.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/BattingIdleConfig.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/old/IKUnsed.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/BattingIdleController.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/old/TwoBoneIKNoCorrect.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/DefaultBattingIdle.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/old/gameplay_logic.mjs?cjs=&original=.js"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/PoseConfig.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/BattingIdleConfig.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/twoboneikold.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/BattingIdleController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/DefaultBattingIdle.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/PoseConfig.ts"
           },
           "messages": []
         }
@@ -2114,7 +2177,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1769110260573,
+      "mTimestamp": 1769181642244,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -2451,7 +2514,7 @@
       ]
     },
     "cce:/internal/ml/cjs-loader.mjs": {
-      "mTimestamp": 1769110260573,
+      "mTimestamp": 1769181642244,
       "chunkId": "a0d063530de23ddade53e1a935bf64c81277c061",
       "imports": [],
       "type": "esm",
@@ -4871,6 +4934,1912 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts": {
+      "mTimestamp": {
+        "mtime": 1769181448103.859,
+        "uuid": "11f3130e-c08c-47bb-a209-71d114594e6d"
+      },
+      "chunkId": "50ec684ab28702df18cf262b25c26ec6d899c3a5",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 23
+            },
+            "end": {
+              "line": 30,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-settings",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 7
+            },
+            "end": {
+              "line": 34,
+              "column": 36
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-pass",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 7
+            },
+            "end": {
+              "line": 38,
+              "column": 32
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 45,
+              "column": 7
+            },
+            "end": {
+              "line": 45,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts": {
+      "mTimestamp": {
+        "mtime": 1769181448114.4812,
+        "uuid": "6f94083c-fc92-438b-a15b-a20ec61666c7"
+      },
+      "chunkId": "b18130d786bcadd1d0cb653401afdf2ede79b799",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 7
+            },
+            "end": {
+              "line": 30,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-settings",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 40
+            },
+            "end": {
+              "line": 32,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 23
+            },
+            "end": {
+              "line": 34,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts": {
+      "mTimestamp": {
+        "mtime": 1769181448117.484,
+        "uuid": "de1c2107-70c8-4021-8459-6399f24d01c6"
+      },
+      "chunkId": "e2831fde95d58c09916d0f882742b7597544b8d1",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 23
+            },
+            "end": {
+              "line": 30,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-types",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 7
+            },
+            "end": {
+              "line": 35,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": {
+      "mTimestamp": {
+        "mtime": 1769181448119.6206,
+        "uuid": "cbf30902-517f-40dc-af90-a550bac27cf1"
+      },
+      "chunkId": "7dd5f1b51da4ae6cb44c6f9d41d8fc719b109223",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 49
+            },
+            "end": {
+              "line": 31,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": {
+      "mTimestamp": {
+        "mtime": 1769181448121.622,
+        "uuid": "ff9b0199-ce04-4cfe-86cc-6c719f08d6e4"
+      },
+      "chunkId": "fd74c742a972dbbcd3691d204a338b19a4515b62",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 7
+            },
+            "end": {
+              "line": 29,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 30
+            },
+            "end": {
+              "line": 31,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-types",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 7
+            },
+            "end": {
+              "line": 37,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
+      "mTimestamp": {
+        "mtime": 1769181448429.866,
+        "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
+      },
+      "chunkId": "621a159ce4a7bac550092546e00c97e12458f12b",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 220
+            },
+            "end": {
+              "line": 1,
+              "column": 224
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/BatShotProfile.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601503.1877,
+        "uuid": "2ee8f187-6dd6-4a63-8a2e-1364b65a9ca8"
+      },
+      "chunkId": "570b9614c25bc89a7489aaef0c20196e58a54159",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/Batsman.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601503.1877,
+        "uuid": "722d9fcd-c4bc-4149-8617-4e752bce6f9b"
+      },
+      "chunkId": "75190797d79d168209ce68d355a2cb35a2a72dcc",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./gameplay/ProceduralBatController",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 40
+            },
+            "end": {
+              "line": 4,
+              "column": 76
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/ProceduralBatController.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/TwoBoneIK.ts": {
+      "mTimestamp": {
+        "mtime": 1769184951986.702,
+        "uuid": "a6a39d71-1399-49e0-b096-93d8e4374915"
+      },
+      "chunkId": "481184980db7a47253805cdf75195e422bdfbeb1",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/captureData/BatRigCapture.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "72cc7fea-64ab-4b44-9dee-86714ee3d7f3"
+      },
+      "chunkId": "448fbea65fbfc8e6f18b0203563ad5a972c67d7e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/captureData/BatSwingData.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "ea3cfc9d-b8ad-4da5-8682-f60a77288be5"
+      },
+      "chunkId": "4dfdd96cd75317de0b658a4dd734535c4b39b1d7",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 56
+            },
+            "end": {
+              "line": 1,
+              "column": 60
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/captureData/PoseCapture.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "fc4c0e76-0173-4be8-9438-3e77aa6e46d3"
+      },
+      "chunkId": "9a07ec655600e99bd877cb4c9e7d3f1abc909672",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/AnimationPhase.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "cfebf851-0c14-4017-900e-ba5043b9af16"
+      },
+      "chunkId": "a9435e17f8c1f5e76b84a8ef1966ff3ede3f260c",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/BallBehaviour.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "2476e7f8-e3d9-4ff0-bf0e-39caadfd07b4"
+      },
+      "chunkId": "fbddbb2b270aad09b50e88457d6c3cc4290b1473",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/BattingLogic.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "62f417c0-1cb7-41b5-8a5f-d0b969a2a1ab"
+      },
+      "chunkId": "240d374b4d4e07282f2b3fd2221c6b184a788e21",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Difficulty",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 48
+            },
+            "end": {
+              "line": 3,
+              "column": 62
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/Difficulty.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/Difficulty.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "e433d835-1c4c-4b73-99cd-211dbfc7f324"
+      },
+      "chunkId": "5e7d816d5fa81f6d41f533a54b6da9fd9323b753",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/HitResult.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "fa8ef8d4-abf3-45a4-ae17-a5de707338be"
+      },
+      "chunkId": "bb6fd5ade53bd6289f295659fa2d07a82d1931db",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/Intent.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "05a273e8-b0b0-46c0-8f19-325f02f46bb7"
+      },
+      "chunkId": "6ca5e8e72a30a1e730da6e99df39c81a2fe5652b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/ProceduralBatController.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "a076ef14-0ae8-4848-a9e6-8748d76e3832"
+      },
+      "chunkId": "7a1b060e33cd5f24e6af0476105a9dd97802449a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 47,
+              "column": 33
+            },
+            "end": {
+              "line": 47,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/SwingPlane.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "ec1e965e-84d6-434f-b7f2-0d58923f6ecd"
+      },
+      "chunkId": "4f7b12c06f0753e8fa44f4c255027d0fb5f911b3",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/SwingPlanesConfig.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "f0175075-e796-4d9f-b390-cacc0e6c5617"
+      },
+      "chunkId": "ef307cc7e5b1dad47707da9d217aa4ebddf6903e",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/pose/BattingIdleConfig.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "d3752c1c-0bcb-49fa-892c-6a5b273ad139"
+      },
+      "chunkId": "31b17e57b591c0f08a72845db98948cd04d95e9f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/pose/BattingIdleController.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "5e4602e1-6057-4b42-8508-c182e2730406"
+      },
+      "chunkId": "636375ed651fa3598cf5dff850c138f4a7eb0cf2",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "end": {
+              "line": 9,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "./DefaultBattingIdle",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 37
+            },
+            "end": {
+              "line": 11,
+              "column": 59
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/DefaultBattingIdle.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/pose/DefaultBattingIdle.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "2ddcc928-e170-4ce0-a7d3-5217d2d8fd18"
+      },
+      "chunkId": "5db3cb939ed5b5213de3316f39246166b12312fc",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 21
+            },
+            "end": {
+              "line": 3,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/pose/PoseConfig.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "eea2e8dd-5cd0-413a-977f-0025670455f0"
+      },
+      "chunkId": "e5cdddc191f3d3d604ad5071b82e1a36c097d4f7",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 27
+            },
+            "end": {
+              "line": 1,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/twoboneikold.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "e5f5b523-7e8a-4c77-bbbe-ee437b2c70cf"
+      },
+      "chunkId": "22961ca5f51f8c0461c425c2ddef00ea0c3fc2c8",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay_logic.mjs?cjs=&original=.js": {
+      "mTimestamp": 1769180601518.966,
+      "chunkId": "081d537be32c1bf628eda38842da0fc5804139c9",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./gameplay_logic.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./gameplay_logic.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 35
+            }
+          }
+        },
+        {
+          "value": "./gameplay_logic.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 50
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay_logic.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay_logic.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay_logic.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay_logic.js": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "8c6ca109-1cbb-462e-9332-3e12390df364"
+      },
+      "chunkId": "50c98ea2d74103a900e578347c918dc1ad12cf31",
+      "imports": [
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "commonjs",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/TwoBoneIK1.ts": {
+      "mTimestamp": {
+        "mtime": 1769184626015.0806,
+        "uuid": "04c09582-d349-4ef4-ae4c-02720bff22db"
+      },
+      "chunkId": "f3777629bddc9aad236d0850e64b74b48bc75357",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/IKUnsed.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "e5f5b523-7e8a-4c77-bbbe-ee437b2c70cf"
+      },
+      "chunkId": "72d6046a171d7f281bd3ed9d0fc275551692a5e2",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/TwoBoneIKNoCorrect.ts": {
+      "mTimestamp": {
+        "mtime": 1769184999774.7788,
+        "uuid": "e43298d9-e997-4354-91a4-99aa358b883b"
+      },
+      "chunkId": "a7f8dd03b0d5a76194cb9534e9c8054121d56922",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 62
+            },
+            "end": {
+              "line": 2,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/old/IKUnsed.ts": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "e5f5b523-7e8a-4c77-bbbe-ee437b2c70cf"
+      },
+      "chunkId": "a254545f50115cc40f797172377dbc4bdfbaffab",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/old/TwoBoneIKNoCorrect.ts": {
+      "mTimestamp": {
+        "mtime": 1769184999774.7788,
+        "uuid": "e43298d9-e997-4354-91a4-99aa358b883b"
+      },
+      "chunkId": "4b3530934039c8a7ada73f0c6f79822fff0e5857",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 62
+            },
+            "end": {
+              "line": 2,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/old/gameplay_logic.mjs?cjs=&original=.js": {
+      "mTimestamp": 1769180601518.966,
+      "chunkId": "4afc1d602b759cd98dd7b214161ffd1af0afdfb7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./gameplay_logic.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./gameplay_logic.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 35
+            }
+          }
+        },
+        {
+          "value": "./gameplay_logic.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 50
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/old/gameplay_logic.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/old/gameplay_logic.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/old/gameplay_logic.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/old/gameplay_logic.js": {
+      "mTimestamp": {
+        "mtime": 1769180601518.966,
+        "uuid": "8c6ca109-1cbb-462e-9332-3e12390df364"
+      },
+      "chunkId": "2772dd1e9d319c75f43c82f289b71adb1fa7cb46",
+      "imports": [
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "commonjs",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
           },
           "messages": []
         }
