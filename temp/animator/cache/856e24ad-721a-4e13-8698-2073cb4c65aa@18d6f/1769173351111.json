@@ -1,0 +1,6402 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "mixamo.com",
+    "_objFlags": 0,
+    "__editorExtras__": {
+      "embeddedPlayerGroups": []
+    },
+    "_native": "",
+    "sample": 30,
+    "speed": 1,
+    "wrapMode": 2,
+    "enableTrsBlending": true,
+    "_duration": 0.03333333507180214,
+    "_hash": 3993549351,
+    "_tracks": [],
+    "_exoticAnimation": {
+      "__id__": 1
+    },
+    "_events": [],
+    "_embeddedPlayers": [],
+    "_additiveSettings": {
+      "__id__": 471
+    },
+    "_auxiliaryCurveEntries": []
+  },
+  {
+    "__type__": "cc.animation.ExoticAnimation",
+    "_nodeAnimations": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 9
+      },
+      {
+        "__id__": 16
+      },
+      {
+        "__id__": 23
+      },
+      {
+        "__id__": 30
+      },
+      {
+        "__id__": 37
+      },
+      {
+        "__id__": 44
+      },
+      {
+        "__id__": 51
+      },
+      {
+        "__id__": 58
+      },
+      {
+        "__id__": 65
+      },
+      {
+        "__id__": 72
+      },
+      {
+        "__id__": 79
+      },
+      {
+        "__id__": 86
+      },
+      {
+        "__id__": 93
+      },
+      {
+        "__id__": 100
+      },
+      {
+        "__id__": 107
+      },
+      {
+        "__id__": 114
+      },
+      {
+        "__id__": 121
+      },
+      {
+        "__id__": 128
+      },
+      {
+        "__id__": 135
+      },
+      {
+        "__id__": 142
+      },
+      {
+        "__id__": 149
+      },
+      {
+        "__id__": 156
+      },
+      {
+        "__id__": 163
+      },
+      {
+        "__id__": 170
+      },
+      {
+        "__id__": 177
+      },
+      {
+        "__id__": 184
+      },
+      {
+        "__id__": 191
+      },
+      {
+        "__id__": 198
+      },
+      {
+        "__id__": 205
+      },
+      {
+        "__id__": 212
+      },
+      {
+        "__id__": 219
+      },
+      {
+        "__id__": 226
+      },
+      {
+        "__id__": 233
+      },
+      {
+        "__id__": 240
+      },
+      {
+        "__id__": 247
+      },
+      {
+        "__id__": 254
+      },
+      {
+        "__id__": 261
+      },
+      {
+        "__id__": 268
+      },
+      {
+        "__id__": 275
+      },
+      {
+        "__id__": 282
+      },
+      {
+        "__id__": 289
+      },
+      {
+        "__id__": 296
+      },
+      {
+        "__id__": 303
+      },
+      {
+        "__id__": 310
+      },
+      {
+        "__id__": 317
+      },
+      {
+        "__id__": 324
+      },
+      {
+        "__id__": 331
+      },
+      {
+        "__id__": 338
+      },
+      {
+        "__id__": 345
+      },
+      {
+        "__id__": 352
+      },
+      {
+        "__id__": 359
+      },
+      {
+        "__id__": 366
+      },
+      {
+        "__id__": 373
+      },
+      {
+        "__id__": 380
+      },
+      {
+        "__id__": 387
+      },
+      {
+        "__id__": 394
+      },
+      {
+        "__id__": 401
+      },
+      {
+        "__id__": 408
+      },
+      {
+        "__id__": 415
+      },
+      {
+        "__id__": 422
+      },
+      {
+        "__id__": 429
+      },
+      {
+        "__id__": 436
+      },
+      {
+        "__id__": 443
+      },
+      {
+        "__id__": 450
+      },
+      {
+        "__id__": 457
+      },
+      {
+        "__id__": 464
+      }
+    ]
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips",
+    "_position": {
+      "__id__": 3
+    },
+    "_rotation": {
+      "__id__": 5
+    },
+    "_scale": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 4
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        6.394334661763423e-8,
+        1.0427045822143555,
+        0.015542561188340187
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 6
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.0064585465006530285,
+        1.758480472346946e-8,
+        -7.343955985561479e-7,
+        0.9999791383743286
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 8
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine",
+    "_position": {
+      "__id__": 10
+    },
+    "_rotation": {
+      "__id__": 12
+    },
+    "_scale": {
+      "__id__": 14
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 11
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -4.255830497040813e-12,
+        0.10182436555624008,
+        -3.996803047469241e-17
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 13
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -0.08015571534633636,
+        -7.167350446479759e-8,
+        4.830340571970737e-7,
+        0.9967823624610901
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 15
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1",
+    "_position": {
+      "__id__": 17
+    },
+    "_rotation": {
+      "__id__": 19
+    },
+    "_scale": {
+      "__id__": 21
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 18
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0,
+        0.10002674907445908,
+        3.552713599391162e-17
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 20
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        2.7755575615628914e-17,
+        1.424620648228861e-13,
+        -6.684393164847757e-13,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 22
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2",
+    "_position": {
+      "__id__": 24
+    },
+    "_rotation": {
+      "__id__": 26
+    },
+    "_scale": {
+      "__id__": 28
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 25
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1.137542219454272e-16,
+        0.09322090446949005,
+        2.8236810667436885e-9
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 27
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.012885619886219501,
+        -4.771174011430901e-10,
+        -3.702404427485817e-8,
+        0.9999169707298279
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 29
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck",
+    "_position": {
+      "__id__": 31
+    },
+    "_rotation": {
+      "__id__": 33
+    },
+    "_scale": {
+      "__id__": 35
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 32
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        4.147488342348682e-12,
+        0.1686532199382782,
+        5.684341759025859e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 34
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -6.938893903907228e-18,
+        -1.4692704653840663e-14,
+        -2.3086895351194514e-13,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 36
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head",
+    "_position": {
+      "__id__": 38
+    },
+    "_rotation": {
+      "__id__": 40
+    },
+    "_scale": {
+      "__id__": 42
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 39
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -1.0756747714779635e-9,
+        0.09341923147439957,
+        0.0284104086458683
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 41
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -6.938893903907228e-18,
+        -1.6543612251060553e-23,
+        2.771055052052643e-23,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 43
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder",
+    "_position": {
+      "__id__": 45
+    },
+    "_rotation": {
+      "__id__": 47
+    },
+    "_scale": {
+      "__id__": 49
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 46
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -0.045699700713157654,
+        0.11195844411849976,
+        -0.008066318929195404
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 48
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -0.48443061113357544,
+        0.5709637403488159,
+        -0.5261635780334473,
+        -0.4030872583389282
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 50
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm",
+    "_position": {
+      "__id__": 52
+    },
+    "_rotation": {
+      "__id__": 54
+    },
+    "_scale": {
+      "__id__": 56
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 53
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        2.6645351995433716e-17,
+        0.10838175565004349,
+        -2.8421708795129297e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 55
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -0.02461610734462738,
+        0.0025627235881984234,
+        -0.10349883139133453,
+        0.9943215847015381
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 57
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm",
+    "_position": {
+      "__id__": 59
+    },
+    "_rotation": {
+      "__id__": 61
+    },
+    "_scale": {
+      "__id__": 63
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 60
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -9.964063601985984e-11,
+        0.27841517329216003,
+        2.8421708795129297e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 62
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -2.980230107141324e-8,
+        8.940693874137651e-8,
+        5.950794734364481e-14,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 64
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand",
+    "_position": {
+      "__id__": 66
+    },
+    "_rotation": {
+      "__id__": 68
+    },
+    "_scale": {
+      "__id__": 70
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 67
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        2.2858598924813123e-7,
+        0.2832883894443512,
+        4.472538961408645e-8
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 69
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        8.940578766214458e-8,
+        0.0000028014183044433594,
+        3.8742999208807305e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 71
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandThumb1",
+    "_position": {
+      "__id__": 73
+    },
+    "_rotation": {
+      "__id__": 75
+    },
+    "_scale": {
+      "__id__": 77
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 74
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.026818519458174706,
+        0.024648049846291542,
+        0.015739839524030685
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 76
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.2520896792411804,
+        0.060281381011009216,
+        -0.22170390188694,
+        0.9400342106819153
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 78
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandThumb1/mixamorig:RightHandThumb2",
+    "_position": {
+      "__id__": 80
+    },
+    "_rotation": {
+      "__id__": 82
+    },
+    "_scale": {
+      "__id__": 84
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 81
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -1.6431300976210554e-16,
+        0.04188985377550125,
+        -2.8421708795129297e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 83
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -1.2847989339093147e-8,
+        -0.0011705202050507069,
+        4.5966183392920357e-7,
+        0.9999993443489075
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 85
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandThumb1/mixamorig:RightHandThumb2/mixamorig:RightHandThumb3",
+    "_position": {
+      "__id__": 87
+    },
+    "_rotation": {
+      "__id__": 89
+    },
+    "_scale": {
+      "__id__": 91
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 88
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -1.3877787807814457e-16,
+        0.03416271135210991,
+        0
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 90
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        5.93796833925353e-8,
+        -0.0008078254759311676,
+        1.0626188640117107e-7,
+        0.9999997019767761
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 92
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandIndex1",
+    "_position": {
+      "__id__": 94
+    },
+    "_rotation": {
+      "__id__": 96
+    },
+    "_scale": {
+      "__id__": 98
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 95
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.022598350420594215,
+        0.09108283370733261,
+        0.0051786210387945175
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 97
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        2.965327610127133e-7,
+        5.951705617235348e-8,
+        -1.767695465559882e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 99
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandIndex1/mixamorig:RightHandIndex2",
+    "_position": {
+      "__id__": 101
+    },
+    "_rotation": {
+      "__id__": 103
+    },
+    "_scale": {
+      "__id__": 105
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 102
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -8.437694881272071e-17,
+        0.03700000047683716,
+        0
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 104
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -5.960482241107457e-8,
+        -4.470348358154297e-8,
+        -1.668124127718329e-8,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 106
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandIndex1/mixamorig:RightHandIndex2/mixamorig:RightHandIndex3",
+    "_position": {
+      "__id__": 108
+    },
+    "_rotation": {
+      "__id__": 110
+    },
+    "_scale": {
+      "__id__": 112
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 109
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -3.4283686068688592e-15,
+        0.02850000001490116,
+        -8.893152707301066e-12
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 111
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -2.9802070145024118e-8,
+        4.470348358154297e-8,
+        1.5755253457427898e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 113
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandMiddle1",
+    "_position": {
+      "__id__": 115
+    },
+    "_rotation": {
+      "__id__": 117
+    },
+    "_scale": {
+      "__id__": 119
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 116
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -2.3687323391641257e-7,
+        0.09532501548528671,
+        3.9855692079981964e-7
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 118
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -1.6102784883287313e-8,
+        2.990821812431932e-8,
+        6.56389929076795e-8,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 120
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandMiddle1/mixamorig:RightHandMiddle2",
+    "_position": {
+      "__id__": 122
+    },
+    "_rotation": {
+      "__id__": 124
+    },
+    "_scale": {
+      "__id__": 126
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 123
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -9.769962563761818e-17,
+        0.03700000047683716,
+        0
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 125
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -8.940678242197464e-8,
+        1.4901168299275014e-8,
+        -1.633806760992229e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 127
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandMiddle1/mixamorig:RightHandMiddle2/mixamorig:RightHandMiddle3",
+    "_position": {
+      "__id__": 129
+    },
+    "_rotation": {
+      "__id__": 131
+    },
+    "_scale": {
+      "__id__": 133
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 130
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -2.5224266357153904e-15,
+        0.029500000178813934,
+        -1.5411359688410897e-10
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 132
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -2.9802496470665574e-8,
+        -1.4901514688858697e-8,
+        1.712189856561963e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 134
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandRing1",
+    "_position": {
+      "__id__": 136
+    },
+    "_rotation": {
+      "__id__": 138
+    },
+    "_scale": {
+      "__id__": 140
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 137
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -0.018651332706212997,
+        0.09103592485189438,
+        0.00043069649836979806
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 139
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        6.963165333218058e-8,
+        2.1727602356191866e-11,
+        -3.7766477589684655e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 141
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandRing1/mixamorig:RightHandRing2",
+    "_position": {
+      "__id__": 143
+    },
+    "_rotation": {
+      "__id__": 145
+    },
+    "_scale": {
+      "__id__": 147
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 144
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -4.440892164675075e-17,
+        0.033792730420827866,
+        0
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 146
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -2.980188540391282e-8,
+        2.980197777446847e-8,
+        5.231899891100511e-8,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 148
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandRing1/mixamorig:RightHandRing2/mixamorig:RightHandRing3",
+    "_position": {
+      "__id__": 150
+    },
+    "_rotation": {
+      "__id__": 152
+    },
+    "_scale": {
+      "__id__": 154
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 151
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        2.6201263804670168e-15,
+        0.028896845877170563,
+        8.202221020436884e-12
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 153
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        2.9801876522128623e-8,
+        -2.9801990208966345e-8,
+        -1.419634259036684e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 155
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandPinky1",
+    "_position": {
+      "__id__": 157
+    },
+    "_rotation": {
+      "__id__": 159
+    },
+    "_scale": {
+      "__id__": 161
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 158
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -0.038062773644924164,
+        0.08076675981283188,
+        0.004867036826908588
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 160
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1.583851769737521e-7,
+        3.19125753600602e-10,
+        2.2509583175178705e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 162
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandPinky1/mixamorig:RightHandPinky2",
+    "_position": {
+      "__id__": 164
+    },
+    "_rotation": {
+      "__id__": 166
+    },
+    "_scale": {
+      "__id__": 168
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 165
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -1.0658140798173486e-16,
+        0.035999998450279236,
+        -2.8421708795129297e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 167
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1.490118251012973e-7,
+        -1.4900509270887596e-8,
+        -2.5293579142271483e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 169
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandPinky1/mixamorig:RightHandPinky2/mixamorig:RightHandPinky3",
+    "_position": {
+      "__id__": 171
+    },
+    "_rotation": {
+      "__id__": 173
+    },
+    "_scale": {
+      "__id__": 175
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 172
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -5.329070729958988e-16,
+        0.020999999716877937,
+        -2.1163884533770272e-10
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 174
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        2.98022406752807e-8,
+        4.4703469370688254e-8,
+        -1.7207035796218406e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 176
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder",
+    "_position": {
+      "__id__": 178
+    },
+    "_rotation": {
+      "__id__": 180
+    },
+    "_scale": {
+      "__id__": 182
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 179
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.04570446163415909,
+        0.11195644736289978,
+        -0.008066272363066673
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 181
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.4844226837158203,
+        0.5709704160690308,
+        -0.5261616706848145,
+        0.4030897617340088
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 183
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm",
+    "_position": {
+      "__id__": 185
+    },
+    "_rotation": {
+      "__id__": 187
+    },
+    "_scale": {
+      "__id__": 189
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 186
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -2.6645351995433716e-17,
+        0.10837705433368683,
+        0
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 188
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -0.024607384577393532,
+        -0.0025615051854401827,
+        0.10350362211465836,
+        0.994321346282959
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 190
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm",
+    "_position": {
+      "__id__": 192
+    },
+    "_rotation": {
+      "__id__": 194
+    },
+    "_scale": {
+      "__id__": 196
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 193
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        8.88178432935015e-17,
+        0.2784152030944824,
+        -2.8421708795129297e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 195
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -5.960463411724959e-8,
+        -5.9604641222676946e-8,
+        5.960463411724959e-8,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 197
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand",
+    "_position": {
+      "__id__": 199
+    },
+    "_rotation": {
+      "__id__": 201
+    },
+    "_scale": {
+      "__id__": 203
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 200
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        5.4387349734952295e-8,
+        0.2832883596420288,
+        -5.5642486174178885e-9
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 202
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -4.618517618045284e-14,
+        1.7881380642847944e-7,
+        7.748602683932404e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 204
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandThumb1",
+    "_position": {
+      "__id__": 206
+    },
+    "_rotation": {
+      "__id__": 208
+    },
+    "_scale": {
+      "__id__": 210
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 207
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -0.026817314326763153,
+        0.02466144785284996,
+        0.015761928632855415
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 209
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.2520613372325897,
+        -0.06016922742128372,
+        0.22173479199409485,
+        0.940041720867157
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 211
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandThumb1/mixamorig:LeftHandThumb2",
+    "_position": {
+      "__id__": 213
+    },
+    "_rotation": {
+      "__id__": 215
+    },
+    "_scale": {
+      "__id__": 217
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 214
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -8.659739274438866e-17,
+        0.04187094420194626,
+        0
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 216
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -2.6462336677468556e-7,
+        0.0010427854722365737,
+        -5.915902647757321e-7,
+        0.999999463558197
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 218
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandThumb1/mixamorig:LeftHandThumb2/mixamorig:LeftHandThumb3",
+    "_position": {
+      "__id__": 220
+    },
+    "_rotation": {
+      "__id__": 222
+    },
+    "_scale": {
+      "__id__": 224
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 221
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -2.3314682789209348e-17,
+        0.03418388217687607,
+        2.8421708795129297e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 223
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        3.23986490968764e-8,
+        0.0007452000281773508,
+        2.4176847546186764e-7,
+        0.9999997019767761
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 225
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandIndex1",
+    "_position": {
+      "__id__": 227
+    },
+    "_rotation": {
+      "__id__": 229
+    },
+    "_scale": {
+      "__id__": 231
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 228
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -0.0225986298173666,
+        0.09109308570623398,
+        0.0051803430542349815
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 230
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -1.4648408352968545e-7,
+        1.0432640351609734e-7,
+        4.889817546427366e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 232
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandIndex1/mixamorig:LeftHandIndex2",
+    "_position": {
+      "__id__": 234
+    },
+    "_rotation": {
+      "__id__": 236
+    },
+    "_scale": {
+      "__id__": 238
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 235
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -6.217248964370656e-17,
+        0.03700000047683716,
+        0
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 237
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        2.2151215262056212e-7,
+        -7.443434668630289e-8,
+        3.188170865087159e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 239
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandIndex1/mixamorig:LeftHandIndex2/mixamorig:LeftHandIndex3",
+    "_position": {
+      "__id__": 241
+    },
+    "_rotation": {
+      "__id__": 243
+    },
+    "_scale": {
+      "__id__": 245
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 242
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -7.176481563414376e-15,
+        0.02850000001490116,
+        5.684341759025859e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 244
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        3.645528465767711e-7,
+        -1.4945502613272765e-8,
+        7.340778296338613e-8,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 246
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandMiddle1",
+    "_position": {
+      "__id__": 248
+    },
+    "_rotation": {
+      "__id__": 250
+    },
+    "_scale": {
+      "__id__": 252
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 249
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -3.6604359365810524e-7,
+        0.0953340157866478,
+        -3.254047271639138e-7
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 251
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        4.680782410559914e-7,
+        2.977652791003038e-8,
+        -2.3048097830269398e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 253
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandMiddle1/mixamorig:LeftHandMiddle2",
+    "_position": {
+      "__id__": 255
+    },
+    "_rotation": {
+      "__id__": 257
+    },
+    "_scale": {
+      "__id__": 259
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 256
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -1.776356799695581e-17,
+        0.03700000047683716,
+        -2.8421708795129297e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 258
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -2.2318846504276735e-7,
+        -4.4710368740652484e-8,
+        2.5219094368367223e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 260
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandMiddle1/mixamorig:LeftHandMiddle2/mixamorig:LeftHandMiddle3",
+    "_position": {
+      "__id__": 262
+    },
+    "_rotation": {
+      "__id__": 264
+    },
+    "_scale": {
+      "__id__": 266
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 263
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -2.8705926253657504e-14,
+        0.029500000178813934,
+        -2.8421708795129297e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 265
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -4.2758989593494334e-7,
+        1.0429028662883866e-7,
+        -2.544498727274913e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 267
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandRing1",
+    "_position": {
+      "__id__": 269
+    },
+    "_rotation": {
+      "__id__": 271
+    },
+    "_scale": {
+      "__id__": 273
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 270
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.018650811165571213,
+        0.09104529023170471,
+        0.00043028235086239874
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 272
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -2.1796272164920083e-7,
+        5.9601564572631105e-8,
+        2.0462471184146125e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 274
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandRing1/mixamorig:LeftHandRing2",
+    "_position": {
+      "__id__": 276
+    },
+    "_rotation": {
+      "__id__": 278
+    },
+    "_scale": {
+      "__id__": 280
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 277
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -4.440892164675075e-17,
+        0.03150000050663948,
+        2.8421708795129297e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 279
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        2.9802286860558524e-8,
+        -4.4703462265260896e-8,
+        1.0613732793042854e-13,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 281
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandRing1/mixamorig:LeftHandRing2/mixamorig:LeftHandRing3",
+    "_position": {
+      "__id__": 283
+    },
+    "_rotation": {
+      "__id__": 285
+    },
+    "_scale": {
+      "__id__": 287
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 284
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        2.643289143122729e-8,
+        0.029500000178813934,
+        5.2098596547978104e-9
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 286
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        2.980236502025946e-8,
+        8.94069742685133e-8,
+        -1.192092469182171e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 288
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandPinky1",
+    "_position": {
+      "__id__": 290
+    },
+    "_rotation": {
+      "__id__": 292
+    },
+    "_scale": {
+      "__id__": 294
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 291
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03806263208389282,
+        0.08077778667211533,
+        0.004868770018219948
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 293
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1.4118640478955058e-7,
+        1.1082403972295651e-7,
+        1.5058030555792357e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 295
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandPinky1/mixamorig:LeftHandPinky2",
+    "_position": {
+      "__id__": 297
+    },
+    "_rotation": {
+      "__id__": 299
+    },
+    "_scale": {
+      "__id__": 301
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 298
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -3.552713599391162e-17,
+        0.035999998450279236,
+        5.684341759025859e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 300
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -1.2490868073200545e-7,
+        -1.4798430925111461e-8,
+        -2.2861723891764996e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 302
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandPinky1/mixamorig:LeftHandPinky2/mixamorig:LeftHandPinky3",
+    "_position": {
+      "__id__": 304
+    },
+    "_rotation": {
+      "__id__": 306
+    },
+    "_scale": {
+      "__id__": 308
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 305
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        2.3980817755419855e-15,
+        0.020999999716877937,
+        2.8421708795129297e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 307
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1.9501241865782504e-7,
+        2.9788242983386226e-8,
+        -1.2535492999177222e-7,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 309
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:RightUpLeg",
+    "_position": {
+      "__id__": 311
+    },
+    "_rotation": {
+      "__id__": 313
+    },
+    "_scale": {
+      "__id__": 315
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 312
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -0.08207789808511734,
+        -0.06771764159202576,
+        -0.015122187323868275
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 314
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -1.851881492598295e-8,
+        0.011028455570340157,
+        0.9999392032623291,
+        -4.902538535134227e-7
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 316
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg",
+    "_position": {
+      "__id__": 318
+    },
+    "_rotation": {
+      "__id__": 320
+    },
+    "_scale": {
+      "__id__": 322
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 319
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        6.197273944019699e-11,
+        0.44371461868286133,
+        -1.6620038975100125e-15
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 321
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -0.039431821554899216,
+        -2.488055872440498e-10,
+        2.1124884952428147e-8,
+        0.9992222785949707
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 323
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot",
+    "_position": {
+      "__id__": 325
+    },
+    "_rotation": {
+      "__id__": 327
+    },
+    "_scale": {
+      "__id__": 329
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 326
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -5.538293434970143e-11,
+        0.445278137922287,
+        1.77635686587003e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 328
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.4603344202041626,
+        -7.743378382940591e-9,
+        -1.3930744557910657e-7,
+        0.8877455592155457
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 330
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase",
+    "_position": {
+      "__id__": 332
+    },
+    "_rotation": {
+      "__id__": 334
+    },
+    "_scale": {
+      "__id__": 336
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 333
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0,
+        0.13816866278648376,
+        5.329070399086743e-17
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 335
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.33524149656295776,
+        1.8406888860345028e-11,
+        -1.1136366140362952e-7,
+        0.9421322345733643
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 337
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:LeftUpLeg",
+    "_position": {
+      "__id__": 339
+    },
+    "_rotation": {
+      "__id__": 341
+    },
+    "_scale": {
+      "__id__": 343
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 340
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.08207788318395615,
+        -0.0677180290222168,
+        -0.01512213796377182
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 342
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -1.8409631152849215e-8,
+        0.011018209159374237,
+        0.9999393224716187,
+        -4.792804020326003e-7
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 344
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg",
+    "_position": {
+      "__id__": 346
+    },
+    "_rotation": {
+      "__id__": 348
+    },
+    "_scale": {
+      "__id__": 350
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 347
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        6.468267588211063e-11,
+        0.443713903427124,
+        3.752553950287971e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 349
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -0.039410244673490524,
+        -1.502199431513418e-8,
+        2.209943694708727e-8,
+        0.9992231130599976
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 351
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot",
+    "_position": {
+      "__id__": 353
+    },
+    "_rotation": {
+      "__id__": 355
+    },
+    "_scale": {
+      "__id__": 357
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 354
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -5.547779249881479e-11,
+        0.44527846574783325,
+        -2.220446049250313e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 356
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.46032440662384033,
+        -7.996992401615444e-9,
+        -1.3181912095205917e-7,
+        0.8877508044242859
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 358
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase",
+    "_position": {
+      "__id__": 360
+    },
+    "_rotation": {
+      "__id__": 362
+    },
+    "_scale": {
+      "__id__": 364
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 361
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1.776356799695581e-17,
+        0.13816864788532257,
+        -2.6645351995433716e-17
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.03333333507180214
+      ]
+    },
+    "values": {
+      "__id__": 363
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.3352414667606354,
+        -8.340840240705916e-10,
+        -1.1494184803950702e-7,
+        0.9421322345733643
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 365
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head/mixamorig:HeadTop_End",
+    "_position": {
+      "__id__": 367
+    },
+    "_rotation": {
+      "__id__": 369
+    },
+    "_scale": {
+      "__id__": 371
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 368
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        9.85697479194414e-9,
+        0.20962782204151154,
+        0.10122935473918915
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 370
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 372
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandThumb1/mixamorig:RightHandThumb2/mixamorig:RightHandThumb3/mixamorig:RightHandThumb4",
+    "_position": {
+      "__id__": 374
+    },
+    "_rotation": {
+      "__id__": 376
+    },
+    "_scale": {
+      "__id__": 378
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 375
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -1.2656542321908107e-16,
+        0.025749774649739265,
+        -2.8421708795129297e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 377
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.005774853751063347,
+        -0.11750920116901398,
+        -0.04874370992183685,
+        0.9918580055236816
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 379
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandIndex1/mixamorig:RightHandIndex2/mixamorig:RightHandIndex3/mixamorig:RightHandIndex4",
+    "_position": {
+      "__id__": 381
+    },
+    "_rotation": {
+      "__id__": 383
+    },
+    "_scale": {
+      "__id__": 385
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 382
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        7.90922859026039e-15,
+        0.027721906080842018,
+        5.114202464295836e-12
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 384
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        8.659859673798564e-8,
+        0.0010026920353993773,
+        0.0000870583244250156,
+        0.9999995231628418
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 386
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandMiddle1/mixamorig:RightHandMiddle2/mixamorig:RightHandMiddle3/mixamorig:RightHandMiddle4",
+    "_position": {
+      "__id__": 388
+    },
+    "_rotation": {
+      "__id__": 390
+    },
+    "_scale": {
+      "__id__": 392
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 389
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1.1368683518051719e-15,
+        0.029466288164258003,
+        7.20586992852823e-11
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 391
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1.54982686240146e-7,
+        0.0009288141736760736,
+        0.00016639448585920036,
+        0.9999995827674866
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 393
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandRing1/mixamorig:RightHandRing2/mixamorig:RightHandRing3/mixamorig:RightHandRing4",
+    "_position": {
+      "__id__": 395
+    },
+    "_rotation": {
+      "__id__": 397
+    },
+    "_scale": {
+      "__id__": 399
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 396
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        4.725109345270597e-15,
+        0.026388157159090042,
+        5.682068097284665e-12
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 398
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -1.339645194775585e-7,
+        0.00014607500634156168,
+        -0.0007992861792445183,
+        0.9999996423721313
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 400
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandPinky1/mixamorig:RightHandPinky2/mixamorig:RightHandPinky3/mixamorig:RightHandPinky4",
+    "_position": {
+      "__id__": 402
+    },
+    "_rotation": {
+      "__id__": 404
+    },
+    "_scale": {
+      "__id__": 406
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 403
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1.2967405266435007e-15,
+        0.02115781046450138,
+        1.4407362802781876e-10
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 405
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -6.420659559580599e-8,
+        0.001569481217302382,
+        -0.00004128528235014528,
+        0.9999987483024597
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 407
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandThumb1/mixamorig:LeftHandThumb2/mixamorig:LeftHandThumb3/mixamorig:LeftHandThumb4",
+    "_position": {
+      "__id__": 409
+    },
+    "_rotation": {
+      "__id__": 411
+    },
+    "_scale": {
+      "__id__": 413
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 410
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1.3988810004397854e-16,
+        0.025805814191699028,
+        -2.8421708795129297e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 412
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0.005153407342731953,
+        0.12268278002738953,
+        0.04165153577923775,
+        0.9915581345558167
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 414
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandIndex1/mixamorig:LeftHandIndex2/mixamorig:LeftHandIndex3/mixamorig:LeftHandIndex4",
+    "_position": {
+      "__id__": 416
+    },
+    "_rotation": {
+      "__id__": 418
+    },
+    "_scale": {
+      "__id__": 420
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 417
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        8.588685386262847e-15,
+        0.027748655527830124,
+        2.8421708795129297e-16
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 419
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1.0594604304969835e-8,
+        -0.0003775632649194449,
+        -0.000013069537999399472,
+        0.9999999403953552
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 421
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandMiddle1/mixamorig:LeftHandMiddle2/mixamorig:LeftHandMiddle3/mixamorig:LeftHandMiddle4",
+    "_position": {
+      "__id__": 423
+    },
+    "_rotation": {
+      "__id__": 425
+    },
+    "_scale": {
+      "__id__": 427
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 424
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -8.711254103049154e-14,
+        0.029528634622693062,
+        -1.421085492696024e-15
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 426
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -2.6759424898159523e-8,
+        -0.0010241407435387373,
+        0.000027984757252852432,
+        0.999999463558197
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 428
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandRing1/mixamorig:LeftHandRing2/mixamorig:LeftHandRing3/mixamorig:LeftHandRing4",
+    "_position": {
+      "__id__": 430
+    },
+    "_rotation": {
+      "__id__": 432
+    },
+    "_scale": {
+      "__id__": 434
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 431
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -2.3274330374079e-7,
+        0.02644316479563713,
+        -1.460757559357262e-8
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 433
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        -2.731693484747666e-7,
+        0.0004934373428113759,
+        0.000016047022654674947,
+        0.9999998807907104
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 435
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandPinky1/mixamorig:LeftHandPinky2/mixamorig:LeftHandPinky3/mixamorig:LeftHandPinky4",
+    "_position": {
+      "__id__": 437
+    },
+    "_rotation": {
+      "__id__": 439
+    },
+    "_scale": {
+      "__id__": 441
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 438
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1.1031176040438191e-14,
+        0.021255312487483025,
+        0
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 440
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        2.20347089907591e-7,
+        -0.0007833988056518137,
+        -0.0002953855728264898,
+        0.9999996423721313
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 442
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase/mixamorig:RightToe_End",
+    "_position": {
+      "__id__": 444
+    },
+    "_rotation": {
+      "__id__": 446
+    },
+    "_scale": {
+      "__id__": 448
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 445
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0,
+        0.09278120845556259,
+        4.2891038605271045e-17
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 447
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        6.777633595923944e-21,
+        0.011608067899942398,
+        -7.868053230286231e-23,
+        0.9999326467514038
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 449
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase/mixamorig:LeftToe_End",
+    "_position": {
+      "__id__": 451
+    },
+    "_rotation": {
+      "__id__": 453
+    },
+    "_scale": {
+      "__id__": 455
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 452
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0,
+        0.09278136491775513,
+        -1.312535123541172e-17
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 454
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        5.028203748613708e-24,
+        -0.011869166046380997,
+        4.236059872517874e-22,
+        0.9999295473098755
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 456
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "Beta_Surface",
+    "_position": {
+      "__id__": 458
+    },
+    "_rotation": {
+      "__id__": 460
+    },
+    "_scale": {
+      "__id__": 462
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 459
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0,
+        0,
+        0
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 461
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 463
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticNodeAnimation",
+    "_path": "Beta_Joints",
+    "_position": {
+      "__id__": 465
+    },
+    "_rotation": {
+      "__id__": 467
+    },
+    "_scale": {
+      "__id__": 469
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 466
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0,
+        0,
+        0
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 468
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticQuatTrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.animation.ExoticTrack",
+    "times": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0
+      ]
+    },
+    "values": {
+      "__id__": 470
+    }
+  },
+  {
+    "__type__": "cc.animation.ExoticVec3TrackValues",
+    "_values": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        1,
+        1,
+        1
+      ]
+    },
+    "_isQuantized": false
+  },
+  {
+    "__type__": "cc.AnimationClipAdditiveSettings",
+    "enabled": false,
+    "refClip": null
+  }
+]

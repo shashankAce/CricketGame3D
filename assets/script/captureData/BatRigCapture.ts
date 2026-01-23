@@ -38,3 +38,10 @@ export class BatRigCapture extends Component {
         );
     }
 }
+
+const batRigData = {
+    gripRightPos: new Vec3(0.0150, 0.1550, -0.0330),
+    gripLeftPos: new Vec3(-0.0290, 0.2670, 0.0270),
+    rightPolePos: new Vec3(0.2200, 1.3000, -1.7560),
+    leftPolePos: new Vec3(0.2200, 1.3000, 1.1590)
+}

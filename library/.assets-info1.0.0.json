@@ -426,7 +426,7 @@
       "uuid": "ba6090a8-6490-470f-8c84-8374e798c734"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips": {
-      "time": 1769167803329.3218,
+      "time": 1769173108024.405,
       "uuid": "f0baf2ed-6eb0-46d4-9067-628e025b5442"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb": {
@@ -438,7 +438,7 @@
       "uuid": "9095c9bc-6517-4470-9547-26c4af87963c"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script": {
-      "time": 1769171087241.5054,
+      "time": 1769173646402.9204,
       "uuid": "1302e00e-7f26-45ee-b897-27b940e26360"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay": {
@@ -454,7 +454,7 @@
       "uuid": "722d9fcd-c4bc-4149-8617-4e752bce6f9b"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/TwoBoneIK.ts": {
-      "time": 1769108609532.7227,
+      "time": 1769177236431.5095,
       "uuid": "04c09582-d349-4ef4-ae4c-02720bff22db"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/twoboneikold.ts": {
@@ -576,16 +576,8 @@
       "time": 1769089638203.4316
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/scene.scene": {
-      "time": 1769172809046.6606,
+      "time": 1769180301063.7256,
       "uuid": "641972d4-cea4-42e2-833d-d8214a805343"
-    },
-    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/Animation Graph.animgraph": {
-      "time": 1769090783677.811,
-      "uuid": "64494fc6-139a-45f4-8bfd-603803b05a39"
-    },
-    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/animation.anim": {
-      "time": 1768995330550.4536,
-      "uuid": "fc4376bd-bf6b-487f-96ee-2e92389740e8"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/X Bot.fbx": {
       "time": 1768996029571.7246,
@@ -609,12 +601,6 @@
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/scene.scene.meta": {
       "time": 1769002390698.106
-    },
-    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/Animation Graph.animgraph.meta": {
-      "time": 1768995321591.427
-    },
-    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/animation.anim.meta": {
-      "time": 1768995330553.861
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay_logic.js.meta": {
       "time": 1769011488549.2544
@@ -677,15 +663,29 @@
       "time": 1769164987334.9336
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/PoseCapture.ts": {
-      "time": 1769172730127.1406,
+      "time": 1769173729377.5186,
       "uuid": "fc4c0e76-0173-4be8-9438-3e77aa6e46d3"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/BatRigCapture.ts.meta": {
       "time": 1769170908135.9146
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/BatRigCapture.ts": {
-      "time": 1769172624526.127,
+      "time": 1769173770122.8408,
       "uuid": "72cc7fea-64ab-4b44-9dee-86714ee3d7f3"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/ideal_clip.anim.meta": {
+      "time": 1769173108028.3843
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/ideal_clip.anim": {
+      "time": 1769173108023.3008,
+      "uuid": "2a206069-ecfb-4b18-89be-835c711fff6c"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/BatShotProfile.ts.meta": {
+      "time": 1769173646403.803
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/BatShotProfile.ts": {
+      "time": 1769173667829.9792,
+      "uuid": "2ee8f187-6dd6-4a63-8a2e-1364b65a9ca8"
     }
   },
   "missing": {
@@ -863,6 +863,16 @@
       "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/PoseCapture.ts",
       "time": 1769170733183.1948,
       "removeTime": 1769171560497
+    },
+    "fc4376bd-bf6b-487f-96ee-2e92389740e8": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/animation.anim",
+      "time": 1768995330550.4536,
+      "removeTime": 1769173095288
+    },
+    "64494fc6-139a-45f4-8bfd-603803b05a39": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/Animation Graph.animgraph",
+      "time": 1769090783677.811,
+      "removeTime": 1769173097721
     }
   }
 }

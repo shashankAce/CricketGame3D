@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Vec3, Quat, math, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _crd, ccclass, property, TwoBoneIK;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Vec3, Quat, math, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _crd, ccclass, property, TMP_V3, TMP_Q1, TMP_Q2, TMP_Q3, TwoBoneIK;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -32,8 +32,14 @@ System.register(["cc"], function (_export, _context) {
         ccclass,
         property
       } = _decorator);
+      TMP_V3 = new Vec3();
+      TMP_Q1 = new Quat();
+      TMP_Q2 = new Quat();
+      TMP_Q3 = new Quat();
 
-      _export("TwoBoneIK", TwoBoneIK = (_dec = ccclass('TwoBoneIK'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec5 = property(Node), _dec6 = property(Node), _dec7 = property(Node), _dec8 = property(Node), _dec9 = property(Node), _dec10 = property(Node), _dec11 = property(Node), _dec(_class = (_class2 = class TwoBoneIK extends Component {
+      _export("TwoBoneIK", TwoBoneIK = (_dec = ccclass('TwoBoneIK'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec5 = property(Node), _dec6 = property(Node), _dec7 = property(Node), _dec8 = property(Node), _dec9 = property(Node), _dec10 = property(Node), _dec11 = property(Node), _dec12 = property({
+        range: [0, 1, 0.01]
+      }), _dec(_class = (_class2 = class TwoBoneIK extends Component {
         constructor() {
           super(...arguments);
 
@@ -57,70 +63,97 @@ System.register(["cc"], function (_export, _context) {
 
           _initializerDefineProperty(this, "leftHandPole", _descriptor10, this);
 
+          /** 0 = all twist to forearm, 1 = all twist to hand */
+          _initializerDefineProperty(this, "wristTwistWeight", _descriptor11, this);
+
+          /** Local twist axis of forearm (MOST rigs = X or Z) */
+          _initializerDefineProperty(this, "forearmTwistAxis", _descriptor12, this);
+
           this._rightHandOffset = new Quat();
           this._leftHandOffset = new Quat();
           this._initialized = false;
         }
 
         start() {
-          // Right hand offset
-          {
-            var inv = new Quat();
-            Quat.invert(inv, this.rightHandTarget.worldRotation);
-            Quat.multiply(this._rightHandOffset, inv, this.rightHand.worldRotation);
-          } // Left hand offset
-
-          {
-            var _inv = new Quat();
-
-            Quat.invert(_inv, this.leftHandTarget.worldRotation);
-            Quat.multiply(this._leftHandOffset, _inv, this.leftHand.worldRotation);
-          }
+          this.computeHandOffset(this.rightHand, this.rightHandTarget, this._rightHandOffset);
+          this.computeHandOffset(this.leftHand, this.leftHandTarget, this._leftHandOffset);
           this._initialized = true;
         }
 
-        lateUpdate(dt) {
+        lateUpdate() {
           if (!this._initialized) return;
           this.solveArm(this.rightArm, this.rightForeArm, this.rightHand, this.rightHandTarget, this.rightHandPole, this._rightHandOffset);
           this.solveArm(this.leftArm, this.leftForeArm, this.leftHand, this.leftHandTarget, this.leftHandPole, this._leftHandOffset);
-        }
+        } // --------------------------------------------------
+
 
         solveArm(arm, foreArm, hand, target, pole, handOffset) {
           if (!arm || !foreArm || !hand || !target || !pole) return;
           var pS = arm.worldPosition;
-          var pE_init = foreArm.worldPosition;
-          var pH_init = hand.worldPosition;
+          var pE = foreArm.worldPosition;
+          var pH = hand.worldPosition;
           var pT = target.worldPosition;
-          var pP = pole.worldPosition; // Segment lengths
-
-          var a = Vec3.distance(pS, pE_init);
-          var b = Vec3.distance(pE_init, pH_init);
+          var pP = pole.worldPosition;
+          var a = Vec3.distance(pS, pE);
+          var b = Vec3.distance(pE, pH);
           var c = Vec3.distance(pS, pT);
-          c = Math.min(c, a + b - 0.001); // Law of cosines
+          c = Math.min(c, a + b - 0.0001); // --- Law of Cosines (shoulder bend)
 
-          var cosAngle = (a * a + c * c - b * b) / (2 * a * c);
-          var angle = Math.acos(math.clamp(cosAngle, -1, 1)); // Directions
+          var cosA = (a * a + c * c - b * b) / (2 * a * c);
+          var angleA = Math.acos(math.clamp(cosA, -1, 1)); // Directions
 
-          var dirToTarget = Vec3.subtract(new Vec3(), pT, pS).normalize();
-          var dirToPole = Vec3.subtract(new Vec3(), pP, pS).normalize();
-          var normal = Vec3.cross(new Vec3(), dirToTarget, dirToPole).normalize(); // --- Shoulder ---
+          Vec3.subtract(TMP_V3, pT, pS).normalize();
+          var dirToTarget = TMP_V3.clone();
+          Vec3.subtract(TMP_V3, pP, pS).normalize();
+          var dirToPole = TMP_V3.clone();
+          var normal = Vec3.cross(new Vec3(), dirToTarget, dirToPole).normalize(); // ---------------- Shoulder ----------------
 
-          var qOffset = Quat.fromAxisAngle(new Quat(), normal, angle);
-          var shoulderDir = new Vec3();
-          Vec3.transformQuat(shoulderDir, dirToTarget, qOffset);
-          var shoulderRot = new Quat();
-          Quat.fromViewUp(shoulderRot, normal, shoulderDir);
-          arm.setWorldRotation(shoulderRot); // --- Elbow ---
+          Quat.fromAxisAngle(TMP_Q1, normal, angleA);
+          Vec3.transformQuat(TMP_V3, dirToTarget, TMP_Q1);
+          Quat.fromViewUp(TMP_Q1, normal, TMP_V3);
+          arm.setWorldRotation(TMP_Q1); // ---------------- Elbow ----------------
 
-          var pE_new = foreArm.worldPosition;
-          var elbowDir = Vec3.subtract(new Vec3(), pT, pE_new).normalize();
-          var elbowRot = new Quat();
-          Quat.fromViewUp(elbowRot, normal, elbowDir);
-          foreArm.setWorldRotation(elbowRot); // --- Hand rotation ---
+          Vec3.subtract(TMP_V3, pT, foreArm.worldPosition).normalize();
+          Quat.fromViewUp(TMP_Q1, normal, TMP_V3);
+          foreArm.setWorldRotation(TMP_Q1); // ---------------- Twist distribution ----------------
+          // Desired hand world rotation
 
-          var finalHandRot = new Quat();
-          Quat.multiply(finalHandRot, target.worldRotation, handOffset);
-          hand.setWorldRotation(finalHandRot);
+          Quat.multiply(TMP_Q1, target.worldRotation, handOffset); // Convert desired hand rot to forearm local space
+
+          Quat.invert(TMP_Q2, foreArm.worldRotation);
+          Quat.multiply(TMP_Q3, TMP_Q2, TMP_Q1); // Decompose swing / twist
+
+          var swing = new Quat();
+          var twist = new Quat();
+          this.decomposeSwingTwist(TMP_Q3, this.forearmTwistAxis, swing, twist); // Blend twist
+
+          Quat.slerp(twist, Quat.IDENTITY, twist, 1.0 - this.wristTwistWeight); // Apply twist to forearm
+
+          Quat.multiply(TMP_Q1, foreArm.worldRotation, twist);
+          foreArm.setWorldRotation(TMP_Q1); // Apply remaining swing to hand
+
+          Quat.multiply(TMP_Q2, TMP_Q1, swing);
+          hand.setWorldRotation(TMP_Q2);
+        } // --------------------------------------------------
+
+
+        computeHandOffset(hand, target, out) {
+          Quat.invert(TMP_Q1, target.worldRotation);
+          Quat.multiply(out, TMP_Q1, hand.worldRotation);
+        }
+
+        decomposeSwingTwist(q, axis, outSwing, outTwist) {
+          // 1. Dot product of the quaternion vector part and the twist axis
+          var dot = q.x * axis.x + q.y * axis.y + q.z * axis.z; // 2. Set components
+
+          outTwist.set(axis.x * dot, axis.y * dot, axis.z * dot, q.w); // 3. Static normalization
+
+          Quat.normalize(outTwist, outTwist); // 4. swing = q * inverse(twist)
+
+          Quat.invert(outSwing, outTwist);
+          Quat.multiply(outSwing, q, outSwing); // 5. Static normalization
+
+          Quat.normalize(outSwing, outSwing);
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "rightArm", [_dec2], {
@@ -192,6 +225,20 @@ System.register(["cc"], function (_export, _context) {
         writable: true,
         initializer: function initializer() {
           return null;
+        }
+      }), _descriptor11 = _applyDecoratedDescriptor(_class2.prototype, "wristTwistWeight", [_dec12], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 0.2;
+        }
+      }), _descriptor12 = _applyDecoratedDescriptor(_class2.prototype, "forearmTwistAxis", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return new Vec3(1, 0, 1);
         }
       })), _class2)) || _class));
 

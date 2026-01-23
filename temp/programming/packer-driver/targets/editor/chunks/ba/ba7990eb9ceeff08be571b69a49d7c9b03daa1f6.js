@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _crd, ccclass, property, executeInEditMode, PoseCapture;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Quat, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _crd, ccclass, property, executeInEditMode, PoseCapture, poseData;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -17,6 +17,7 @@ System.register(["cc"], function (_export, _context) {
       _decorator = _cc._decorator;
       Component = _cc.Component;
       Node = _cc.Node;
+      Quat = _cc.Quat;
     }],
     execute: function () {
       _crd = true;
@@ -161,6 +162,19 @@ System.register(["cc"], function (_export, _context) {
           return false;
         }
       })), _class2)) || _class) || _class));
+
+      poseData = {
+        hips: new Quat(0.121869, 0.000000, 0.000000, 0.992546),
+        leftUpLeg: new Quat(0.005393, 0.343336, 0.938233, 0.042546),
+        leftLeg: new Quat(-0.264384, -0.001683, -0.024195, 0.964112),
+        leftFoot: new Quat(0.490332, -0.013001, 0.068387, 0.868751),
+        rightUpLeg: new Quat(0.020307, 0.358695, 0.926448, 0.112340),
+        rightLeg: new Quat(-0.235009, 0.036462, 0.071024, 0.968709),
+        rightFoot: new Quat(0.509740, 0.000000, 0.000000, 0.860329),
+        spine: new Quat(0.000000, 0.077589, 0.000000, 0.996985),
+        spine1: new Quat(0.195090, 0.000000, 0.000000, 0.980785),
+        chest: new Quat(0.000000, 0.000000, 0.000000, 1.000000)
+      };
 
       _cclegacy._RF.pop();
 

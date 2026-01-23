@@ -916,21 +916,12 @@
   },
   "64494fc6-139a-45f4-8bfd-603803b05a39": {
     "url": "db://assets/clips/Animation Graph.animgraph",
-    "value": {
-      "depends": [
-        "8800127d-0a7d-4889-b873-76708748d206",
-        "3ae13e30-9fbb-4641-93ef-3835270cb01c",
-        "f4d09611-7dfa-4ac9-a124-9c40998a6eac",
-        "aa32d1b9-858a-47f2-a6a2-45d152a8ebba"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "fc4376bd-bf6b-487f-96ee-2e92389740e8": {
     "url": "db://assets/clips/animation.anim",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "856e24ad-721a-4e13-8698-2073cb4c65aa": {
@@ -1015,7 +1006,7 @@
         "641972d4-cea4-42e2-833d-d8214a805343",
         "620b6bf3-0369-4560-837f-2a2c00b73c26",
         "1263d74c-8167-4928-91a6-4e2672411f47@2e76e",
-        "0b0007d8-4e99-4c1c-94a3-3b646b0b4464",
+        "856e24ad-721a-4e13-8698-2073cb4c65aa@e442e",
         "1263d74c-8167-4928-91a6-4e2672411f47@17020",
         "18841602-b19f-4848-8718-c00de89f90b4@b8345",
         "91161450-4594-49cc-b3ed-5490695b1fd7",
@@ -1023,7 +1014,7 @@
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
       ],
       "dependScripts": [
-        "fc4c0e76-0173-4be8-9438-3e77aa6e46d3",
+        "04c09582-d349-4ef4-ae4c-02720bff22db",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "72cc7fea-64ab-4b44-9dee-86714ee3d7f3"
       ]
@@ -2401,6 +2392,18 @@
   },
   "ea3cfc9d-b8ad-4da5-8682-f60a77288be5": {
     "url": "db://assets/script/captureData/BatSwingData.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2a206069-ecfb-4b18-89be-835c711fff6c": {
+    "url": "db://assets/clips/ideal_clip.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2ee8f187-6dd6-4a63-8a2e-1364b65a9ca8": {
+    "url": "db://assets/script/BatShotProfile.ts",
     "value": {},
     "versionCode": 1
   }

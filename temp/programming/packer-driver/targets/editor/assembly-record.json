@@ -772,18 +772,6 @@
       },
       "timestamp": 1769108952174
     },
-    "ed718b5089e01680787ca8f018423b5d01f2c2ec": {
-      "imports": {
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1769108952191
-    },
     "ca0b3b45ada2877e41d7fd7aa4d67e235c85660f": {
       "imports": {
         "cc": {
@@ -1455,6 +1443,18 @@
       },
       "timestamp": 1769172208750
     },
+    "a4ed00dfe068926806d1010ddfd5f2f272be1967": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1769174152011
+    },
     "a945209327daff22be8673c0f8be3766e56f68da": {
       "imports": {
         "cc": {
@@ -1465,7 +1465,19 @@
           "messages": []
         }
       },
-      "timestamp": 1769172644821
+      "timestamp": 1769174152022
+    },
+    "ba7990eb9ceeff08be571b69a49d7c9b03daa1f6": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1769174152032
     },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
@@ -1486,70 +1498,70 @@
         "__unresolved_10": {
           "resolved": {
             "type": "chunk",
-            "id": "ba7990eb9ceeff08be571b69a49d7c9b03daa1f6"
+            "id": "53db23f48afa2240c9336df99f2856c0286fb657"
           },
           "messages": []
         },
         "__unresolved_11": {
           "resolved": {
             "type": "chunk",
-            "id": "ca0b3b45ada2877e41d7fd7aa4d67e235c85660f"
+            "id": "ba7990eb9ceeff08be571b69a49d7c9b03daa1f6"
           },
           "messages": []
         },
         "__unresolved_12": {
           "resolved": {
             "type": "chunk",
-            "id": "2c34e0cf985cd9cf4b058ff14306d2a59291c2d9"
+            "id": "ca0b3b45ada2877e41d7fd7aa4d67e235c85660f"
           },
           "messages": []
         },
         "__unresolved_13": {
           "resolved": {
             "type": "chunk",
-            "id": "871706b0fb1c789fbfb96ee922883846bc1aa72a"
+            "id": "2c34e0cf985cd9cf4b058ff14306d2a59291c2d9"
           },
           "messages": []
         },
         "__unresolved_14": {
           "resolved": {
             "type": "chunk",
-            "id": "ce3bea80f26fb5ec1bdaaa3ad5e4f6fd19b25da5"
+            "id": "871706b0fb1c789fbfb96ee922883846bc1aa72a"
           },
           "messages": []
         },
         "__unresolved_15": {
           "resolved": {
             "type": "chunk",
-            "id": "c2addb8263d7b253feae918eb02207a2feb60d9c"
+            "id": "ce3bea80f26fb5ec1bdaaa3ad5e4f6fd19b25da5"
           },
           "messages": []
         },
         "__unresolved_16": {
           "resolved": {
             "type": "chunk",
-            "id": "9dd4c1ba6657a43c16148be66f38d3db31f06ed0"
+            "id": "c2addb8263d7b253feae918eb02207a2feb60d9c"
           },
           "messages": []
         },
         "__unresolved_17": {
           "resolved": {
             "type": "chunk",
-            "id": "669bb49c8349b9b06db5d513146c31d5d99f3409"
+            "id": "9dd4c1ba6657a43c16148be66f38d3db31f06ed0"
           },
           "messages": []
         },
         "__unresolved_18": {
           "resolved": {
             "type": "chunk",
-            "id": "6eb1e5fba23f439add822f786fba50ec4a54981d"
+            "id": "669bb49c8349b9b06db5d513146c31d5d99f3409"
           },
           "messages": []
         },
         "__unresolved_19": {
           "resolved": {
             "type": "chunk",
-            "id": "f51b208417f0a3c91a047d7efbc9b0f47c28673b"
+            "id": "6eb1e5fba23f439add822f786fba50ec4a54981d"
           },
           "messages": []
         },
@@ -1563,39 +1575,46 @@
         "__unresolved_20": {
           "resolved": {
             "type": "chunk",
-            "id": "6f3feebaba801d0953e410836413327843cfa661"
+            "id": "f51b208417f0a3c91a047d7efbc9b0f47c28673b"
           },
           "messages": []
         },
         "__unresolved_21": {
           "resolved": {
             "type": "chunk",
-            "id": "46f1876eb9e39901fdd8e744837c16055ce17d45"
+            "id": "6f3feebaba801d0953e410836413327843cfa661"
           },
           "messages": []
         },
         "__unresolved_22": {
           "resolved": {
             "type": "chunk",
-            "id": "609b728a57169de44fb5a5d5a2a53abb961276a1"
+            "id": "46f1876eb9e39901fdd8e744837c16055ce17d45"
           },
           "messages": []
         },
         "__unresolved_23": {
           "resolved": {
             "type": "chunk",
-            "id": "c40a8e69b33a67357c0ea1478b3e4fcafe6a3f0e"
+            "id": "609b728a57169de44fb5a5d5a2a53abb961276a1"
           },
           "messages": []
         },
         "__unresolved_24": {
           "resolved": {
             "type": "chunk",
-            "id": "059994a33c526cb14e1edd218f18bb475915323f"
+            "id": "c40a8e69b33a67357c0ea1478b3e4fcafe6a3f0e"
           },
           "messages": []
         },
         "__unresolved_25": {
+          "resolved": {
+            "type": "chunk",
+            "id": "059994a33c526cb14e1edd218f18bb475915323f"
+          },
+          "messages": []
+        },
+        "__unresolved_26": {
           "resolved": {
             "type": "chunk",
             "id": "8ba38a68f59b35bb1ff1d9ed04a30802d4cbec97"
@@ -1626,35 +1645,35 @@
         "__unresolved_6": {
           "resolved": {
             "type": "chunk",
-            "id": "efcf28e911ee16455bcfdacbe7975c9bb11eee63"
+            "id": "a4ed00dfe068926806d1010ddfd5f2f272be1967"
           },
           "messages": []
         },
         "__unresolved_7": {
           "resolved": {
             "type": "chunk",
-            "id": "ed718b5089e01680787ca8f018423b5d01f2c2ec"
+            "id": "efcf28e911ee16455bcfdacbe7975c9bb11eee63"
           },
           "messages": []
         },
         "__unresolved_8": {
           "resolved": {
             "type": "chunk",
-            "id": "a945209327daff22be8673c0f8be3766e56f68da"
+            "id": "ed718b5089e01680787ca8f018423b5d01f2c2ec"
           },
           "messages": []
         },
         "__unresolved_9": {
           "resolved": {
             "type": "chunk",
-            "id": "53db23f48afa2240c9336df99f2856c0286fb657"
+            "id": "a945209327daff22be8673c0f8be3766e56f68da"
           },
           "messages": []
         }
       },
-      "timestamp": 1769172765147
+      "timestamp": 1769177238047
     },
-    "ba7990eb9ceeff08be571b69a49d7c9b03daa1f6": {
+    "ed718b5089e01680787ca8f018423b5d01f2c2ec": {
       "imports": {
         "cc": {
           "resolved": {
@@ -1664,7 +1683,7 @@
           "messages": []
         }
       },
-      "timestamp": 1769172765159
+      "timestamp": 1769177238064
     }
   },
   "entries": {
@@ -1676,6 +1695,7 @@
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": "f84f3b58ec61e2a9c03c5f86bacdfd0d6a2a3647",
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "60dfea53e1c17502cf4f0661946a964ad3ff0296",
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "c107986e77a987fe49f2e4b1c0dcc489194dbd3f",
+    "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/BatShotProfile.ts": "a4ed00dfe068926806d1010ddfd5f2f272be1967",
     "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/Batsman.ts": "efcf28e911ee16455bcfdacbe7975c9bb11eee63",
     "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/TwoBoneIK.ts": "ed718b5089e01680787ca8f018423b5d01f2c2ec",
     "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/BatRigCapture.ts": "a945209327daff22be8673c0f8be3766e56f68da",
