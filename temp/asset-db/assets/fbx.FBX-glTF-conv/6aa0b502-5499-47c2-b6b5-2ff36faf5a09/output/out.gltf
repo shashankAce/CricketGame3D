@@ -1,0 +1,142 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 192,
+      "max": [
+        0.1952333003282547,
+        0.010000001639127731,
+        0.009999999776482582
+      ],
+      "min": [
+        -0.1952333003282547,
+        -0.010000001639127731,
+        -0.009999999776482582
+      ],
+      "name": "Cylinder.001/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 192,
+      "name": "Cylinder.001/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 192,
+      "name": "Cylinder.001/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 360,
+      "name": "Cylinder.001/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 6144,
+      "byteStride": 32,
+      "name": "Cylinder.001",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 720,
+      "byteOffset": 6144,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 6864,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 23,
+          "hour": 14,
+          "millisecond": 939,
+          "minute": 11,
+          "month": 1,
+          "second": 49,
+          "year": 2026
+        },
+        "creator": "Blender (stable FBX IO) - 4.4.3 - 5.12.7",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "Blender (stable FBX IO)",
+            "applicationVendor": "Blender Foundation",
+            "applicationVersion": "4.4.3",
+            "fileName": "/foobar.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/plus.fbx"
+        }
+      }
+    }
+  },
+  "meshes": [
+    {
+      "name": "Cylinder.001",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Cylinder.001",
+      "rotation": [
+        -0.5,
+        0.5,
+        -0.5,
+        0.4999999701976776
+      ],
+      "scale": [
+        0.10569014400243759,
+        0.10569014400243759,
+        2.0634233951568604
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

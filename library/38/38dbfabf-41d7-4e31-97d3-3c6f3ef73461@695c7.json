@@ -1,0 +1,98 @@
+{
+  "__type__": "cc.Mesh",
+  "_name": "",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": ".bin",
+  "_struct": {
+    "primitives": [
+      {
+        "primitiveMode": 7,
+        "jointMapIndex": 0,
+        "vertexBundelIndices": [
+          0
+        ],
+        "indexView": {
+          "offset": 272000,
+          "length": 33774,
+          "count": 16887,
+          "stride": 2
+        }
+      }
+    ],
+    "vertexBundles": [
+      {
+        "view": {
+          "offset": 0,
+          "length": 272000,
+          "count": 3400,
+          "stride": 80
+        },
+        "attributes": [
+          {
+            "name": "a_position",
+            "format": 32,
+            "isNormalized": false
+          },
+          {
+            "name": "a_normal",
+            "format": 32,
+            "isNormalized": false
+          },
+          {
+            "name": "a_texCoord",
+            "format": 21,
+            "isNormalized": false
+          },
+          {
+            "name": "a_tangent",
+            "format": 44,
+            "isNormalized": false
+          },
+          {
+            "name": "a_joints",
+            "format": 42,
+            "isNormalized": false
+          },
+          {
+            "name": "a_weights",
+            "format": 44,
+            "isNormalized": false
+          },
+          {
+            "name": "a_texCoord1",
+            "format": 21,
+            "isNormalized": false
+          }
+        ]
+      }
+    ],
+    "minPosition": {
+      "__type__": "cc.Vec3",
+      "x": -0.1526506394147873,
+      "y": 0.051064103841781616,
+      "z": -0.10107993334531784
+    },
+    "maxPosition": {
+      "__type__": "cc.Vec3",
+      "x": 0.15418149530887604,
+      "y": 0.8336291909217834,
+      "z": 0.12270625680685043
+    },
+    "jointMaps": [
+      [
+        0,
+        1,
+        2,
+        64,
+        65,
+        66,
+        69,
+        70,
+        71
+      ]
+    ]
+  },
+  "_hash": 974850108,
+  "_allowDataAccess": true
+}

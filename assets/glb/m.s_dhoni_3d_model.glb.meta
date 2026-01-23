@@ -1257,6 +1257,8 @@
       "scenes": [
         "ac715503-6b62-4bcd-88dc-d3a83a87786a@d6d79"
       ]
-    }
+    },
+    "dumpMaterials": false,
+    "materialDumpDir": "db://assets/glb/Materials_m.s_dhoni_3d_model"
   }
 }

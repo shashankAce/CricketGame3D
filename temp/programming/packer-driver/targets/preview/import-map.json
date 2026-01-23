@@ -10,6 +10,9 @@
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/c1/c107986e77a987fe49f2e4b1c0dcc489194dbd3f.js",
     "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/Batsman.ts": "./chunks/ef/efcf28e911ee16455bcfdacbe7975c9bb11eee63.js",
     "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/TwoBoneIK.ts": "./chunks/ed/ed718b5089e01680787ca8f018423b5d01f2c2ec.js",
+    "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/BatRigCapture.ts": "./chunks/a9/a945209327daff22be8673c0f8be3766e56f68da.js",
+    "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/BatSwingData.ts": "./chunks/53/53db23f48afa2240c9336df99f2856c0286fb657.js",
+    "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/PoseCapture.ts": "./chunks/ba/ba7990eb9ceeff08be571b69a49d7c9b03daa1f6.js",
     "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/AnimationPhase.ts": "./chunks/ca/ca0b3b45ada2877e41d7fd7aa4d67e235c85660f.js",
     "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/BallBehaviour.ts": "./chunks/2c/2c34e0cf985cd9cf4b058ff14306d2a59291c2d9.js",
     "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay/BattingLogic.ts": "./chunks/87/871706b0fb1c789fbfb96ee922883846bc1aa72a.js",
@@ -23,6 +26,7 @@
     "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/BattingIdleConfig.ts": "./chunks/46/46f1876eb9e39901fdd8e744837c16055ce17d45.js",
     "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/BattingIdleController.ts": "./chunks/60/609b728a57169de44fb5a5d5a2a53abb961276a1.js",
     "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/DefaultBattingIdle.ts": "./chunks/c4/c40a8e69b33a67357c0ea1478b3e4fcafe6a3f0e.js",
+    "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/PoseConfig.ts": "./chunks/05/059994a33c526cb14e1edd218f18bb475915323f.js",
     "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/twoboneikold.ts": "./chunks/8b/8ba38a68f59b35bb1ff1d9ed04a30802d4cbec97.js"
   },
   "scopes": {
@@ -62,6 +66,9 @@
       "__unresolved_7": "cce:/internal/x/cc-fu/custom-pipeline",
       "__unresolved_8": "cce:/internal/x/cc-fu/dragon-bones",
       "__unresolved_9": "cce:/internal/x/cc-fu/gfx-webgl"
+    },
+    "./chunks/05/059994a33c526cb14e1edd218f18bb475915323f.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/c4/c40a8e69b33a67357c0ea1478b3e4fcafe6a3f0e.js": {
       "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
@@ -117,6 +124,15 @@
     "./chunks/ca/ca0b3b45ada2877e41d7fd7aa4d67e235c85660f.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
+    "./chunks/ba/ba7990eb9ceeff08be571b69a49d7c9b03daa1f6.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/53/53db23f48afa2240c9336df99f2856c0286fb657.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/a9/a945209327daff22be8673c0f8be3766e56f68da.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
     "./chunks/ed/ed718b5089e01680787ca8f018423b5d01f2c2ec.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
@@ -156,26 +172,30 @@
     "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js": {
       "__unresolved_0": "./chunks/10/10f25daca5a1665545ebc4efbd45bd86fed6143e.js",
       "__unresolved_1": "./chunks/93/936a458df8c410426dcbc8860ee5a32e64530057.js",
-      "__unresolved_10": "./chunks/87/871706b0fb1c789fbfb96ee922883846bc1aa72a.js",
-      "__unresolved_11": "./chunks/ce/ce3bea80f26fb5ec1bdaaa3ad5e4f6fd19b25da5.js",
-      "__unresolved_12": "./chunks/c2/c2addb8263d7b253feae918eb02207a2feb60d9c.js",
-      "__unresolved_13": "./chunks/9d/9dd4c1ba6657a43c16148be66f38d3db31f06ed0.js",
-      "__unresolved_14": "./chunks/66/669bb49c8349b9b06db5d513146c31d5d99f3409.js",
-      "__unresolved_15": "./chunks/6e/6eb1e5fba23f439add822f786fba50ec4a54981d.js",
-      "__unresolved_16": "./chunks/f5/f51b208417f0a3c91a047d7efbc9b0f47c28673b.js",
-      "__unresolved_17": "./chunks/6f/6f3feebaba801d0953e410836413327843cfa661.js",
-      "__unresolved_18": "./chunks/46/46f1876eb9e39901fdd8e744837c16055ce17d45.js",
-      "__unresolved_19": "./chunks/60/609b728a57169de44fb5a5d5a2a53abb961276a1.js",
+      "__unresolved_10": "./chunks/ba/ba7990eb9ceeff08be571b69a49d7c9b03daa1f6.js",
+      "__unresolved_11": "./chunks/ca/ca0b3b45ada2877e41d7fd7aa4d67e235c85660f.js",
+      "__unresolved_12": "./chunks/2c/2c34e0cf985cd9cf4b058ff14306d2a59291c2d9.js",
+      "__unresolved_13": "./chunks/87/871706b0fb1c789fbfb96ee922883846bc1aa72a.js",
+      "__unresolved_14": "./chunks/ce/ce3bea80f26fb5ec1bdaaa3ad5e4f6fd19b25da5.js",
+      "__unresolved_15": "./chunks/c2/c2addb8263d7b253feae918eb02207a2feb60d9c.js",
+      "__unresolved_16": "./chunks/9d/9dd4c1ba6657a43c16148be66f38d3db31f06ed0.js",
+      "__unresolved_17": "./chunks/66/669bb49c8349b9b06db5d513146c31d5d99f3409.js",
+      "__unresolved_18": "./chunks/6e/6eb1e5fba23f439add822f786fba50ec4a54981d.js",
+      "__unresolved_19": "./chunks/f5/f51b208417f0a3c91a047d7efbc9b0f47c28673b.js",
       "__unresolved_2": "./chunks/de/de51ae29bdc33d4721612db5b322a18ddcf7dd5c.js",
-      "__unresolved_20": "./chunks/c4/c40a8e69b33a67357c0ea1478b3e4fcafe6a3f0e.js",
-      "__unresolved_21": "./chunks/8b/8ba38a68f59b35bb1ff1d9ed04a30802d4cbec97.js",
+      "__unresolved_20": "./chunks/6f/6f3feebaba801d0953e410836413327843cfa661.js",
+      "__unresolved_21": "./chunks/46/46f1876eb9e39901fdd8e744837c16055ce17d45.js",
+      "__unresolved_22": "./chunks/60/609b728a57169de44fb5a5d5a2a53abb961276a1.js",
+      "__unresolved_23": "./chunks/c4/c40a8e69b33a67357c0ea1478b3e4fcafe6a3f0e.js",
+      "__unresolved_24": "./chunks/05/059994a33c526cb14e1edd218f18bb475915323f.js",
+      "__unresolved_25": "./chunks/8b/8ba38a68f59b35bb1ff1d9ed04a30802d4cbec97.js",
       "__unresolved_3": "./chunks/f8/f84f3b58ec61e2a9c03c5f86bacdfd0d6a2a3647.js",
       "__unresolved_4": "./chunks/60/60dfea53e1c17502cf4f0661946a964ad3ff0296.js",
       "__unresolved_5": "./chunks/c1/c107986e77a987fe49f2e4b1c0dcc489194dbd3f.js",
       "__unresolved_6": "./chunks/ef/efcf28e911ee16455bcfdacbe7975c9bb11eee63.js",
       "__unresolved_7": "./chunks/ed/ed718b5089e01680787ca8f018423b5d01f2c2ec.js",
-      "__unresolved_8": "./chunks/ca/ca0b3b45ada2877e41d7fd7aa4d67e235c85660f.js",
-      "__unresolved_9": "./chunks/2c/2c34e0cf985cd9cf4b058ff14306d2a59291c2d9.js"
+      "__unresolved_8": "./chunks/a9/a945209327daff22be8673c0f8be3766e56f68da.js",
+      "__unresolved_9": "./chunks/53/53db23f48afa2240c9336df99f2856c0286fb657.js"
     }
   }
 }

@@ -426,19 +426,19 @@
       "uuid": "ba6090a8-6490-470f-8c84-8374e798c734"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips": {
-      "time": 1768995330551.3828,
+      "time": 1769167803329.3218,
       "uuid": "f0baf2ed-6eb0-46d4-9067-628e025b5442"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb": {
-      "time": 1768996029572.7852,
+      "time": 1769166085003.2463,
       "uuid": "e5c39018-962c-4e3d-b6df-89f20626313f"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/prefab": {
-      "time": 1769105443391.8691,
+      "time": 1769157414384.4048,
       "uuid": "9095c9bc-6517-4470-9547-26c4af87963c"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script": {
-      "time": 1769107988299.628,
+      "time": 1769171087241.5054,
       "uuid": "1302e00e-7f26-45ee-b897-27b940e26360"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/gameplay": {
@@ -446,7 +446,7 @@
       "uuid": "e0f50477-c5cd-4bca-b8a7-61024757bbad"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose": {
-      "time": 1769089638202.2766,
+      "time": 1769171560495.5166,
       "uuid": "b812eb03-5ab5-4f35-a57a-b8fdef711c66"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/Batsman.ts": {
@@ -576,7 +576,7 @@
       "time": 1769089638203.4316
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/scene.scene": {
-      "time": 1769112601073.3916,
+      "time": 1769172809046.6606,
       "uuid": "641972d4-cea4-42e2-833d-d8214a805343"
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/Animation Graph.animgraph": {
@@ -629,7 +629,63 @@
       "time": 1768995028745.7954
     },
     "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/m.s_dhoni_3d_model.glb.meta": {
-      "time": 1768993972832.189
+      "time": 1769166080884.2515
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/mesh.meta": {
+      "time": 1769156090292.4111
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/mesh": {
+      "time": 1769156090289.7192,
+      "uuid": "1cc40909-028a-4ce3-854a-39a8fd71c3ab"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/plus.fbx.meta": {
+      "time": 1769159081325.7917
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/plus.fbx": {
+      "time": 1769159081262.0703,
+      "uuid": "f2251653-c22e-4e73-a21e-0d484bf1e929"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/dhoni.glb.meta": {
+      "time": 1769167803427.8027
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/dhoni.glb": {
+      "time": 1769167800597.4531,
+      "uuid": "38dbfabf-41d7-4e31-97d3-3c6f3ef73461"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/PoseConfig.ts.meta": {
+      "time": 1769170607465.644
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/PoseConfig.ts": {
+      "time": 1769169844452.118,
+      "uuid": "eea2e8dd-5cd0-413a-977f-0025670455f0"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData.meta": {
+      "time": 1769171087242.187
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData": {
+      "time": 1769172212032.8235,
+      "uuid": "01f2400c-d747-4e59-9db2-d46949204a13"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/BatSwingData.ts.meta": {
+      "time": 1769171093920.5117
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/BatSwingData.ts": {
+      "time": 1769171633823.0461,
+      "uuid": "ea3cfc9d-b8ad-4da5-8682-f60a77288be5"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/PoseCapture.ts.meta": {
+      "time": 1769164987334.9336
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/PoseCapture.ts": {
+      "time": 1769172730127.1406,
+      "uuid": "fc4c0e76-0173-4be8-9438-3e77aa6e46d3"
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/BatRigCapture.ts.meta": {
+      "time": 1769170908135.9146
+    },
+    "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/BatRigCapture.ts": {
+      "time": 1769172624526.127,
+      "uuid": "72cc7fea-64ab-4b44-9dee-86714ee3d7f3"
     }
   },
   "missing": {
@@ -642,6 +698,171 @@
       "path": "/Users/schaurasiya/Documents/workspace/NewProject/assets/glb/cricket_bat.glb",
       "time": 1768994412905.1882,
       "removeTime": 1768995099762
+    },
+    "84829777-e1a8-42aa-a2de-2258e3347cab": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/plus.fbx",
+      "time": 1769157407712.9844,
+      "removeTime": 1769157721547
+    },
+    "6aa0b502-5499-47c2-b6b5-2ff36faf5a09": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/plus.fbx",
+      "time": 1769157731931.1826,
+      "removeTime": 1769158411472
+    },
+    "c330e0b5-ccee-4ef6-959f-19a13ed2bacb": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model",
+      "time": 1769165886967.536,
+      "removeTime": 1769165913151
+    },
+    "3595a701-7b5a-4b45-a336-0be4d2e84f92": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarBody.mtl",
+      "time": 1769165886953.985,
+      "removeTime": 1769165913151
+    },
+    "a3f89582-723a-4eb5-b7cc-2724e560b67e": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarEyelashes.mtl",
+      "time": 1769165886958.6726,
+      "removeTime": 1769165913151
+    },
+    "774b62e7-a2d0-466a-845f-2505cd49aaa4": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarHead.mtl",
+      "time": 1769165886959.2764,
+      "removeTime": 1769165913151
+    },
+    "d2a4de06-c7fd-4162-9e9c-f2ab0748b9e2": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarLeftCornea.mtl",
+      "time": 1769165886959.6123,
+      "removeTime": 1769165913151
+    },
+    "8a604d76-88bc-4161-970f-fe81aac17d31": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarLeftEyeball.mtl",
+      "time": 1769165886959.9421,
+      "removeTime": 1769165913151
+    },
+    "ebece536-6c35-4873-a134-abe100832e39": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarRightCornea.mtl",
+      "time": 1769165886960.2568,
+      "removeTime": 1769165913151
+    },
+    "cbdf98ec-1ee3-49e7-ba33-28cff349c681": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarRightEyeball.mtl",
+      "time": 1769165886960.6235,
+      "removeTime": 1769165913151
+    },
+    "82abf1ef-afef-48de-b723-498189d33c04": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarTeethLower.mtl",
+      "time": 1769165886961.1558,
+      "removeTime": 1769165913151
+    },
+    "17c46e87-2e7e-49a4-a719-e08aeebe49d5": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarTeethUpper.mtl",
+      "time": 1769165886966.1843,
+      "removeTime": 1769165913151
+    },
+    "c101a41e-14af-4a2f-b4cc-01189acd18f3": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/outfit_bottom.mtl",
+      "time": 1769165886966.618,
+      "removeTime": 1769165913151
+    },
+    "5d4d077c-a187-4ef2-aabd-32d39a214f34": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/outfit_shoes.mtl",
+      "time": 1769165886967.0178,
+      "removeTime": 1769165913151
+    },
+    "337851f6-3fa3-4eb9-849c-836eeb2a5053": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/outfit_top.mtl",
+      "time": 1769165886967.4404,
+      "removeTime": 1769165913152
+    },
+    "37ec96da-83b3-4abe-813b-bdc14ced46b9": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model",
+      "time": 1769166034552.5442,
+      "removeTime": 1769166085003
+    },
+    "018ac769-08d4-4932-9241-1e0e3e044407": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarBody.mtl",
+      "time": 1769166034543.431,
+      "removeTime": 1769166085003
+    },
+    "7114993c-207a-4011-8a72-eeface0e71b5": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarEyelashes.mtl",
+      "time": 1769166034544.3108,
+      "removeTime": 1769166085003
+    },
+    "3189ba13-de47-4771-b5c8-2afa4df18a83": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarHead.mtl",
+      "time": 1769166034544.8508,
+      "removeTime": 1769166085003
+    },
+    "10632946-2b63-48f7-91bd-fe45fc0fc0a8": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarLeftCornea.mtl",
+      "time": 1769166034545.2625,
+      "removeTime": 1769166085003
+    },
+    "707242ff-b9d1-41ea-ad52-02147d37d559": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarLeftEyeball.mtl",
+      "time": 1769166034545.5789,
+      "removeTime": 1769166085003
+    },
+    "b4dd82e6-0b68-49d9-a942-2e132ddbc5b0": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarRightCornea.mtl",
+      "time": 1769166034546.0022,
+      "removeTime": 1769166085003
+    },
+    "a2db811a-f9f6-4146-b12c-19d1bd1112f9": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarRightEyeball.mtl",
+      "time": 1769166034546.4817,
+      "removeTime": 1769166085003
+    },
+    "07fb1cff-ffce-493d-aa8a-cc07f59d0593": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarTeethLower.mtl",
+      "time": 1769166034546.9075,
+      "removeTime": 1769166085003
+    },
+    "001b63c3-aaba-47bc-be41-a62fcc05fc1a": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/AvatarTeethUpper.mtl",
+      "time": 1769166034551.4963,
+      "removeTime": 1769166085003
+    },
+    "f299c615-2638-47f7-8cef-6989a3856653": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/outfit_bottom.mtl",
+      "time": 1769166034551.8574,
+      "removeTime": 1769166085003
+    },
+    "e1d56cc1-f4e0-4c3f-8a62-2c213d749106": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/outfit_shoes.mtl",
+      "time": 1769166034552.1868,
+      "removeTime": 1769166085003
+    },
+    "1e49a4b8-2e88-49e9-bd7b-47280ef06e36": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/glb/Materials_m.s_dhoni_3d_model/outfit_top.mtl",
+      "time": 1769166034552.4504,
+      "removeTime": 1769166085003
+    },
+    "b2f35721-b59b-4759-bf27-70931fe1d606": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/dhoni.glb",
+      "time": 1769166486675.7942,
+      "removeTime": 1769166529726
+    },
+    "3bfe19b7-5852-4e55-ac3b-a700c613197e": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/clips/dhoni.glb",
+      "time": 1769167349727.2756,
+      "removeTime": 1769167690050
+    },
+    "ea3cfc9d-b8ad-4da5-8682-f60a77288be5": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/bat.ts",
+      "time": 1769171093918.5234,
+      "removeTime": 1769171120447
+    },
+    "72cc7fea-64ab-4b44-9dee-86714ee3d7f3": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/captureData/BatRigData.ts",
+      "time": 1769170919743.7764,
+      "removeTime": 1769172212033
+    },
+    "fc4c0e76-0173-4be8-9438-3e77aa6e46d3": {
+      "path": "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/pose/PoseCapture.ts",
+      "time": 1769170733183.1948,
+      "removeTime": 1769171560497
     }
   }
 }

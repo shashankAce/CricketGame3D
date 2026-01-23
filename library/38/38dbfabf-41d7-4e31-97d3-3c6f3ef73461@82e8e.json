@@ -1,0 +1,137 @@
+{
+  "__type__": "cc.Mesh",
+  "_name": "",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": ".bin",
+  "_struct": {
+    "primitives": [
+      {
+        "primitiveMode": 7,
+        "jointMapIndex": 0,
+        "vertexBundelIndices": [
+          0
+        ],
+        "indexView": {
+          "offset": 233520,
+          "length": 29700,
+          "count": 14850,
+          "stride": 2
+        }
+      }
+    ],
+    "vertexBundles": [
+      {
+        "view": {
+          "offset": 0,
+          "length": 233520,
+          "count": 2919,
+          "stride": 80
+        },
+        "attributes": [
+          {
+            "name": "a_position",
+            "format": 32,
+            "isNormalized": false
+          },
+          {
+            "name": "a_normal",
+            "format": 32,
+            "isNormalized": false
+          },
+          {
+            "name": "a_texCoord",
+            "format": 21,
+            "isNormalized": false
+          },
+          {
+            "name": "a_tangent",
+            "format": 44,
+            "isNormalized": false
+          },
+          {
+            "name": "a_joints",
+            "format": 42,
+            "isNormalized": false
+          },
+          {
+            "name": "a_weights",
+            "format": 44,
+            "isNormalized": false
+          },
+          {
+            "name": "a_texCoord1",
+            "format": 21,
+            "isNormalized": false
+          }
+        ]
+      }
+    ],
+    "minPosition": {
+      "__type__": "cc.Vec3",
+      "x": -0.6923628449440002,
+      "y": 0.06327436864376068,
+      "z": -0.07461937516927719
+    },
+    "maxPosition": {
+      "__type__": "cc.Vec3",
+      "x": 0.6928868293762207,
+      "y": 1.164063811302185,
+      "z": 0.10322419553995132
+    },
+    "jointMaps": [
+      [
+        0,
+        4,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        34,
+        35,
+        36,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        48,
+        49,
+        50,
+        52,
+        53,
+        54,
+        56,
+        57,
+        58,
+        60,
+        61,
+        62,
+        65,
+        66,
+        70,
+        71
+      ]
+    ]
+  },
+  "_hash": 3913746483,
+  "_allowDataAccess": true
+}
