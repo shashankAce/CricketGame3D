@@ -993,8 +993,7 @@
         "856e24ad-721a-4e13-8698-2073cb4c65aa@30732",
         "856e24ad-721a-4e13-8698-2073cb4c65aa@9f78e",
         "856e24ad-721a-4e13-8698-2073cb4c65aa@01512",
-        "856e24ad-721a-4e13-8698-2073cb4c65aa@f1394",
-        "856e24ad-721a-4e13-8698-2073cb4c65aa@18d6f"
+        "856e24ad-721a-4e13-8698-2073cb4c65aa@f1394"
       ]
     },
     "versionCode": 1
@@ -1110,7 +1109,7 @@
     "versionCode": 1
   },
   "04c09582-d349-4ef4-ae4c-02720bff22db": {
-    "url": "db://assets/script/TwoBoneIK1.ts",
+    "url": "db://assets/script/animation/TwoBoneIK1.ts",
     "value": {},
     "versionCode": 1
   },
@@ -2446,6 +2445,51 @@
   },
   "f2f9b4e4-ccad-4930-ab38-c966bd2925c7": {
     "url": "db://assets/script/old",
+    "value": {},
+    "versionCode": 1
+  },
+  "66dc757a-2271-4863-8d67-129af4d8abb2": {
+    "url": "db://assets/script/animation",
+    "value": {},
+    "versionCode": 1
+  },
+  "b2ae3225-bda9-4f6f-9a5e-32b037f666c5": {
+    "url": "db://assets/script/animation/PoseData.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d7b80f9a-291e-4ae2-9674-9c25e01853db": {
+    "url": "db://assets/script/animation/folder",
+    "value": {},
+    "versionCode": 1
+  },
+  "668b6bb5-72f3-4508-8ce8-8a0445f5cf76": {
+    "url": "db://assets/script/animation/BatRigData.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "dafbd958-cff7-4a06-8c92-fb7bc7663961": {
+    "url": "db://assets/script/animation/SwingCurve.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5231419f-f56d-495d-8d95-3706f3e27b2e": {
+    "url": "db://assets/script/animation/SwingClip.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "253ea219-5f4c-4951-8496-6cde3299cf94": {
+    "url": "db://assets/script/animation/BatSwingController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c47e351c-eb43-43f3-b7a6-16cbd127b050": {
+    "url": "db://assets/script/animation/SpineController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "283e2444-2a7d-4d13-90cf-8bc89853b799": {
+    "url": "db://assets/script/animation/ShortPreset.ts",
     "value": {},
     "versionCode": 1
   }

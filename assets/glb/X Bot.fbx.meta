@@ -60,29 +60,6 @@
       ],
       "subMetas": {}
     },
-    "18d6f": {
-      "importer": "gltf-animation",
-      "uuid": "856e24ad-721a-4e13-8698-2073cb4c65aa@18d6f",
-      "displayName": "",
-      "id": "18d6f",
-      "name": "mixamo.com.animation",
-      "userData": {
-        "gltfIndex": 0,
-        "wrapMode": 2,
-        "sample": 30,
-        "span": {
-          "from": 0,
-          "to": 0.03333333507180214
-        },
-        "events": []
-      },
-      "ver": "1.0.18",
-      "imported": true,
-      "files": [
-        ".bin"
-      ],
-      "subMetas": {}
-    },
     "f1394": {
       "importer": "gltf-skeleton",
       "uuid": "856e24ad-721a-4e13-8698-2073cb4c65aa@f1394",
@@ -159,15 +136,7 @@
         "name": "mixamo.com",
         "duration": 0.03333333507180214,
         "fps": 30,
-        "splits": [
-          {
-            "name": "mixamo.com",
-            "from": 0,
-            "to": 0.03333333507180214,
-            "wrapMode": 2,
-            "previousId": "18d6f"
-          }
-        ]
+        "splits": []
       }
     ],
     "lods": {
@@ -205,6 +174,8 @@
       "scenes": [
         "856e24ad-721a-4e13-8698-2073cb4c65aa@e442e"
       ]
-    }
+    },
+    "mountAllAnimationsOnPrefab": false,
+    "disableMeshSplit": true
   }
 }

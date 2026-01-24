@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 18217.7161,
+      "mTimestamp": 9742.2672,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -682,7 +682,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 3427102.8276,
+      "mTimestamp": 916285.1546,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -812,7 +812,7 @@
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/TwoBoneIK1.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/BatRigData.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
@@ -821,12 +821,12 @@
             },
             "end": {
               "line": 13,
-              "column": 70
+              "column": 80
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/captureData/BatRigCapture.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/BatSwingController.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
@@ -835,12 +835,12 @@
             },
             "end": {
               "line": 14,
-              "column": 85
+              "column": 88
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/captureData/BatSwingData.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/PoseData.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
@@ -849,12 +849,12 @@
             },
             "end": {
               "line": 15,
-              "column": 84
+              "column": 78
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/captureData/PoseCapture.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/ShortPreset.ts",
           "resolved": "__unresolved_12",
           "loc": {
             "start": {
@@ -863,12 +863,12 @@
             },
             "end": {
               "line": 16,
-              "column": 83
+              "column": 81
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/AnimationPhase.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/SpineController.ts",
           "resolved": "__unresolved_13",
           "loc": {
             "start": {
@@ -877,12 +877,12 @@
             },
             "end": {
               "line": 17,
-              "column": 83
+              "column": 85
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/BallBehaviour.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/SwingClip.ts",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
@@ -891,12 +891,12 @@
             },
             "end": {
               "line": 18,
-              "column": 82
+              "column": 79
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/BattingLogic.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/SwingCurve.ts",
           "resolved": "__unresolved_15",
           "loc": {
             "start": {
@@ -905,12 +905,12 @@
             },
             "end": {
               "line": 19,
-              "column": 81
+              "column": 80
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/Difficulty.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/TwoBoneIK1.ts",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
@@ -919,12 +919,12 @@
             },
             "end": {
               "line": 20,
-              "column": 79
+              "column": 80
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/HitResult.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/captureData/BatRigCapture.ts",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
@@ -933,12 +933,12 @@
             },
             "end": {
               "line": 21,
-              "column": 78
+              "column": 85
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/Intent.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/captureData/BatSwingData.ts",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
@@ -947,12 +947,12 @@
             },
             "end": {
               "line": 22,
-              "column": 75
+              "column": 84
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/ProceduralBatController.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/captureData/PoseCapture.ts",
           "resolved": "__unresolved_19",
           "loc": {
             "start": {
@@ -961,12 +961,12 @@
             },
             "end": {
               "line": 23,
-              "column": 92
+              "column": 83
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/SwingPlane.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/AnimationPhase.ts",
           "resolved": "__unresolved_20",
           "loc": {
             "start": {
@@ -975,12 +975,12 @@
             },
             "end": {
               "line": 24,
-              "column": 79
+              "column": 83
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/SwingPlanesConfig.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/BallBehaviour.ts",
           "resolved": "__unresolved_21",
           "loc": {
             "start": {
@@ -989,12 +989,12 @@
             },
             "end": {
               "line": 25,
-              "column": 86
+              "column": 82
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/old/IKUnsed.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/BattingLogic.ts",
           "resolved": "__unresolved_22",
           "loc": {
             "start": {
@@ -1003,12 +1003,12 @@
             },
             "end": {
               "line": 26,
-              "column": 71
+              "column": 81
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/old/TwoBoneIKNoCorrect.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/Difficulty.ts",
           "resolved": "__unresolved_23",
           "loc": {
             "start": {
@@ -1017,12 +1017,12 @@
             },
             "end": {
               "line": 27,
-              "column": 82
+              "column": 79
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/old/gameplay_logic.js",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/HitResult.ts",
           "resolved": "__unresolved_24",
           "loc": {
             "start": {
@@ -1036,7 +1036,7 @@
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/BattingIdleConfig.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/Intent.ts",
           "resolved": "__unresolved_25",
           "loc": {
             "start": {
@@ -1045,12 +1045,12 @@
             },
             "end": {
               "line": 29,
-              "column": 82
+              "column": 75
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/BattingIdleController.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/ProceduralBatController.ts",
           "resolved": "__unresolved_26",
           "loc": {
             "start": {
@@ -1059,12 +1059,12 @@
             },
             "end": {
               "line": 30,
-              "column": 86
+              "column": 92
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/DefaultBattingIdle.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/SwingPlane.ts",
           "resolved": "__unresolved_27",
           "loc": {
             "start": {
@@ -1073,12 +1073,12 @@
             },
             "end": {
               "line": 31,
-              "column": 83
+              "column": 79
             }
           }
         },
         {
-          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/PoseConfig.ts",
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/gameplay/SwingPlanesConfig.ts",
           "resolved": "__unresolved_28",
           "loc": {
             "start": {
@@ -1087,6 +1087,104 @@
             },
             "end": {
               "line": 32,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/old/IKUnsed.ts",
+          "resolved": "__unresolved_29",
+          "loc": {
+            "start": {
+              "line": 33,
+              "column": 7
+            },
+            "end": {
+              "line": 33,
+              "column": 71
+            }
+          }
+        },
+        {
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/old/TwoBoneIKNoCorrect.ts",
+          "resolved": "__unresolved_30",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 7
+            },
+            "end": {
+              "line": 34,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/old/gameplay_logic.js",
+          "resolved": "__unresolved_31",
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 7
+            },
+            "end": {
+              "line": 35,
+              "column": 78
+            }
+          }
+        },
+        {
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/BattingIdleConfig.ts",
+          "resolved": "__unresolved_32",
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 7
+            },
+            "end": {
+              "line": 36,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/BattingIdleController.ts",
+          "resolved": "__unresolved_33",
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 7
+            },
+            "end": {
+              "line": 37,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/DefaultBattingIdle.ts",
+          "resolved": "__unresolved_34",
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 7
+            },
+            "end": {
+              "line": 38,
+              "column": 83
+            }
+          }
+        },
+        {
+          "value": "file:///D:/FreeWork/CricketGame3D/assets/script/pose/PoseConfig.ts",
+          "resolved": "__unresolved_35",
+          "loc": {
+            "start": {
+              "line": 39,
+              "column": 7
+            },
+            "end": {
+              "line": 39,
               "column": 75
             }
           }
@@ -1160,7 +1258,56 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/TwoBoneIK1.ts"
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/BatRigData.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/BatSwingController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/PoseData.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/ShortPreset.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/SpineController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/SwingClip.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/SwingCurve.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/TwoBoneIK1.ts"
           },
           "messages": []
         },
@@ -1862,7 +2009,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1769181642244,
+      "mTimestamp": 1769256924237,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -2199,7 +2346,7 @@
       ]
     },
     "cce:/internal/ml/cjs-loader.mjs": {
-      "mTimestamp": 1769181642244,
+      "mTimestamp": 1769256924237,
       "chunkId": "a0d063530de23ddade53e1a935bf64c81277c061",
       "imports": [],
       "type": "esm",
@@ -6525,6 +6672,530 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/animation/PoseData.ts": {
+      "mTimestamp": {
+        "mtime": 1769257582721.9417,
+        "uuid": "b2ae3225-bda9-4f6f-9a5e-32b037f666c5"
+      },
+      "chunkId": "eb64b508276b29a8b497be86f60e6dd45212f81d",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 33
+            },
+            "end": {
+              "line": 1,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/animation/BatRigData.ts": {
+      "mTimestamp": {
+        "mtime": 1769246889016.6875,
+        "uuid": "668b6bb5-72f3-4508-8ce8-8a0445f5cf76"
+      },
+      "chunkId": "c7c2986f9baae472ff5cde0ce09229482235eed0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/animation/SwingCurve.ts": {
+      "mTimestamp": {
+        "mtime": 1769192013417.1504,
+        "uuid": "dafbd958-cff7-4a06-8c92-fb7bc7663961"
+      },
+      "chunkId": "961d7be3dfd6126330ed6da8f612b0dd98aa776c",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/animation/SwingClip.ts": {
+      "mTimestamp": {
+        "mtime": 1769191693522.6326,
+        "uuid": "5231419f-f56d-495d-8d95-3706f3e27b2e"
+      },
+      "chunkId": "a55c5069e8cfbdda5168189ea2041671d71cdf99",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/animation/BatSwingController.ts": {
+      "mTimestamp": {
+        "mtime": 1769190327935.8564,
+        "uuid": "253ea219-5f4c-4951-8496-6cde3299cf94"
+      },
+      "chunkId": "568acfa045f18eebdb706b7435cff61634f764d1",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "./TwoBoneIK1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 27
+            },
+            "end": {
+              "line": 2,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "./SpineController",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 32
+            },
+            "end": {
+              "line": 3,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/TwoBoneIK1.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/SpineController.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/animation/SpineController.ts": {
+      "mTimestamp": {
+        "mtime": 1769188641443.3298,
+        "uuid": "c47e351c-eb43-43f3-b7a6-16cbd127b050"
+      },
+      "chunkId": "1941cf03d56fae9b2e6be54e5079a6ba682b6444",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/animation/TwoBoneIK1.ts": {
+      "mTimestamp": {
+        "mtime": 1769189609209.7266,
+        "uuid": "04c09582-d349-4ef4-ae4c-02720bff22db"
+      },
+      "chunkId": "110ee18257e583f1a37eeb3eb85b4bde52cc2817",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/FreeWork/CricketGame3D/assets/script/animation/ShortPreset.ts": {
+      "mTimestamp": {
+        "mtime": 1769192340848.7935,
+        "uuid": "283e2444-2a7d-4d13-90cf-8bc89853b799"
+      },
+      "chunkId": "cf730d84811051ae30326cb07ee30d100b97e2e1",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./PoseData",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 25
+            },
+            "end": {
+              "line": 1,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./SwingClip",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./SwingCurve",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 27
+            },
+            "end": {
+              "line": 3,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/PoseData.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/SwingClip.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/FreeWork/CricketGame3D/assets/script/animation/SwingCurve.ts"
           },
           "messages": []
         }
