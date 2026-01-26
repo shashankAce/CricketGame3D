@@ -67,7 +67,7 @@ export class BatSwingController extends Component {
 
     private applyPose(pose: PoseData) {
         pose.bones.forEach(v => {
-            v.node.setPosition(v.pos);
+            // v.node.setPosition(v.pos);
             v.node.setRotation(v.rot);
         });
     }
