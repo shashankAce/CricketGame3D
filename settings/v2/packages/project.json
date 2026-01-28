@@ -7,5 +7,14 @@
     "legacyFbxImporter": {
       "visible": true
     }
+  },
+  "custom_joint_texture_layouts": [],
+  "physics": {
+    "maxSubSteps": 1,
+    "autoSimulation": true,
+    "gravity": {
+      "y": -9.8
+    },
+    "fixedTimeStep": 0.0166667
   }
 }

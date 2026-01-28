@@ -42,14 +42,18 @@ export class TwoBoneIK1 extends Component {
 
     start() {
         this.computeHandOffset(this.rightHand, this.rightHandTarget, this._rightHandOffset);
-        this.computeHandOffset(this.leftHand, this.leftHandTarget, this._leftHandOffset);
+        // this.computeHandOffset(this.leftHand, this.leftHandTarget, this._leftHandOffset);
         this._initialized = true;
     }
 
+    protected lateUpdate(dt: number): void {
+        this.solve();
+    }
 
     solve() {
         if (!this._initialized) return;
 
+        
         this.solveArm(
             this.rightArm,
             this.rightForeArm,
@@ -138,22 +142,22 @@ export class TwoBoneIK1 extends Component {
         Quat.invert(TMP_Q2, foreArm.worldRotation);
         Quat.multiply(TMP_Q3, TMP_Q2, TMP_Q1);
 
-        // Decompose swing / twist
-        const swing = new Quat();
-        const twist = new Quat();
-        this.decomposeSwingTwist(TMP_Q3, this.forearmTwistAxis, swing, twist);
+        // // Decompose swing / twist
+        // const swing = new Quat();
+        // const twist = new Quat();
+        // this.decomposeSwingTwist(TMP_Q3, this.forearmTwistAxis, swing, twist);
 
-        // Blend twist
-        Quat.slerp(twist, Quat.IDENTITY, twist, 1.0 - this.wristTwistWeight);
+        // // Blend twist
+        // Quat.slerp(twist, Quat.IDENTITY, twist, 1.0 - this.wristTwistWeight);
 
-        // Apply twist to forearm
-        Quat.multiply(TMP_Q1, foreArm.worldRotation, twist);
-        foreArm.setWorldRotation(TMP_Q1);
+        // // Apply twist to forearm
+        // Quat.multiply(TMP_Q1, foreArm.worldRotation, twist);
+        // foreArm.setWorldRotation(TMP_Q1);
 
-        // Apply remaining swing to hand
-        Quat.multiply(TMP_Q2, TMP_Q1, swing);
-        Quat.multiply(TMP_Q2, TMP_Q2, handCorrection); // correction
-        hand.setWorldRotation(TMP_Q2);
+        // // Apply remaining swing to hand
+        // Quat.multiply(TMP_Q2, TMP_Q1, swing);
+        // Quat.multiply(TMP_Q2, TMP_Q2, handCorrection); // correction
+        // hand.setWorldRotation(TMP_Q2);
     }
 
     // --------------------------------------------------
