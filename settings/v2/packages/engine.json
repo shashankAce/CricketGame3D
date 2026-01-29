@@ -122,10 +122,10 @@
             "_value": true
           },
           "video": {
-            "_value": true
+            "_value": false
           },
           "webview": {
-            "_value": true
+            "_value": false
           },
           "tween": {
             "_value": true
@@ -224,9 +224,7 @@
           "tween",
           "ui",
           "ui-skew",
-          "video",
-          "websocket",
-          "webview"
+          "websocket"
         ],
         "noDeprecatedFeatures": {
           "value": false,
