@@ -2,7 +2,7 @@ import {
     _decorator, animation, Component, EventKeyboard, Input, input,
     Node, KeyCode, Quat, Vec3, Animation, log, lerp, math, easing
 } from 'cc';
-import { IdealPose, BattingPose, ShotPose, BlockPose, DrivePose } from './captureData/PoseCapture';
+import { IdealPose, BattingPose, ShotPose, BlockPose, DrivePose, ReturnPose } from './captureData/PoseCapture';
 const { ccclass, property } = _decorator;
 
 interface PoseData {
@@ -26,8 +26,8 @@ interface Pose {
 }
 
 const POSE: Pose = {
-    Ideal: IdealPose,
-    Return: IdealPose,
+    Ideal: ReturnPose,
+    Return: ReturnPose,
     Batting: BattingPose,
     Drive: DrivePose,
     Shot: ShotPose,
@@ -35,7 +35,6 @@ const POSE: Pose = {
 }
 
 interface ShotData {
-    root: Vec3,
     pose: PoseData,
     startPos: Vec3;
     controlPoint: Vec3;
@@ -48,7 +47,6 @@ interface ShotData {
 
 const SHOTS: Record<string, ShotData> = {
     straight: {
-        root: new Vec3(),
         pose: POSE.Drive,
         startPos: new Vec3(0.154, 0.895, -0.807),
         controlPoint: new Vec3(0.154, 0.6, -0.6),
@@ -59,7 +57,6 @@ const SHOTS: Record<string, ShotData> = {
         easing: easing.backInOut
     },
     coverDrive: {
-        root: new Vec3(),
         pose: POSE.Drive,
         // Moves slightly to the Right (+X) and Forward (+Z)
         startPos: new Vec3(0.154, 0.895, -0.807),
@@ -72,8 +69,7 @@ const SHOTS: Record<string, ShotData> = {
         easing: easing.backInOut
     },
     pullShot: {
-        root: new Vec3(),
-        pose: POSE.Drive,
+        pose: POSE.Shot,
         // Moves across the body to the Left (-X) and stays high (+Y)
         startPos: new Vec3(0.154, 0.895, -0.807),
         controlPoint: new Vec3(0.154, 0.6, -0.7),
@@ -84,8 +80,7 @@ const SHOTS: Record<string, ShotData> = {
         easing: easing.backInOut
     },
     defensiveBlock: {
-        root: new Vec3(),
-        pose: POSE.Drive,
+        pose: POSE.Block,
         startPos: new Vec3(0.154, 0.895, -0.807),
         controlPoint: new Vec3(0.154, 0.6, -0.7),
         endPos: new Vec3(0.154, 0.85, -0.75),
@@ -95,8 +90,6 @@ const SHOTS: Record<string, ShotData> = {
         easing: easing.sineIn // Starts slow, builds weight
     }
 };
-
-const PoseMap = { ideal: IdealPose, batting: BattingPose };
 
 @ccclass('AnimGraphController')
 export class AnimGraphController extends Component {
@@ -113,22 +106,26 @@ export class AnimGraphController extends Component {
     PoleLeft: Node = null;
     leftPolePosition = new Vec3();
 
-    battingStateTrigger = false;
-    private blendT = 0; // 0 = ideal, 1 = batting
+    private currentPose: PoseData = POSE.Ideal;
+    private targetPose: PoseData = POSE.Ideal;
+    private blendT = 0;
 
     private _animCtrl: animation.AnimationController | null = null;
     private keyPressed = { x: 0, y: 0, z: 0 };
 
     private isSwinging = false;
+    private isBatting = false;
+
     private swingT = 0;
     private activeShot: ShotData = SHOTS.straight;
+    private poseDuration = 1;
 
     protected onLoad(): void {
         this._animCtrl = this.getComponent(animation.AnimationController);
         input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this);
         input.on(Input.EventType.KEY_UP, this.onKeyUp, this);
 
-        this.battingStateTrigger = this._animCtrl.getValue_experimental('batting_trigger') as boolean;
+        // this.battingStateTrigger = this._animCtrl.getValue_experimental('batting_trigger') as boolean;
         this.effectorIdealPos = this.effector.position.clone();
 
         log(this.effector.position.toString());
@@ -197,61 +194,66 @@ export class AnimGraphController extends Component {
         this._animCtrl?.setValue_experimental('leftPoleTarget', this.leftPolePosition);
 
 
-        let targetState = this.battingStateTrigger ? 'batting' : 'ideal';
-        const targetT = targetState === 'batting' ? 1 : 0;
-        this.blendT = lerp(this.blendT, targetT, dt * 5); // adjust speed with multiplier
+        if (this.isBatting) {
 
-        // Get poses
-        const fromPose = PoseMap['ideal'];
-        const toPose = PoseMap['batting'];
+            this.blendT += dt / this.poseDuration;
+            const progress = Math.min(this.blendT, 1.0);
 
-        // Blend hips
-        const hips = new Quat();
-        Quat.slerp(hips, fromPose.hips, toPose.hips, this.blendT);
-        this._animCtrl?.setValue_experimental('hip_rot', hips);
+            // Get poses
+            const fromPose = this.currentPose;
+            const toPose = this.targetPose;
 
-        // Blend spine
-        const spine = new Quat();
-        Quat.slerp(spine, fromPose.spine, toPose.spine, this.blendT);
-        this._animCtrl?.setValue_experimental('spine_rot', spine);
+            // Blend hips
+            const hips = new Quat();
+            Quat.slerp(hips, fromPose.hips, toPose.hips, progress);
+            this._animCtrl?.setValue_experimental('hip_rot', hips);
 
-        // Blend spine1
-        const spine1 = new Quat();
-        Quat.slerp(spine1, fromPose.spine1, toPose.spine1, this.blendT);
-        this._animCtrl?.setValue_experimental('spine1_rot', spine1);
+            // Blend spine
+            const spine = new Quat();
+            Quat.slerp(spine, fromPose.spine, toPose.spine, progress);
+            this._animCtrl?.setValue_experimental('spine_rot', spine);
 
-        // Blend spine2
-        const spine2 = new Quat();
-        Quat.slerp(spine2, fromPose.spine2, toPose.spine2, this.blendT);
-        this._animCtrl?.setValue_experimental('spine2_rot', spine2);
+            // Blend spine1
+            const spine1 = new Quat();
+            Quat.slerp(spine1, fromPose.spine1, toPose.spine1, progress);
+            this._animCtrl?.setValue_experimental('spine1_rot', spine1);
 
-        // Blend neck
-        const neck = new Quat();
-        Quat.slerp(neck, fromPose.neck, toPose.neck, this.blendT);
-        this._animCtrl?.setValue_experimental('neck_rot', neck);
+            // Blend spine2
+            const spine2 = new Quat();
+            Quat.slerp(spine2, fromPose.spine2, toPose.spine2, progress);
+            this._animCtrl?.setValue_experimental('spine2_rot', spine2);
 
-        // Blend left leg
-        const leftLeg = new Quat();
-        Quat.slerp(leftLeg, fromPose.leftUpLeg, toPose.leftUpLeg, this.blendT);
-        this._animCtrl?.setValue_experimental('left_leg_rot', leftLeg);
+            // Blend neck
+            const neck = new Quat();
+            Quat.slerp(neck, fromPose.neck, toPose.neck, progress);
+            this._animCtrl?.setValue_experimental('neck_rot', neck);
 
-        // Blend right leg
-        const rightLeg = new Quat();
-        Quat.slerp(rightLeg, fromPose.rightUpLeg, toPose.rightUpLeg, this.blendT);
-        this._animCtrl?.setValue_experimental('right_leg_rot', rightLeg);
+            // Blend left leg
+            const leftLeg = new Quat();
+            Quat.slerp(leftLeg, fromPose.leftUpLeg, toPose.leftUpLeg, progress);
+            this._animCtrl?.setValue_experimental('left_leg_rot', leftLeg);
 
-        // Blend knees
-        const knee = new Quat();
-        Quat.slerp(knee, fromPose.leftLeg, toPose.leftLeg, this.blendT);
-        this._animCtrl?.setValue_experimental('knee_rot', knee);
+            // Blend right leg
+            const rightLeg = new Quat();
+            Quat.slerp(rightLeg, fromPose.rightUpLeg, toPose.rightUpLeg, progress);
+            this._animCtrl?.setValue_experimental('right_leg_rot', rightLeg);
 
-        if (this.swingT >= 1 && this.battingStateTrigger) {
-            this.battingStateTrigger = false;
+            // Blend knees
+            const knee = new Quat();
+            Quat.slerp(knee, fromPose.leftLeg, toPose.leftLeg, progress);
+            this._animCtrl?.setValue_experimental('knee_rot', knee);
 
-            this.effector.setPosition(this.effectorIdealPos);
-            this.effector.setRotation(new Quat(0, 0, 0, 1));
-            this._animCtrl?.setValue_experimental('effectorTarget', this.effectorIdealPos);
+            if (this.blendT >= 1) {
+                this.isBatting = false;
+            }
         }
+
+    }
+
+    resetEffector() {
+        this.effector.setPosition(this.effectorIdealPos);
+        this.effector.setRotation(new Quat(0, 0, 0, 1));
+        this._animCtrl?.setValue_experimental('effectorTarget', this.effectorIdealPos);
     }
 
     private onKeyDown(event: EventKeyboard) {
@@ -262,19 +264,19 @@ export class AnimGraphController extends Component {
             case KeyCode.KEY_D:
                 this.keyPressed.x = 1;
                 break;
-            case KeyCode.SPACE: // Straight Drive
+            case KeyCode.ARROW_UP:
                 this.activeShot = SHOTS.straight;
                 this.startShot();
                 break;
-            case KeyCode.KEY_K: // Cover Drive
+            case KeyCode.ARROW_DOWN:
                 this.activeShot = SHOTS.coverDrive;
                 this.startShot();
                 break;
-            case KeyCode.KEY_P: // Pull Shot
+            case KeyCode.ARROW_LEFT:
                 this.activeShot = SHOTS.pullShot;
                 this.startShot();
                 break;
-            case KeyCode.KEY_L: // Pull Shot
+            case KeyCode.ARROW_RIGHT:
                 this.activeShot = SHOTS.defensiveBlock;
                 this.startShot();
                 break;
@@ -282,74 +284,15 @@ export class AnimGraphController extends Component {
     }
 
     private startShot() {
+        this.currentPose = POSE.Batting;
+        this.targetPose = this.activeShot.pose;
         this.isSwinging = true;
+        this.isBatting = true;
         this.swingT = 0;
-        this.battingStateTrigger = true;
+        this.blendT = 0;
     }
 
     private onKeyUp(event: EventKeyboard) {
         this.keyPressed = { x: 0, y: 0, z: 0 };
-        // this.battingStateTrigger = false;
-
-        // this.effector.setPosition(this.effectorIdealPos);
-        // this.effector.setRotation(new Quat(0, 0, 0, 1));
-        // this._animCtrl?.setValue_experimental('effectorTarget', this.effectorIdealPos);
     }
 }
-
-
-// update(dt: number) {
-//     let targetPose = this.battingStateTrigger ? BattingPose : IdealPose;
-//     let effectorPos = new Vec3();
-
-//     if (this.isSwinging) {
-//         // 1. Advance swing time
-//         this.swingProgress += dt / this.swingDuration;
-
-//         // 2. Define the swing path (An Arc)
-//         // Start: Current Pos -> Middle: Low point -> End: High Follow-through
-//         let t = this.swingProgress;
-
-//         // Simple Arc Math:
-//         // X moves forward, Y dips then rises, Z moves across the body
-//         let arcX = lerp(0.5, 1.2, t);
-//         let arcY = Math.pow(t - 0.5, 2) * 2 + 0.5; // Parabola for the "dip"
-//         let arcZ = lerp(0.5, -0.5, t);
-
-//         effectorPos.set(arcX, arcY, arcZ);
-//         targetPose = CoverDrivePose;
-
-//         // 3. Reset swing when done
-//         if (this.swingProgress >= 1) {
-//             this.isSwinging = false;
-//             this.swingProgress = 0;
-//         }
-//     } else {
-//         // Normal movement logic (Your existing code)
-//         effectorPos = this.effector.position.add(new Vec3(this.keyPressed.x * dt, this.keyPressed.y * dt, this.keyPressed.z * dt));
-//         this.blendT = lerp(this.blendT, this.battingStateTrigger ? 1 : 0, dt * 5);
-//     }
-
-//     // Apply the Pose Blending
-//     this.applyBlendedPose(IdealPose, targetPose, this.isSwinging ? this.swingProgress : this.blendT);
-
-//     // Apply Effector (Bat)
-//     this.effector.setPosition(effectorPos);
-//     this._animCtrl?.setValue_experimental('effectorTarget', effectorPos);
-
-//     // Update Poles
-//     this.PoleRight.getPosition(this.rightPolePosition);
-//     this._animCtrl?.setValue_experimental('rightPoleTarget', this.rightPolePosition);
-// }
-
-// // Clean up your code by moving the Slerps here
-// private applyBlendedPose(from, to, t) {
-//     const keys = ['hips', 'spine', 'spine1', 'spine2', 'neck', 'leftUpLeg', 'rightUpLeg'];
-//     const animKeys = ['hip_rot', 'spine_rot', 'spine1_rot', 'spine2_rot', 'neck_rot', 'left_leg_rot', 'right_leg_rot'];
-
-//     let tempQuat = new Quat();
-//     keys.forEach((key, index) => {
-//         Quat.slerp(tempQuat, from[key], to[key], t);
-//         this._animCtrl?.setValue_experimental(animKeys[index], tempQuat);
-//     });
-// }
