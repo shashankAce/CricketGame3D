@@ -31,6 +31,7 @@ export class PoseCapture extends Component {
     capturePose() {
         console.log('===== BAT SWING POSE BEGIN =====');
 
+        console.log(`hipsPos : new Vec3(${this.hips.position.toString()})`);
         this.dumpQuat('hips', this.hips);
         this.dumpQuat('spine', this.spine);
         this.dumpQuat('spine1', this.spine1);
@@ -53,6 +54,68 @@ export class PoseCapture extends Component {
         );
     }
 }
+
+
+
+// [Scene] ===== Block Pose =====
+// [Scene] hipsPos : new Vec3((-0.116, 0.934, 0.462))
+// [Scene] hips: new Quat(0.038186, -0.565425, -0.038872, 0.822998),
+// [Scene] spine: new Quat(0.137893, 0.227470, -0.006261, 0.963952),
+// [Scene] spine1: new Quat(0.000000, 0.000000, 0.000000, 1.000000),
+// [Scene] spine2: new Quat(-0.006179, 0.155886, -0.054559, 0.986248),
+// [Scene] neck: new Quat(-0.028542, 0.316353, -0.097044, 0.943233),
+// [Scene] leftUpLeg: new Quat(-0.492175, -0.439512, -0.698840, 0.276071),
+// [Scene] leftLeg: new Quat(-0.510512, 0.089805, -0.004723, 0.855155),
+// [Scene] rightUpLeg: new Quat(0.098192, 0.018506, 0.968852, 0.226589),
+// [Scene] rightLeg: new Quat(-0.086904, 0.026815, 0.001148, 0.995855),
+
+
+
+// [Scene] ===== Drive Pose =====
+// [Scene] hipsPos : new Vec3((-0.116, 1.032, 0.259))
+// [Scene] hips: new Quat(0.038186, -0.565425, -0.038872, 0.822998),
+// [Scene] spine: new Quat(0.089293, 0.134453, 0.081757, 0.983496),
+// [Scene] spine1: new Quat(0.000000, 0.000000, 0.000000, 1.000000),
+// [Scene] spine2: new Quat(-0.006179, 0.155886, -0.054559, 0.986248),
+// [Scene] neck: new Quat(-0.019256, 0.320833, -0.066285, 0.944617),
+// [Scene] leftUpLeg: new Quat(-0.550622, -0.276109, -0.769307, 0.169544),
+// [Scene] leftLeg: new Quat(-0.228750, 0.105268, 0.013423, 0.967684),
+// [Scene] rightUpLeg: new Quat(0.081469, 0.076296, 0.987829, 0.108335),
+// [Scene] rightLeg: new Quat(-0.086904, 0.026815, 0.001148, 0.995855),
+
+
+
+
+// [Scene] ===== RETURN POSE  =====
+// [Scene] hipsPos : new Vec3((0, 0.868, 0.465))
+// [Scene] hips: new Quat(0.282436, -0.648252, -0.168805, 0.686662),
+// [Scene] spine: new Quat(0.019292, 0.378351, 0.268401, 0.885686),
+// [Scene] spine1: new Quat(0.000000, 0.000000, 0.000000, 1.000000),
+// [Scene] spine2: new Quat(0.000000, 0.000000, 0.000000, 1.000000),
+// [Scene] neck: new Quat(-0.158275, 0.359929, -0.190103, 0.899589),
+// [Scene] leftUpLeg: new Quat(0.155789, 0.474599, 0.588565, -0.635671),
+// [Scene] leftLeg: new Quat(-0.499026, -0.075650, -0.286385, 0.814392),
+// [Scene] rightUpLeg: new Quat(-0.030121, 0.242918, 0.968926, -0.035575),
+// [Scene] rightLeg: new Quat(-0.132593, 0.029233, 0.009937, 0.990690),
+
+
+
+
+
+// [Scene] ===== PULL POSE =====
+// [Scene] hipsPos : new Vec3((0, 0.868, 0.465))
+// [Scene] hips: new Quat(0.282436, -0.648252, -0.168805, 0.686662),
+// [Scene] spine: new Quat(0.019292, 0.378351, 0.268401, 0.885686),
+// [Scene] spine1: new Quat(0.000000, 0.000000, 0.000000, 1.000000),
+// [Scene] spine2: new Quat(0.000000, 0.000000, 0.000000, 1.000000),
+// [Scene] neck: new Quat(-0.158275, 0.359929, -0.190103, 0.899589),
+// [Scene] leftUpLeg: new Quat(0.155789, 0.474599, 0.588565, -0.635671),
+// [Scene] leftLeg: new Quat(-0.499026, -0.075650, -0.286385, 0.814392),
+// [Scene] rightUpLeg: new Quat(-0.030121, 0.242918, 0.968926, -0.035575),
+// [Scene] rightLeg: new Quat(-0.132593, 0.029233, 0.009937, 0.990690),
+
+
+
 
 
 
