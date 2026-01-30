@@ -138,6 +138,9 @@ export class AnimGraphController extends Component {
         // let animation = this.effector.getComponent(Animation);
         // animation.play('bat_idealanim');
         this.setPose(IdealPose);
+        this.effector.setPosition(this.effectorIdealPos);
+        this.effector.setRotation(new Quat(0, 0, 0, 1));
+        this._animCtrl?.setValue_experimental('effectorTarget', this.effectorIdealPos);
     }
 
     protected setPose(pose: PoseData) {
@@ -176,20 +179,15 @@ export class AnimGraphController extends Component {
             let currentQuat = new Quat();
             Quat.slerp(currentQuat, this.activeShot.startRot, this.activeShot.endRot, t);
 
-            // Apply to Effector
-            this.effector.setPosition(bezierPos);
+            let offset = bezierPos.clone().subtract(this.activeShot.startPos);
+            let finalPos = this.effectorIdealPos.clone().add(offset);
+            this.effector.setPosition(finalPos);
+
             this.effector.setRotation(currentQuat);
-            this._animCtrl?.setValue_experimental('effectorTarget', bezierPos);
+            this._animCtrl?.setValue_experimental('effectorTarget', finalPos);
 
             if (this.swingT >= 1) this.isSwinging = false;
 
-        } else {
-            // Your existing reset logic
-            if (!this.battingStateTrigger) {
-                this.effector.setPosition(this.effectorIdealPos);
-                this.effector.setRotation(new Quat(0, 0, 0, 1));
-                this._animCtrl?.setValue_experimental('effectorTarget', this.effectorIdealPos);
-            }
         }
 
         this.PoleRight.getPosition(this.rightPolePosition);
@@ -246,6 +244,14 @@ export class AnimGraphController extends Component {
         const knee = new Quat();
         Quat.slerp(knee, fromPose.leftLeg, toPose.leftLeg, this.blendT);
         this._animCtrl?.setValue_experimental('knee_rot', knee);
+
+        if (this.swingT >= 1 && this.battingStateTrigger) {
+            this.battingStateTrigger = false;
+
+            this.effector.setPosition(this.effectorIdealPos);
+            this.effector.setRotation(new Quat(0, 0, 0, 1));
+            this._animCtrl?.setValue_experimental('effectorTarget', this.effectorIdealPos);
+        }
     }
 
     private onKeyDown(event: EventKeyboard) {
@@ -283,7 +289,11 @@ export class AnimGraphController extends Component {
 
     private onKeyUp(event: EventKeyboard) {
         this.keyPressed = { x: 0, y: 0, z: 0 };
-        this.battingStateTrigger = false;
+        // this.battingStateTrigger = false;
+
+        // this.effector.setPosition(this.effectorIdealPos);
+        // this.effector.setRotation(new Quat(0, 0, 0, 1));
+        // this._animCtrl?.setValue_experimental('effectorTarget', this.effectorIdealPos);
     }
 }
 
