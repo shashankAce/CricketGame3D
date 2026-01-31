@@ -1013,6 +1013,9 @@
         "2a206069-ecfb-4b18-89be-835c711fff6c",
         "856e24ad-721a-4e13-8698-2073cb4c65aa@55e45",
         "9b6b1c2a-5d82-4060-82c4-03734219ce12",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
         "91161450-4594-49cc-b3ed-5490695b1fd7",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
@@ -2402,9 +2405,7 @@
   },
   "2a206069-ecfb-4b18-89be-835c711fff6c": {
     "url": "db://assets/clips/ideal_clip.anim",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 2
   },
   "2ee8f187-6dd6-4a63-8a2e-1364b65a9ca8": {
@@ -2599,13 +2600,13 @@
         "2b43a2d4-b335-4dd0-ae8d-c111278ddfd9",
         "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
         "856e24ad-721a-4e13-8698-2073cb4c65aa@e442e",
-        "9b6b1c2a-5d82-4060-82c4-03734219ce12",
+        "425a7a5b-d005-465b-b396-6deb1bb56cea",
+        "f5ac4eca-0db6-49ba-8343-e409f3fde33d",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
       ],
       "dependScripts": [
-        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
-        "fc4c0e76-0173-4be8-9438-3e77aa6e46d3"
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
       ]
     },
     "versionCode": 2
@@ -2618,5 +2619,116 @@
       ]
     },
     "versionCode": 1
+  },
+  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47": {
+    "url": "db://assets/clips/StraightShot00002074_default.glb",
+    "value": {},
+    "versionCode": 3
+  },
+  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@30732": {
+    "url": "db://assets/clips/StraightShot00002074_default.glb@30732",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@16f35": {
+    "url": "db://assets/clips/StraightShot00002074_default.glb@16f35",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@66c40": {
+    "url": "db://assets/clips/StraightShot00002074_default.glb@66c40",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 3
+  },
+  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@f1394": {
+    "url": "db://assets/clips/StraightShot00002074_default.glb@f1394",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@1fcea": {
+    "url": "db://assets/clips/StraightShot00002074_default.glb@1fcea",
+    "value": {
+      "imageExtName": ".jpg",
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@e873a": {
+    "url": "db://assets/clips/StraightShot00002074_default.glb@e873a",
+    "value": {
+      "depends": [
+        "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@1fcea"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@f4b39": {
+    "url": "db://assets/clips/StraightShot00002074_default.glb@f4b39",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4",
+        "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@e873a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@943ed": {
+    "url": "db://assets/clips/StraightShot00002074_default.glb@943ed",
+    "value": {
+      "depends": [
+        "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@f4b39",
+        "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@16f35",
+        "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@30732",
+        "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@66c40"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3e3495b5-a36e-478e-9532-8a988e2c6002": {
+    "url": "db://assets/script/FreezeNode.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "34145c3d-32b4-4bcb-9c5b-1fb8de818957": {
+    "url": "db://assets/script/IKSolver.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "425a7a5b-d005-465b-b396-6deb1bb56cea": {
+    "url": "db://assets/clips/StraightDrive.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 2
+  },
+  "a6460f1a-3c6a-449a-bda7-aae1a79a832b": {
+    "url": "db://assets/script/PoseStabilizer.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "271ef64b-b77a-40ad-b294-8f00763f1f5f": {
+    "url": "db://assets/script/MultiBoneIKRig.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "22ccdf8a-3737-4d96-853f-e9238433d9ce": {
+    "url": "db://assets/script/PoseStabilizer.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f5ac4eca-0db6-49ba-8343-e409f3fde33d": {
+    "url": "db://assets/clips/Ideal.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 2
   }
 }
