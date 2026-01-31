@@ -1644,7 +1644,7 @@
     ]
   },
   {
-    "__type__": "cc.Animation",
+    "__type__": "cc.animation.AnimationController",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {
@@ -1657,22 +1657,15 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "playOnLoad": true,
-    "_clips": [
-      {
-        "__uuid__": "425a7a5b-d005-465b-b396-6deb1bb56cea",
-        "__expectedType__": "cc.AnimationClip"
-      },
-      {
-        "__uuid__": "f5ac4eca-0db6-49ba-8343-e409f3fde33d",
-        "__expectedType__": "cc.AnimationClip"
-      }
-    ],
-    "_defaultClip": {
-      "__uuid__": "425a7a5b-d005-465b-b396-6deb1bb56cea",
-      "__expectedType__": "cc.AnimationClip"
+    "_graph": {
+      "__uuid__": "deca1781-0ead-4079-9681-f1111dd3bfbf",
+      "__expectedType__": "cc.animation.AnimationGraph"
     },
-    "_id": "437PB+roBFKJB8jX0xsAJW"
+    "graph": {
+      "__uuid__": "deca1781-0ead-4079-9681-f1111dd3bfbf",
+      "__expectedType__": "cc.animation.AnimationGraph"
+    },
+    "_id": "8bCWxb6VJNkIZOfz9TXzPq"
   },
   {
     "__type__": "CCPropertyOverrideInfo",

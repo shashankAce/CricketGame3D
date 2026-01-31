@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Quat, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _crd, ccclass, property, executeInEditMode, PoseCapture, IdealPose, BattingPose, ReturnPose, DrivePose, ShotPose, BlockPose;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, log, Node, Quat, Vec3, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _crd, ccclass, property, executeInEditMode, PoseCapture, IdealPose, BattingPose, ReturnPose, ShotPose, DrivePose, BlockPose;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -16,15 +16,17 @@ System.register(["cc"], function (_export, _context) {
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
+      log = _cc.log;
       Node = _cc.Node;
       Quat = _cc.Quat;
+      Vec3 = _cc.Vec3;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "fc4c052AXNL6JQ4PneqbkbT", "PoseCapture", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'log', 'Node', 'Quat']);
+      __checkObsolete__(['_decorator', 'Component', 'log', 'Node', 'Quat', 'Vec3']);
 
       ({
         ccclass,
@@ -64,7 +66,8 @@ System.register(["cc"], function (_export, _context) {
         }
 
         capturePose() {
-          console.log('===== BAT SWING POSE BEGIN =====');
+          log('===== BAT SWING POSE BEGIN =====');
+          log("hipsPos : new Vec3" + this.hips.position.toString() + ",");
           this.dumpQuat('hips', this.hips);
           this.dumpQuat('spine', this.spine);
           this.dumpQuat('spine1', this.spine1);
@@ -78,7 +81,7 @@ System.register(["cc"], function (_export, _context) {
 
         dumpQuat(label, node) {
           var q = node.rotation;
-          console.log(label + ": new Quat(" + q.x.toFixed(6) + ", " + q.y.toFixed(6) + ", " + q.z.toFixed(6) + ", " + q.w.toFixed(6) + "),");
+          log(label + ": new Quat(" + q.x.toFixed(6) + ", " + q.y.toFixed(6) + ", " + q.z.toFixed(6) + ", " + q.w.toFixed(6) + "),");
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "hips", [_dec3], {
@@ -154,6 +157,20 @@ System.register(["cc"], function (_export, _context) {
       })), _class2)) || _class) || _class));
 
       _export("IdealPose", IdealPose = {
+        hipsPos: new Vec3(0, 1.004, 0.092),
+        hips: new Quat(0.000000, -0.642788, 0.000000, 0.766044),
+        spine: new Quat(0.268710, 0.231614, 0.001200, 0.934959),
+        spine1: new Quat(0.000000, 0.000000, 0.000000, 1.000000),
+        spine2: new Quat(0.000000, 0.000000, 0.000000, 1.000000),
+        neck: new Quat(-0.114046, 0.348510, -0.213704, 0.905464),
+        leftUpLeg: new Quat(0.330235, 0.228918, 0.910585, -0.096829),
+        leftLeg: new Quat(-0.264813, -0.020612, -0.034155, 0.963474),
+        rightUpLeg: new Quat(0.000386, 0.220761, 0.974620, 0.037146),
+        rightLeg: new Quat(-0.225373, -0.000574, 0.033157, 0.973708)
+      });
+
+      _export("BattingPose", BattingPose = {
+        hipsPos: new Vec3(0, 1.042, 0.01),
         hips: new Quat(0.000000, -0.642788, 0.000000, 0.766044),
         spine: new Quat(0.407986, 0.000002, 0.071933, 0.910150),
         spine1: new Quat(0.000000, 0.000000, 0.000000, 1.000000),
@@ -165,76 +182,56 @@ System.register(["cc"], function (_export, _context) {
         rightLeg: new Quat(-0.333274, -0.000912, 0.052384, 0.941373)
       });
 
-      _export("BattingPose", BattingPose = {
-        hips: new Quat(0.000000, -0.642788, 0.000000, 0.766044),
-        spine: new Quat(0.268710, 0.231614, 0.001200, 0.934959),
-        spine1: new Quat(0.000000, 0.000000, 0.000000, 1.000000),
-        spine2: new Quat(0.000000, 0.000000, 0.000000, 1.000000),
-        neck: new Quat(-0.114046, 0.348510, -0.213704, 0.905464),
-        leftUpLeg: new Quat(0.330235, 0.228918, 0.910585, -0.096829),
-        leftLeg: new Quat(-0.264813, -0.020612, -0.034155, 0.963474),
-        rightUpLeg: new Quat(0.000386, 0.220761, 0.974620, 0.037146),
-        rightLeg: new Quat(-0.225373, -0.000574, 0.033157, 0.973708)
-      });
-
       _export("ReturnPose", ReturnPose = {
-        hips: new Quat(0.000000, -0.642788, 0.000000, 0.766044),
-        spine: new Quat(0.268710, 0.231614, 0.001200, 0.934959),
+        hipsPos: new Vec3(0, 1.004, 0.092),
+        hips: new Quat(0.000000, -0.449327, 0.000000, 0.893367),
+        spine: new Quat(0.114819, 0.020075, -0.040724, 0.992348),
         spine1: new Quat(0.000000, 0.000000, 0.000000, 1.000000),
-        spine2: new Quat(0.000000, 0.000000, 0.000000, 1.000000),
-        neck: new Quat(-0.114046, 0.348510, -0.213704, 0.905464),
-        leftUpLeg: new Quat(0.330235, 0.228918, 0.910585, -0.096829),
-        leftLeg: new Quat(-0.264813, -0.020612, -0.034155, 0.963474),
-        rightUpLeg: new Quat(0.000386, 0.220761, 0.974620, 0.037146),
-        rightLeg: new Quat(-0.225373, -0.000574, 0.033157, 0.973708)
-      });
-
-      _export("DrivePose", DrivePose = {
-        hips: new Quat(0.1, -0.5, 0.1, 0.8),
-        // Slightly rotated forward
-        spine: new Quat(0.5, 0.1, 0.0, 0.8),
-        // Leaning into the shot
-        spine1: new Quat(0, 0, 0, 1),
-        spine2: new Quat(0, 0, 0, 1),
-        neck: new Quat(-0.1, 0.2, -0.1, 0.9),
-        leftUpLeg: new Quat(0.4, 0.3, 0.8, -0.1),
-        // Front leg lunging
-        leftLeg: new Quat(-0.8, 0, 0, 0.6),
-        // Knee bent
-        rightUpLeg: new Quat(0.0, 0.2, 0.9, 0.0),
-        rightLeg: new Quat(-0.1, 0, 0, 0.9)
+        spine2: new Quat(0.000000, -0.000000, 0.000000, 1.000000),
+        neck: new Quat(-0.046522, 0.263326, -0.005007, 0.963571),
+        leftUpLeg: new Quat(0.138206, 0.043088, 0.987541, -0.061686),
+        leftLeg: new Quat(-0.088217, 0.001180, -0.067689, 0.993798),
+        rightUpLeg: new Quat(0.000384, -0.016994, 0.999178, 0.036804),
+        rightLeg: new Quat(-0.038091, -0.000000, 0.000000, 0.999274)
       });
 
       _export("ShotPose", ShotPose = {
-        hips: new Quat(0.1, -0.5, 0.1, 0.8),
-        // Slightly rotated forward
-        spine: new Quat(0.5, 0.1, 0.0, 0.8),
-        // Leaning into the shot
-        spine1: new Quat(0, 0, 0, 1),
-        spine2: new Quat(0, 0, 0, 1),
-        neck: new Quat(-0.1, 0.2, -0.1, 0.9),
-        leftUpLeg: new Quat(0.4, 0.3, 0.8, -0.1),
-        // Front leg lunging
-        leftLeg: new Quat(-0.8, 0, 0, 0.6),
-        // Knee bent
-        rightUpLeg: new Quat(0.0, 0.2, 0.9, 0.0),
-        rightLeg: new Quat(-0.1, 0, 0, 0.9)
+        hipsPos: new Vec3(-0.025, 1.094, 0.10),
+        hips: new Quat(0.000000, -0.509860, 0.000000, 0.860257),
+        spine: new Quat(0.068174, 0.182604, 0.068646, 0.978415),
+        spine1: new Quat(0.003352, 0.076076, -0.019010, 0.996915),
+        spine2: new Quat(0.006878, 0.156221, -0.039039, 0.986926),
+        neck: new Quat(0.007691, 0.138281, -0.066546, 0.988125),
+        leftUpLeg: new Quat(-0.370492, -0.062304, -0.924857, 0.059112),
+        leftLeg: new Quat(-0.053389, 0.063635, -0.058594, 0.994820),
+        rightUpLeg: new Quat(0.004332, 0.070664, 0.995652, 0.060545),
+        rightLeg: new Quat(-0.142113, 0.094140, -0.029346, 0.984927)
+      });
+
+      _export("DrivePose", DrivePose = {
+        hipsPos: new Vec3(-0.216, 1.032, 0.27),
+        hips: new Quat(0.038186, -0.565425, -0.038872, 0.822998),
+        spine: new Quat(0.089293, 0.134453, 0.081757, 0.983496),
+        spine1: new Quat(0.000000, 0.000000, 0.000000, 1.000000),
+        spine2: new Quat(-0.006179, 0.155886, -0.054559, 0.986248),
+        neck: new Quat(-0.019256, 0.320833, -0.066285, 0.944617),
+        leftUpLeg: new Quat(-0.550622, -0.276109, -0.769307, 0.169544),
+        leftLeg: new Quat(-0.228750, 0.105268, 0.013423, 0.967684),
+        rightUpLeg: new Quat(0.081469, 0.076296, 0.987829, 0.108335),
+        rightLeg: new Quat(-0.086904, 0.026815, 0.001148, 0.995855)
       });
 
       _export("BlockPose", BlockPose = {
-        hips: new Quat(0.1, -0.5, 0.1, 0.8),
-        // Slightly rotated forward
-        spine: new Quat(0.5, 0.1, 0.0, 0.8),
-        // Leaning into the shot
-        spine1: new Quat(0, 0, 0, 1),
-        spine2: new Quat(0, 0, 0, 1),
-        neck: new Quat(-0.1, 0.2, -0.1, 0.9),
-        leftUpLeg: new Quat(0.4, 0.3, 0.8, -0.1),
-        // Front leg lunging
-        leftLeg: new Quat(-0.8, 0, 0, 0.6),
-        // Knee bent
-        rightUpLeg: new Quat(0.0, 0.2, 0.9, 0.0),
-        rightLeg: new Quat(-0.1, 0, 0, 0.9)
+        hipsPos: new Vec3(0, 0.934, 0.462),
+        hips: new Quat(0.038186, -0.565425, -0.038872, 0.822998),
+        spine: new Quat(0.137893, 0.227470, -0.006261, 0.963952),
+        spine1: new Quat(0.000000, 0.000000, 0.000000, 1.000000),
+        spine2: new Quat(-0.006179, 0.155886, -0.054559, 0.986248),
+        neck: new Quat(-0.028542, 0.316353, -0.097044, 0.943233),
+        leftUpLeg: new Quat(-0.492175, -0.439512, -0.698840, 0.276071),
+        leftLeg: new Quat(-0.510512, 0.089805, -0.004723, 0.855155),
+        rightUpLeg: new Quat(0.098192, 0.018506, 0.968852, 0.226589),
+        rightLeg: new Quat(-0.086904, 0.026815, 0.001148, 0.995855)
       });
 
       _cclegacy._RF.pop();

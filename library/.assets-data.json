@@ -2600,8 +2600,7 @@
         "2b43a2d4-b335-4dd0-ae8d-c111278ddfd9",
         "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
         "856e24ad-721a-4e13-8698-2073cb4c65aa@e442e",
-        "425a7a5b-d005-465b-b396-6deb1bb56cea",
-        "f5ac4eca-0db6-49ba-8343-e409f3fde33d",
+        "deca1781-0ead-4079-9681-f1111dd3bfbf",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
       ],
@@ -2611,106 +2610,8 @@
     },
     "versionCode": 2
   },
-  "2b43a2d4-b335-4dd0-ae8d-c111278ddfd9": {
-    "url": "db://assets/mat/battingLine.mtl",
-    "value": {
-      "depends": [
-        "c8f66d17-351a-48da-a12c-0212d28575c4"
-      ]
-    },
-    "versionCode": 1
-  },
-  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47": {
-    "url": "db://assets/clips/StraightShot00002074_default.glb",
-    "value": {},
-    "versionCode": 3
-  },
-  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@30732": {
-    "url": "db://assets/clips/StraightShot00002074_default.glb@30732",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@16f35": {
-    "url": "db://assets/clips/StraightShot00002074_default.glb@16f35",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@66c40": {
-    "url": "db://assets/clips/StraightShot00002074_default.glb@66c40",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 3
-  },
-  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@f1394": {
-    "url": "db://assets/clips/StraightShot00002074_default.glb@f1394",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@1fcea": {
-    "url": "db://assets/clips/StraightShot00002074_default.glb@1fcea",
-    "value": {
-      "imageExtName": ".jpg",
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@e873a": {
-    "url": "db://assets/clips/StraightShot00002074_default.glb@e873a",
-    "value": {
-      "depends": [
-        "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@1fcea"
-      ]
-    },
-    "versionCode": 1
-  },
-  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@f4b39": {
-    "url": "db://assets/clips/StraightShot00002074_default.glb@f4b39",
-    "value": {
-      "depends": [
-        "c8f66d17-351a-48da-a12c-0212d28575c4",
-        "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@e873a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@943ed": {
-    "url": "db://assets/clips/StraightShot00002074_default.glb@943ed",
-    "value": {
-      "depends": [
-        "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@f4b39",
-        "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@16f35",
-        "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@30732",
-        "e8ee15d6-1669-4cd5-a37c-c12dc62a2f47@66c40"
-      ]
-    },
-    "versionCode": 1
-  },
   "3e3495b5-a36e-478e-9532-8a988e2c6002": {
     "url": "db://assets/script/FreezeNode.ts",
-    "value": {},
-    "versionCode": 1
-  },
-  "34145c3d-32b4-4bcb-9c5b-1fb8de818957": {
-    "url": "db://assets/script/IKSolver.ts",
-    "value": {},
-    "versionCode": 1
-  },
-  "425a7a5b-d005-465b-b396-6deb1bb56cea": {
-    "url": "db://assets/clips/StraightDrive.anim",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 2
-  },
-  "a6460f1a-3c6a-449a-bda7-aae1a79a832b": {
-    "url": "db://assets/script/PoseStabilizer.ts",
     "value": {},
     "versionCode": 1
   },
@@ -2730,5 +2631,49 @@
       "depends": []
     },
     "versionCode": 2
+  },
+  "425a7a5b-d005-465b-b396-6deb1bb56cea": {
+    "url": "db://assets/clips/StraightDrive.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 2
+  },
+  "2b43a2d4-b335-4dd0-ae8d-c111278ddfd9": {
+    "url": "db://assets/mat/battingLine.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "deca1781-0ead-4079-9681-f1111dd3bfbf": {
+    "url": "db://assets/animation/BattingGraph.animgraph",
+    "value": {
+      "depends": [
+        "9ce4627f-89b7-4900-b45d-bacd10e60ec1",
+        "230896b4-3276-43a8-b608-b767548f1307",
+        "2b3f4b0e-f8f3-401b-add7-876a02e8f2b9",
+        "715e2432-ac32-4ae1-af65-35584f6958b6",
+        "ff514ff3-8eaf-42d1-8d9d-4deeff8e6114",
+        "dcad2c14-8887-4c87-a779-1d8a6fbebe05",
+        "efdc789b-f0bf-4087-9c88-11b8f0c33c93",
+        "3a3bd19c-7567-4d87-9b9f-ef9d1f823cb6",
+        "2eed02f9-bf15-432d-878c-83d161ac231c",
+        "c526f76f-a2b6-4e84-a219-00fe69de32b2",
+        "a716e37d-4032-4ff5-9b88-1664a14826d3",
+        "f5ac4eca-0db6-49ba-8343-e409f3fde33d",
+        "da050182-d93d-457f-85b7-bd78d39910cb",
+        "bdb45d34-36ad-450e-83aa-f0aa138e66db",
+        "d6952d6b-331b-45cc-947d-ed5a54b5660d",
+        "01cfc9fe-aa72-42e1-ae15-8693a96ff5ed",
+        "62741453-3eb8-4738-9bc8-285e337478a1",
+        "ae4269b8-9ab6-4691-8ecc-aac0513754e8",
+        "e8ea9186-e965-4b5a-8597-9e851099331d",
+        "425a7a5b-d005-465b-b396-6deb1bb56cea"
+      ]
+    },
+    "versionCode": 1
   }
 }
