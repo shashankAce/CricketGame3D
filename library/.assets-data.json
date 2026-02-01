@@ -1005,13 +1005,11 @@
         "620b6bf3-0369-4560-837f-2a2c00b73c26",
         "1263d74c-8167-4928-91a6-4e2672411f47@2e76e",
         "5e4500f8-a361-46de-ba22-025797b42532",
-        "856e24ad-721a-4e13-8698-2073cb4c65aa@e442e",
         "1263d74c-8167-4928-91a6-4e2672411f47@17020",
         "18841602-b19f-4848-8718-c00de89f90b4@b8345",
         "f530b7ec-95e8-4cbd-80b7-8e06e34b1f66",
-        "b67f97ba-9ff1-4c95-968d-c1979ef7d677",
-        "2a206069-ecfb-4b18-89be-835c711fff6c",
-        "856e24ad-721a-4e13-8698-2073cb4c65aa@55e45",
+        "856e24ad-721a-4e13-8698-2073cb4c65aa@e442e",
+        "deca1781-0ead-4079-9681-f1111dd3bfbf",
         "9b6b1c2a-5d82-4060-82c4-03734219ce12",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
@@ -1021,8 +1019,6 @@
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
       ],
       "dependScripts": [
-        "a6a39d71-1399-49e0-b096-93d8e4374915",
-        "04c09582-d349-4ef4-ae4c-02720bff22db",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "3b3dca50-99e4-4f64-a4ba-2da2e0ae7a29"
       ]
@@ -2652,28 +2648,49 @@
     "url": "db://assets/animation/BattingGraph.animgraph",
     "value": {
       "depends": [
-        "9ce4627f-89b7-4900-b45d-bacd10e60ec1",
-        "230896b4-3276-43a8-b608-b767548f1307",
-        "2b3f4b0e-f8f3-401b-add7-876a02e8f2b9",
-        "715e2432-ac32-4ae1-af65-35584f6958b6",
-        "ff514ff3-8eaf-42d1-8d9d-4deeff8e6114",
-        "dcad2c14-8887-4c87-a779-1d8a6fbebe05",
-        "efdc789b-f0bf-4087-9c88-11b8f0c33c93",
-        "3a3bd19c-7567-4d87-9b9f-ef9d1f823cb6",
-        "2eed02f9-bf15-432d-878c-83d161ac231c",
-        "c526f76f-a2b6-4e84-a219-00fe69de32b2",
-        "a716e37d-4032-4ff5-9b88-1664a14826d3",
+        "03bc6bae-b8c3-4497-89a9-fd1c2a6eeeef",
+        "efe53069-fc3c-410f-8f1d-233da7ab1e49",
+        "93aaef39-6035-42cd-9d79-6db5ada36ad4",
+        "43e1ec82-7980-4d16-976d-860d87a736e2",
+        "ee8c4b2f-2015-41a3-b8eb-eedebf8757a2",
+        "634c33c5-5ce0-4f2b-8cf7-8aa76fbcdd97",
+        "8e1b065d-e91f-4494-a517-fb423cc8b70a",
         "f5ac4eca-0db6-49ba-8343-e409f3fde33d",
-        "da050182-d93d-457f-85b7-bd78d39910cb",
-        "bdb45d34-36ad-450e-83aa-f0aa138e66db",
-        "d6952d6b-331b-45cc-947d-ed5a54b5660d",
-        "01cfc9fe-aa72-42e1-ae15-8693a96ff5ed",
-        "62741453-3eb8-4738-9bc8-285e337478a1",
-        "ae4269b8-9ab6-4691-8ecc-aac0513754e8",
-        "e8ea9186-e965-4b5a-8597-9e851099331d",
-        "425a7a5b-d005-465b-b396-6deb1bb56cea"
+        "5304ccc6-1ae1-4b4d-b7fe-3ad351b37c2e",
+        "24dc9e7b-78ad-4117-862c-4a1b906ade6f",
+        "e6b62dbc-5f49-4838-9508-6bf7c78da5df",
+        "981582dd-da27-439a-8c32-eba1df333022",
+        "5d502900-5447-47fd-b780-a07a42506df4",
+        "425a7a5b-d005-465b-b396-6deb1bb56cea",
+        "f07c8546-ebfd-4a3e-a43d-889e6984c846",
+        "152414bc-380d-4873-a637-4c33416b805b",
+        "bbda46a8-cd7c-4373-af29-75c2ea52c678"
       ]
     },
     "versionCode": 1
+  },
+  "57dbda69-138e-4ca9-a740-26ca8e89be97": {
+    "url": "db://assets/clips/Block.anim",
+    "value": {},
+    "versionCode": 2
+  },
+  "c41340ba-cdf2-4be9-b5e0-981fe849df76": {
+    "url": "db://assets/clips/PullShot.anim",
+    "value": {},
+    "versionCode": 2
+  },
+  "bbda46a8-cd7c-4373-af29-75c2ea52c678": {
+    "url": "db://assets/clips/LegShot.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 2
+  },
+  "e6b62dbc-5f49-4838-9508-6bf7c78da5df": {
+    "url": "db://assets/clips/PullShot.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 2
   }
 }
