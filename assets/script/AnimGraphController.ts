@@ -42,7 +42,7 @@ const SHOT_MAP: Record<ShotType, ShotData> = {
         poseType: PoseType.Straight,
         startPos: new Vec3(0.154, 0.895, -0.807),
         controlPoint: new Vec3(0.154, 0.6, -0.6),
-        endPos: new Vec3(0.154, 1.10, -0.245),
+        endPos: new Vec3(0.204, 1.10, -0.245),
         startRot: new Quat(0, 0, 0, 1),
         endRot: new Quat(-0.90285, 0.03683, 0.078989, 0.42101),
         duration: 0.5,
@@ -159,9 +159,10 @@ export class AnimGraphController extends Component {
             this.isSwinging = false;
             // Optional: Auto-return to Ideal in the graph after the shot duration
             // This allows the "Exit Time" transitions in your graph to take over
-            // this.scheduleOnce(() => {
-            //     this.setShotTypeVariable(PoseType.Ideal);
-            // }, 0.5);
+            this.scheduleOnce(() => {
+                this.setShotTypeVariable(PoseType.Ideal);
+                this.resetEffector();
+            }, 0.2);
         }
     }
 
