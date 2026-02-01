@@ -7,11 +7,17 @@ const { ccclass, property } = _decorator;
 
 // --- Enums ---
 export enum PoseType {
-    Ideal = 0,
-    Straight = 1,
-    Pull = 2,
-    Leg = 3,
-    Running = 4
+    Ideal = 'Ideal',
+    Straight = 'Straight',
+    Pull = 'Pull',
+    Leg = 'Leg',
+    Run = 'Run'
+}
+
+const ShotName = {
+    'Straight': 'straightShot',
+    'Pull': 'pullShot',
+    'Leg': 'legShot',
 }
 
 export enum ShotType {
@@ -105,7 +111,9 @@ export class AnimGraphController extends Component {
     private setShotTypeVariable(type: PoseType) {
         if (this._animCtrl) {
             // This matches the Integer condition you set in your Graph transitions
-            this._animCtrl.setValue('ShotType', type);
+            this.scheduleOnce(() => {
+                this._animCtrl.setValue(ShotName[type], true);
+            }, .1);
         }
     }
 
@@ -195,7 +203,7 @@ export class AnimGraphController extends Component {
 
         // Example of taking a run manually
         if (event.keyCode === KeyCode.KEY_R) {
-            this.transitionToPose(PoseType.Running);
+            this.transitionToPose(PoseType.Run);
         }
     }
 

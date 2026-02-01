@@ -12,10 +12,10 @@
     ],
     "paths": {
       "db://internal/*": [
-        "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\*"
+        "/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
       ],
       "db://assets/*": [
-        "D:\\FreeWork\\CricketGame3D\\assets\\*"
+        "/Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/*"
       ]
     },
     "experimentalDecorators": true,

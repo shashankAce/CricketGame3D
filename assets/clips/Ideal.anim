@@ -102,10 +102,10 @@
         "interpolationMode": 0,
         "value": {
           "__type__": "cc.Quat",
-          "x": -0.14376958727639785,
-          "y": 0.4262644981455903,
-          "z": -0.33315007180156997,
-          "w": 0.8286373833310148
+          "x": -0.14376959204673767,
+          "y": 0.4262644946575165,
+          "z": -0.33315005898475647,
+          "w": 0.8286373615264893
         },
         "easingMethod": 0
       }
@@ -174,7 +174,7 @@
         "leftTangentWeight": 1,
         "easingMethod": 0,
         "__editorExtras__": {
-          "tangentMode": 0
+          "broken": null
         }
       }
     ],
@@ -204,7 +204,7 @@
         "leftTangentWeight": 1,
         "easingMethod": 0,
         "__editorExtras__": {
-          "tangentMode": 0
+          "broken": null
         }
       }
     ],
@@ -234,7 +234,7 @@
         "leftTangentWeight": 1,
         "easingMethod": 0,
         "__editorExtras__": {
-          "tangentMode": 0
+          "broken": null
         }
       }
     ],
@@ -405,10 +405,10 @@
         "interpolationMode": 0,
         "value": {
           "__type__": "cc.Quat",
-          "x": 0,
-          "y": 0,
-          "z": 0,
-          "w": 1
+          "x": 0.01354371348867607,
+          "y": 0.06793361798362661,
+          "z": -0.07681586910692283,
+          "w": 0.994636070945519
         },
         "easingMethod": 0
       }
