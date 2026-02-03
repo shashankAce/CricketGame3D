@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Vec3, Camera, input, Input, EventTouch, geometry, EventKeyboard, KeyCode, log } from 'cc';
+import { _decorator, Component, Node, Vec3, Camera, input, Input, EventTouch, geometry, EventKeyboard, KeyCode, log, RigidBody } from 'cc';
 import { Ball } from './Ball';
 const { ccclass, property } = _decorator;
 
@@ -18,9 +18,11 @@ export class CricketBowler extends Component {
     releasePoint: Node = null!; // An empty node where the ball starts its flight
 
     start() {
-        input.on(Input.EventType.TOUCH_START, this.onBowl, this);
-        // input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this);
+        // input.on(Input.EventType.TOUCH_START, this.onBowl, this);
+        input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this);
 
+        const startPos = this.releasePoint ? this.releasePoint.worldPosition : this.node.worldPosition;
+        this.ball.resetBall(startPos);
     }
 
     private onKeyDown(event: EventKeyboard) {
@@ -31,7 +33,7 @@ export class CricketBowler extends Component {
         };
 
         if (keyMap[event.keyCode] !== undefined) {
-            // this.onBowl();
+            this.throwBall();
         }
 
         // // Example of taking a run manually
@@ -51,7 +53,6 @@ export class CricketBowler extends Component {
         const touchPos = event.getLocation();
         const ray = new geometry.Ray();
         this.mainCamera.screenPointToRay(touchPos.x, touchPos.y, ray);
-        log(touchPos.x, touchPos.y);
 
         // 3. Calculate pure directional velocity (No uplift)
         let launchVelocity = new Vec3();
@@ -60,6 +61,13 @@ export class CricketBowler extends Component {
         launchVelocity.multiplyScalar(this.deliverySpeed);
 
         // 4. Tell the ball to fly
+        this.ball.deliver(launchVelocity);
+    }
+
+    throwBall() {
+        const startPos = this.releasePoint ? this.releasePoint.worldPosition : this.node.worldPosition;
+        this.ball.resetBall(startPos);
+        let launchVelocity = new Vec3(0.8854263274003826, -4.458918814172204, -29.653567462067148);
         this.ball.deliver(launchVelocity);
     }
 

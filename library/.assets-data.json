@@ -2558,7 +2558,7 @@
     "versionCode": 1
   },
   "5e4500f8-a361-46de-ba22-025797b42532": {
-    "url": "db://assets/mesh/planeMat.pmtl",
+    "url": "db://assets/mat/planeMat.pmtl",
     "value": {},
     "versionCode": 1
   },

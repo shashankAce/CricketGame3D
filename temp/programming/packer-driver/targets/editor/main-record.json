@@ -997,7 +997,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 30396715.1075,
+      "mTimestamp": 82123108.170667,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -9743,7 +9743,7 @@
     },
     "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/Bowler/Ball.ts": {
       "mTimestamp": {
-        "mtime": 1769969489548.828,
+        "mtime": 1770022870671.6606,
         "uuid": "7d889178-737c-4123-b8f7-5c1be015cf4f"
       },
       "chunkId": "19e8f2d20fe5faaaa4d4afa457a971adb3a491bb",
@@ -9795,7 +9795,7 @@
     },
     "file:///Users/schaurasiya/Documents/personal_workspace/CricketGame3D/assets/script/Bowler/CricketBowler.ts": {
       "mTimestamp": {
-        "mtime": 1769971396914.6458,
+        "mtime": 1770023133475.8015,
         "uuid": "60a7483f-4744-4b8e-aa41-c26a9900cfa3"
       },
       "chunkId": "3cb5c1e2bdc35feb12400b8992e5112bd0a5b877",
@@ -9815,11 +9815,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 123
+              "column": 134
             },
             "end": {
               "line": 1,
-              "column": 127
+              "column": 138
             }
           }
         },
